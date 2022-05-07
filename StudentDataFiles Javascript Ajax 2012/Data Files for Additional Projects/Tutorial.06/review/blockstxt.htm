@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 6
+   Review Assignment
+
+   Kiddergarden Sliding Blocks Puzzle
+   Author: 
+   Date:   
+
+   Filename:         blocks.htm
+   Supporting files: block0.jpg - block23.jpg, kgmenu.jpg, kgtitle.jpg, library.js,
+                     photo.jpg, sbtitle.jpg, sbblocks.css, slideblocks.js
+
+-->
+
+   <title>Today's Sliding Blocks Puzzle Puzzle</title>
+   <link href="sbblocks.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+   <form id="sb" action="">
+
+   <div id="head">
+      <img src="kgtitle.jpg" alt="Kiddergarden" />
+   </div>
+   <div id="menu">
+      <img src="kgmenu.jpg" alt="" />
+   </div>
+   <div id="title">
+      <img src="sbtitle.jpg" alt="Sliding Blocks" />
+   </div>
+
+   <div id="slidingBlocks">
+      <div id="block0" class="block"></div><div id="block1" class="block"></div>
+      <div id="block2" class="block"></div><div id="block3" class="block"></div>
+      <div id="block4" class="block"></div>
+      <div id="block5" class="block"></div><div id="block6" class="block"></div>
+      <div id="block7" class="block"></div><div id="block8" class="block"></div>
+      <div id="block9" class="block"></div>
+      <div id="block10" class="block"></div><div id="block11" class="block"></div>
+      <div id="block12" class="block"></div><div id="block13" class="block"></div>
+      <div id="block14" class="block"></div>
+      <div id="block15" class="block"></div><div id="block16" class="block"></div>
+      <div id="block17" class="block"></div><div id="block18" class="block"></div>
+      <div id="block19" class="block"></div>
+      <div id="block20" class="block"></div><div id="block21" class="block"></div>
+      <div id="block22" class="block"></div><div id="block23" class="block"></div>
+      <div id="blank" class="block"></div>
+   </div>
+
+
+   <div id="main">
+      <p><img src="photo.jpg" alt="" style="float: right; margin: 0px 0px 6px 6px" />
+         Click the <kbd>Scramble</kbd> button and try to reassemble the photo shown
+         at the right by 
+         swapping a block adjacent to the one blank space in the puzzle. 
+         To solve the puzzle, click the 
+         <kbd>Solve</kbd> button.</p>
+      
+      <h2>For Mouse Users</h2>
+      <p>To swap a block with the blank space, click a block adjacent to the blank 
+         space.</p>
+      <h2>For Keyboard Users</h2> 
+      <p>Use your <kbd>arrow keys</kbd> to highlight different puzzle blocks. When adjacent 
+         to the blank space, press the <kbd>Spacebar</kbd> key to swap the selected 
+         block with the blank space.</p>
+   </div>
+
+   <div id="controls">
+      <p>
+         <input type="button" id="scramble" value="Scramble" />
+         <input type="button" id="solve" value="Solve" />
+      </p>
+   </div>
+
+   <address>
+      Kiddergarden &#183;
+      A safe site on the Web for kids and families
+   </address>
+   </div>
+
+
+
+   </form>
+</body>
+</html>

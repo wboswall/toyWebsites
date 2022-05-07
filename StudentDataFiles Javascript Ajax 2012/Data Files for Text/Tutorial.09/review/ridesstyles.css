@@ -1,0 +1,19 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 9
+   Tutorial Case
+   Filename: accountstyles.css
+
+   This file contains membership account styles used in the cyclocrossings Web site
+
+*/
+
+#intro             {font-size: 14px; margin: 0px 0px 20px 0px}
+
+
+table              {font-size: 14px; border-collapse: collapse;
+                    border: 1px solid rgb(211, 211, 211)}
+table col#firstCol {width: 180px}
+td                 {vertical-align: top; padding: 5px;
+                    border: 1px solid rgb(211, 211, 211)}
+#state             {margin-right: 5px}

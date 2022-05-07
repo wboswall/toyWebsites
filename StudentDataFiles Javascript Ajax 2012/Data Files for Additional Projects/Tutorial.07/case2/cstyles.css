@@ -1,0 +1,78 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 7
+   Case Problem 2
+   Filename: cstyles.css
+
+   This file contains styles used in the cameras.htm file
+
+*/
+
+*                      {padding: 0px; margin: 0px; line-height: 1.2}
+#page                  {width: 800px; position: absolute; top: 0px; left: 0px}
+#title                 {position: absolute; top: 0px; left: 0px; width: 100%;
+                        height: 104px; background-color: rgb(203,0,0)}
+
+#account               {position: absolute; top: 5px; left: 640px}
+#account label         {display: block; width: 50px; font-size: 8px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: white; letter-spacing: 2px;
+                        text-transform: uppercase;
+                        margin-bottom: 5px}
+#account label input   {font-size: 9px; background-color: rgb(255, 255, 211)}
+#account a             {text-decoration: none; color: white; font-size: 10px; 
+                        text-transform: uppercase; font-family: sans-serif}
+
+#links                 {position: absolute; top: 101px; left: 0px; 
+                        height: 700px; width: 167px;
+                        background: white url(linksbg.jpg) no-repeat}
+#links ul              {list-style-type: none; font-size: 11px; 
+                        font-family: sans-serif;
+                        margin-left: 10px}
+
+#links ul li a         {color: white; text-decoration: none}
+#links ul li a:hover   {color: black}
+#links .newgroup       {margin-top: 10px}
+
+#content               {position: absolute; top: 120px; left: 160px;
+                        width: 620px}
+#content h1            {font-size: 24px; font-weight: normal; letter-spacing: 5px;
+                        font-family: Arial, Helvetica, sans-serif}
+#content img           {float: right; margin: 10px 0px}
+#content p             {font-size: 14px; margin: 10px}
+
+address                {width: 100%; font-size: 10px; font-style: normal;
+                        color: rgb(255, 101, 101); text-align: center;
+                        border-top: 1px solid rgb(255, 101, 101);
+                        margin-top: 15px}
+
+
+/* Styles used for the filter table */
+
+#filterTable           {width: 550px; border-collapse: collapse;
+                        border: 5px solid rgb(255, 211, 211); font-size: 10px;
+                        font-family: Arial, Helvetica, sans-serif}
+#filterTable caption   {text-align: left; font-size: 14px; font-weight: normal;
+                        color: red; letter-spacing: 5px; margin-bottom: 10px}
+
+#filterTable thead th  {font-weight: normal;
+                        background-color: rgb(203, 0, 0); border-color: rgb(203, 0, 0);
+                        color: white}
+#filterTable thead td  {text-align: right; font-size: 11px; color: black;
+                        background-color: rgb(255, 211, 211); padding: 2px}
+
+#filterTable tbody td  {vertical-align: top; border: 1px solid rgb(192, 192, 192);
+                        padding: 2px}
+
+
+
+
+
+/* Styles used for Filter Selection Lists */
+
+#filterTable select   {font-size: 11px; background-color: rgb(255, 255, 211)}
+
+
+
+
+

@@ -1,0 +1,76 @@
+{ "sport" : "NFL Scoreboard",
+  "scores" : [ 
+              {
+               "team1" : "Dallas",
+               "team2" : "Buffalo",
+               "score1" : 21,
+               "score2" : 10,
+               "time" : "Final"
+              },
+              {
+               "team1" : "San Diego",
+               "team2" : "Oakland",
+               "score1" : 38,
+               "score2" : 3,
+               "time" : "Final"
+              },
+              {
+               "team1" : "Houston",
+               "team2" : "Chicago",
+               "score1" : 10,
+               "score2" : 13,
+               "time" : "Final"
+              },
+              {
+               "team1" : "Detroit",
+               "team2" : "Minnesota",
+               "score1" : 10,
+               "score2" : 10,
+               "time" : "3rd Qtr 4:51"
+              },
+              {
+               "team1" : "Philadelphia",
+               "team2" : "Green Bay",
+               "score1" : 7,
+               "score2" : 17,
+               "time" : "Half"
+              },
+              {
+               "team1" : "Miami",
+               "team2" : "New England",
+               "score1" : 14,
+               "score2" : 24,
+               "time" : "Half"
+              },
+              {
+               "team1" : "Seattle",
+               "team2" : "Carolina",
+               "score1" : 9,
+               "score2" : 3,
+               "time" : "2nd Qtr 5:23"
+              },
+              {
+               "team1" : "St. Louis",
+               "team2" : "Jacksonville",
+               "score1" : 7,
+               "score2" : 18,
+               "time" : "2nd Qtr 3:01"
+              },
+              {
+               "team1" : "NY Giants",
+               "team2" : "Tampa Bay",
+               "score1" : 3,
+               "score2" : 0,
+               "time" : "2nd Qtr 13:04"
+              },
+              {
+               "team1" : "Pittsburgh",
+               "team2" : "Arizona",
+               "score1" : 0,
+               "score2" : 10,
+               "time" : "1st Qtr 1:15"
+              }
+               
+             ]
+
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+body  {
+        background-color: #F4FFE4;
+}
+.head {
+        background-color: #D5EDB3;
+
+}
+.separator {
+        background-color: #99CC66;
+}
+
+.nav {
+        background-color: #5C743D;
+}
+.nav1 {
+        width: 17px;
+        height: 100px;
+}
+.navG {
+        background-color: lightgrey;
+        text-align: center;
+        
+}
+
+div.myHr {
+  height: 15px;
+  background: #fff url(curvy.jpg) repeat-x ;
+}
+div.myHr hr {
+  display: none;
+}

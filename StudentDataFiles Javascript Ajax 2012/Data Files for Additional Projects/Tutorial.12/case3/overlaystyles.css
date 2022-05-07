@@ -1,0 +1,35 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 12
+   Case Problem 3
+
+   Filename: overlaystyles.css
+
+   This file contains styles used in creating a hyperlink overlay
+
+*/
+
+div.linkOverlay               {display: none;
+                               position: absolute;
+                               width: 150px;
+                               height: 110px;
+                               background-color: white;
+                               font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+                               border: 2px dashed rgb(109, 106, 127);
+                               z-index: 999}
+
+div.linkOverlay h1            {font-size: 13px;
+                               text-align: center;
+                               font-weight: normal;
+                               background-color: rgb(109, 106, 127);
+                               color: yellow;
+                               margin: 0px 0px 5px 0px}
+
+div.linkOverlay img           {float: right;
+                               width: 60px;
+                               height: 60px;
+                               margin: 0px 2px 2px 2px}
+
+div.linkOverlay p             {font-size: 12px; 
+                               background-color: white;
+                               margin: 5px; }

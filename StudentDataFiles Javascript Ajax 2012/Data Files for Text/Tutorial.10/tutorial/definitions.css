@@ -1,0 +1,19 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 10
+   Tutorial Case
+   Filename: definitions.css
+
+   This file contains styles used for music definitions pop-up windows
+
+*/
+
+*                   {padding: 0px; margin: 0px; line-height: 1.2}
+body                {background-color: rgb(255,255,128); 
+                     font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;}
+
+h2                  {font-size: 18px; text-align: center; 
+                     letter-spacing: 4px; border-bottom: 1px solid black}
+
+p                   {margin: 8px; font-size: 13px}
+

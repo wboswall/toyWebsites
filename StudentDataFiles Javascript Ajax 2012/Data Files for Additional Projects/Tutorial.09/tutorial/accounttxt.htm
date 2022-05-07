@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 9
+   Tutorial Case
+
+   CycloCrossings Membership Account Page
+   Author:           
+   Date:             
+
+   Filename:         register.htm
+   Supporting files: accounts.js, accountstyles.css, cookies.js, cyclologo.jpg, 
+                     cyclostyles.css, registerstyles.css
+-->
+
+   <title>Your CycloCrossings Account</title>
+   <link href="cyclostyles.css" rel="stylesheet" type="text/css" />
+   <link href="accountstyles.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+
+   <div id="head">
+      <img src="cyclologo.jpg" alt="CycloCrossings" />
+   </div>
+
+   <div id="links">
+      <ul>
+         <li><a href="cyclo.htm">Home</a></li>
+         <li><a href="#">About Us</a></li>
+         <li class="newgroup"><a href="#">Tour Books</a></li>
+         <li><a href="#">Maps</a></li>
+         <li><a href="#">Guided Tours</a></li>
+         <li class="newgroup"><a href="#">Ride Partners</a></li>
+         <li><a href="#">Forums</a></li>
+         <li><a href="#">Outreach</a></li>
+         <li><a href="#">Cycling Clubs</a></li>
+         <li class="newgroup"><a href="#">Crossings Magazine</a></li>
+         <li><a href="#">Buying Guide</a></li>
+         <li><a href="#">Tips &amp; Tricks</a></li>
+         <li><a href="#">FAQs</a></li>
+         <li class="newgroup"><a href="#">The Cycling Store</a></li>
+         <li><a href="#">Shopping Cart</a></li>
+         <li><a href="#">Purchase History</a></li>
+         <li class="newgroup"><a href="register.htm">Register</a></li>
+         <li><a href="accounts.htm">View Your Account</a></li>
+         <li class="newgroup"><a href="#">Site Map</a></li>
+         <li><a href="#">Contact Us</a></li>
+      </ul>
+   </div>
+
+   <div id="main">
+      <p id="intro">
+         Here's your current account information with CycloCrossings. To
+         modify your account, go to the <a href="register.htm">Registration</a>
+         page.
+      </p>
+
+      <table id="accountTable">
+         <colgroup>
+            <col id="firstCol" />
+            <col id="secondCol" />
+         </colgroup>
+         <tr>
+            <td>Name</td>
+            <td>
+               <span id="firstName"></span>
+               <span id="lastName"></span>
+            </td>
+         </tr>
+         <tr>
+            <td>Address</td>
+            <td>
+               <span id="street1"></span>
+               <br />
+               <span id="street2"></span>
+               <br />
+               <span id="city"></span>,
+               <span id="state"></span>
+               <span id="zip"></span>
+               <br />
+               <span id="country"></span>
+            </td>
+         </tr>
+         <tr>
+            <td>E-mail</td>
+            <td>
+               <span id="email"></span>
+            </td>
+         </tr>
+         <tr>
+            <td>Phone Number</td>
+            <td>
+               <span id="phone"></span>
+            </td>
+         </tr>
+         <tr>
+            <td>Membership</td>
+            <td>
+               <span id="memberOption"></span>
+            </td>
+         </tr>
+      </table>
+ 
+   </div>
+
+</body>
+</html>

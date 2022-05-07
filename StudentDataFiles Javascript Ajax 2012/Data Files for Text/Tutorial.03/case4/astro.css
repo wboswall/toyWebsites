@@ -1,0 +1,30 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 3
+   Case Problem 4
+   Filename: astro.css
+
+   This file contains styles used in the lunar.htm file
+
+*/
+
+body               {margin: 0px 10px 10px 10px}
+#doc               {position: absolute; top: 10px; left: 20px; width: 750px}
+#head              {text-align: center}
+
+h1                 {font-family: Courier New, monospace}
+
+#summary           {font-size: 8pt; font-family: Courier New, monospace;
+                    float: right; margin: 0px 5px 5px 15px}
+#summary th        {text-align: left; color: white; background-color: rgb(152,152,152);
+                    font-weight: normal}
+#summary td        {text-align: right}
+#summary #sumtitle {text-align: center; color: white; background-color: black}
+#lunarimg          {background-color: black}
+
+#lunar_cal         {text-align: center; width: 100%}
+
+#links             {width: 100%; font-family: Courier New, monospace; font-size: 9pt;
+                    font-weight: bold; margin-top: 20px;
+                    border-top: 1px solid black}
+#links td          {text-align: center}

@@ -1,0 +1,28 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 10
+   Case Problem 3
+   Filename: title.css
+
+   This file contains styles used parts of the title.htm file
+
+*/
+
+body          {background-color:ivory; 
+               font-family: Arial, Helvetica, sans-serif; 
+               margin: 0px}
+   
+
+#demotitle    {color:yellow; 
+               background-image: url(demo.gif); 
+               letter-spacing: 0.8em; 
+               width: 100%;
+               font-size: 1.5em; 
+               padding: 5px 0px; 
+               margin: 0px; 
+               text-align: right}
+   
+p             {text-align: center; 
+               margin-top: 10px}
+
+input         {margin: 0px 10px}

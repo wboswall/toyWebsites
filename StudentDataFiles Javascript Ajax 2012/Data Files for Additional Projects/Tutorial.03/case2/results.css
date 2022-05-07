@@ -1,0 +1,31 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 3
+   Case Problem 2
+   Filename: results.css
+
+   This file contains styles used in the election.htm file
+
+*/
+
+body {font-family: Arial, Helvetica, sans-serif; margin: 0px;
+      background: white url(back.jpg) repeat-y}
+
+#intro         {width: 200px; position: absolute; top: 0px; left: 0px}
+#intro p       {margin: 0px; padding: 0px}
+#intro a       {display: block; color: rgb(104,133,166); font-size: 12pt;
+                font-family: Arial, Helvetica, sans-serif; font-weight: bold;
+                text-decoration: none; margin: 10px 0px 0px 10px}
+
+#results        {padding: 2px 0px 0px 5px; position: absolute;
+                 left: 205px; top: 10px}
+#results h1     {font-size: 14pt; margin: 0px}
+#results h2     {font-size: 10pt; margin-top: 12px; margin-bottom: 0px}
+#results table  {font-size: 8pt; margin-top: 0px}
+#results th     {width: 170px; text-align: left; border-bottom: 1px solid black}
+#results .num   {text-align: right; width: 50px; padding-right: 5px}   
+#results .dem   {background-color: rgb(174,224,250); width: 1px}
+#results .rep   {background-color: red; width: 1px}
+#results .ind   {background-color: rgb(255,192,255); width: 1px}
+#results .green {background-color: rgb(128,255,128); width: 1px}
+#results .lib   {background-color: cyan; width: 1px}

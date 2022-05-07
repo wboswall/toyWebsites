@@ -1,0 +1,29 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 3
+   Case Problem 1
+   Filename: lhouse.css
+
+   This file contains styles used in the clist.htm file
+
+*/
+
+
+#title                  {width: 600px; text-align:right; color: rgb(192,142,90); 
+                         border-bottom: 1px solid rgb(232,182,130); 
+                         margin-bottom:9px; font-size:10pt; height: 100px}
+#title img              {float: left}
+
+#data_list              {float: left}
+
+table                   {font-size: 8pt; font-family: Arial, Helvetica, sans-serif; 
+                         border: 1px solid brown; margin-right: 20px}
+.yellowrow              {background-color: yellow}
+th                      {color: white; background-color: brown; padding: 2px 5px}
+td                      {vertical-align: top; padding: 2px 5px}
+.amt                    {text-align: right}
+
+#totals table           {font-size: 12pt}
+#totals table th        {text-align: left}
+#totals table td        {text-align: right; width: 75px}
+#totals table #sumTitle {text-align: center; background-color: yellow; color: black}

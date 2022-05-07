@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 5
+   Case Problem 2
+
+   Expense Report Form
+   Author: 
+   Date:   
+
+   Filename:         exp.htm
+   Supporting files: back.jpg, exp.css, links.jpg, logo.jpg, report.js
+-->
+   <title>Expense Report</title>
+   <link href="exp.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+   <form id="expform" method="post" action="done.htm">
+
+   <div id="links"><img src="links.jpg" alt="" /></div>
+
+   <div id="main">
+      <p><img src="logo.jpg" alt="DeLong Enterprises" /></p>
+
+      <table cellspacing="2">
+      <tr>
+         <th colspan="5" id="reporttitle">Travel Expense Report</th>
+      </tr>
+      <tr>
+         <th>Name (Last)<span>*</span></th>
+         <th>(First)<span>*</span></th>
+         <th>(Initial)</th>
+         <th>Account<span>*</span></th>
+         <td><input name="account" id="account" /></td>
+      </tr>
+      <tr>
+         <td><input name="lname" id="lname"/></td>
+         <td><input name="fname" id="fname"/></td>
+         <td><input name="init" id="init"/></td>
+         <th>Department<span>*</span></th>
+         <td><input name="department" id="department" /></td>
+      </tr>
+      <tr>
+         <th>Social Security Number<span>*</span></th>
+         <td colspan="2"><input name="ssn" id="ssn" /></td>
+         <th>Project<span>*</span></th>
+         <td><input name="project" id="project" /></td>
+      </tr>
+      </table>
+
+      <table cellspacing="2">
+      <tr>
+         <th>Send Check to:<span>*</span></th>
+         <th>Trip Summary<span>*</span></th>
+      </tr>
+      <tr>
+         <td>
+            <textarea id="address" name="address" rows="" cols=""></textarea>
+         </td>
+         <td>
+            <textarea id="summary" name="summary" rows="" cols=""></textarea>
+         </td>
+      </tr>
+      </table>
+
+      <table id="traveltable" cellspacing="2">
+      <tr>
+         <th id="datehead">Travel Date</th>
+         <th id="travelexphead">Travel Cost</th>
+         <th id="traveltypehead">Type</th>
+         <th id="lodgeexphead">Lodging</th>
+         <th id="mealexphead">Meals</th>
+         <th id="subhead">Total</th>
+      </tr>
+      <tr>
+         <td><input name="date1" id="date1"  /></td>
+         <td><input name="travel1" id="travel1" value="0.00" class="expenseEntry" /></td>
+         <td><select name="traveltype1" id="traveltype1">
+            <option>air</option>
+            <option>auto</option>
+            <option>taxi</option>
+            <option>train</option>
+             </select>
+         </td>
+         <td><input name="lodge1" id="lodge1" value="0.00" class="expenseEntry" /></td>
+         <td><input name="meal1" id="meal1" value="0.00" class="expenseEntry" /></td>
+         <td><input name="sub1" id="sub1" value="0.00" readonly="readonly" /></td>
+      </tr>
+      <tr>
+         <td><input name="date2" id="date2" /></td>
+         <td><input name="travel2" id="travel2" value="0.00" class="expenseEntry" /></td>
+         <td><select name="traveltype2" id="traveltype2">
+             <option>air</option>
+             <option>auto</option>
+             <option>taxi</option>
+             <option>train</option>
+             </select>
+         </td>
+         <td><input name="lodge2" id="lodge2" value="0.00" class="expenseEntry" /></td>
+         <td><input name="meal2" id="meal2" value="0.00" class="expenseEntry" /></td>
+         <td><input name="sub2" id="sub2" value="0.00" readonly="readonly" /></td>
+      </tr>
+      <tr>
+         <td><input name="date3" id="date3" /></td>
+         <td><input name="travel3" id="travel3" value="0.00" class="expenseEntry" /></td>
+         <td><select name="traveltype3" id="traveltype3">
+             <option>air</option>
+             <option>auto</option>
+             <option>taxi</option>
+             <option>train</option>
+             </select>
+         </td>
+         <td><input name="lodge3" id="lodge3" value="0.00" class="expenseEntry" /></td>
+         <td><input name="meal3" id="meal3" value="0.00" class="expenseEntry" /></td>
+         <td><input name="sub3" id="sub3" value="0.00" readonly="readonly" /></td>
+      </tr>
+      <tr>
+         <td><input name="date4" id="date4" /></td>
+         <td><input name="travel4" id="travel4" value="0.00" class="expenseEntry" /></td>
+         <td><select name="traveltype4" id="traveltype4">
+             <option>air</option>
+             <option>auto</option>
+             <option>taxi</option>
+             <option>train</option>
+             </select>
+         </td>
+         <td><input name="lodge4" id="lodge4" value="0.00" class="expenseEntry" /></td>
+         <td><input name="meal4" id="meal4" value="0.00" class="expenseEntry" /></td>
+         <td><input name="sub4" id="sub4" value="0.00" readonly="readonly" /></td>
+      </tr>
+      <tr>
+         <th colspan="5" id="totalhead">TOTAL</th>
+         <td><input id="total" name="total" readonly="readonly" value="0.00" /></td>
+      </tr>
+      <tr>
+         <td colspan="6"><span>* - Indicates a required field</span></td>
+      </tr>
+      </table>
+
+      <p id="psub">
+         <input type="submit" value="Submit Report" />
+      </p>
+
+   </div>
+
+</form>
+</body>
+</html>

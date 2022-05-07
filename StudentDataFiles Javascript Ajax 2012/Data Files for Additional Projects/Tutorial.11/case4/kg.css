@@ -1,0 +1,109 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 11
+   Case Problem 4
+
+
+   Filename: kg.css
+
+   This file contains styles used in the shapes.htm file
+
+*/
+
+*                           {padding: 0px; 
+                             margin: 0px; 
+                             line-height: 1.2}
+body                        {background-color: white; 
+                             font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;}
+
+#head                       {position: absolute; 
+                             top: 0px; 
+                             left: 53px}
+#menu                       {position: absolute; 
+                             top: 100px; 
+                             left: 209px}
+#links                      {position: absolute; 
+                             top: 94px; 
+                             left: 0px}
+#title                      {position: absolute; 
+                             top: 148px; 
+                             left: 338px}
+
+p                           {margin-bottom: 10px; 
+                             font-size: 16px}
+
+p b                         {color: rgb(68, 68, 137)}
+#instructions               {position: absolute; 
+                             top: 600px; 
+                             left: 230px;
+                             width: 640px}
+
+#trashcan                   {position: absolute;
+                             top: 425px; left: 770px;
+                             width: 185px; height: 175px}
+
+address                     {margin-top: 20px; 
+                             border-top: 1px solid rgb(68, 68, 137);
+                             font-size: 10px; 
+                             font-variant: small-caps; 
+                             text-align: center;
+                             font-style: normal; 
+                             padding-top: 5px; 
+                             color: rgb(68, 68, 137)}
+
+div#sizes                   {position: absolute; top: 190px; left: 220px}
+
+div#sizes img               {vertical-align: text-bottom; 
+                             margin: 0px;
+                             cursor: pointer;
+                             border: 2px solid white}
+
+div#sizes img#size0         {border-color: #444588}
+
+table#colors                {position: absolute; 
+                             top: 240px; left: 220px;
+                             border-collapse: collapse}
+
+table#colors td             {width: 20px; height: 20px; 
+                             border: 2px solid white;
+                             cursor: pointer;}
+
+table#colors td#color0      {background-color: #C5D3EE;
+                             border-color: #444588}
+table#colors td#color1      {background-color: #008000}
+table#colors td#color2      {background-color: #808000}
+table#colors td#color3      {background-color: #FFCC33}
+table#colors td#color4      {background-color: #800080}
+table#colors td#color5      {background-color: #008080}
+table#colors td#color6      {background-color: #C0C0C0}
+table#colors td#color7      {background-color: #808080}
+table#colors td#color8      {background-color: #FF0000}
+table#colors td#color9      {background-color: #00FF00}
+table#colors td#color10     {background-color: #FFFF00}
+table#colors td#color11     {background-color: #00CC33}
+table#colors td#color12     {background-color: #FF00FF}
+table#colors td#color13     {background-color: #00FFFF}
+table#colors td#color14     {background-color: #FFCCFF}
+table#colors td#color15     {background-color: #66CCFF}
+
+div#opacities               {position: absolute; top: 360px; left: 220px}
+
+div#opacities img           {vertical-align: text-bottom; 
+                             width: 20px; height: 20px;
+                             margin: 0px;
+                             cursor: pointer;
+                             border: 2px solid white}
+
+div#opacities img#opacity100 {border-color: #444588}
+
+
+table#shapes                {position: absolute; top: 410px; left: 220px}
+
+table#shapes td             {width: 25px; height: 25px;
+                             text-align: center;
+                             vertical-align: middle;
+                             font-size: 25px;
+                             color: black; 
+                             cursor: pointer;
+                             border: 2px solid white}
+

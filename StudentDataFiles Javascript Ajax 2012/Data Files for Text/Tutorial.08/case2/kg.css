@@ -1,0 +1,46 @@
+/*
+   New Perspectives on HTML, XHTML, and DHTML 4th Edition
+   Tutorial 15
+   Review Assignment
+
+
+   Filename: shblocks.css
+
+   This file contains styles used in the blocks.htm file
+
+*/
+
+*          {padding: 0px; margin: 0px; line-height: 1.2}
+body       {background-color: white; font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;}
+
+#head      {position: absolute; top: 0px; left: 0px}
+#menu      {position: absolute; top: 89px; left: 0px}
+#title     {position: absolute; top: 95px; left: 209px}
+
+#board     {position: absolute; top: 270px; left: 230px; width: 350px}
+#board a img {border-width: 0px}
+
+
+
+#main      {position: absolute; left: 580px; top: 270px;
+            width: 270px}
+#main p    {font-size: 16px}
+#main h2   {font-size: 16px; font-weight: normal; letter-spacing: 5px;
+            color: rgb(68, 68, 137); margin: 10px}
+
+
+#controls  {position: absolute; top: 600px; left: 190px;
+            width: 400px; text-align: center}
+
+#controls input {width: 135px; background-color: rgb(68, 68, 137);
+            font-size: 18px; color: rgb(102, 255, 51);
+            margin: 0px 20px; border: 6px outset rgb(102, 255, 51)}
+
+address    {position: absolute; top: 660px; left: 230px;
+            width: 600px; text-align: center;
+            font-style: normal; font-size: 10px;
+            font-variant: small-caps; padding-top: 5px; 
+            color: rgb(68, 68, 137);
+            border-top: 1px solid rgb(68, 68, 137)}
+
+

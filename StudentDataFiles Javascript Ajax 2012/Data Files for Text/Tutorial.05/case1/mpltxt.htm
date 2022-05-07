@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 5
+   Case Problem 1
+
+   Monroe Public Library
+   Author: 
+   Date:   
+
+   Filename:         mpl.htm
+   Supporting files: links.js, mplstyles.css. mpl.jpg
+-->
+   <title>Monroe Public Library List of Government Sites</title>
+   <link href="mplstyles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<p id="head">
+   <img src="mpl.jpg" alt="Monroe Public Library" />
+</p>
+
+<div id="links">
+   <span>Quick Links</span>
+   <a href="#">Home Page</a>
+   <a href="#">Online Catalog</a>
+   <a href="#">Friends of MPL</a>
+   <a href="#">New Books and Other Good Reading</a>
+   <a href="#">Illinois Virtual Library</a>
+   <a href="#">Internet Public Library</a>
+   <a href="#">Services and Collection</a>
+   <a href="#">Adult Programs</a>
+   <a href="#">Teen Central</a>
+   <a href="#">Children's Room</a>
+</div>
+
+<div id="main">
+<h2>Government Sites on the Web</h2>
+
+<p>Select a site from one of the drop-down lists below.</p>
+<table>
+   <tr><td>Executive Branch</td>
+       <td><select name="executive" id="executive" class="optionLinks">
+           <option value="#">Select a Web site</option>
+           <option value="http://www.whitehouse.gov">The White House</option>
+           <option value="http://www.usda.gov">Department of Agriculture</option>
+           <option value="http://www.doc.gov">Department of Commerce</option>
+           <option value="http://www.defenselink.mil">Department of Defense</option>
+           <option value="http://www.ed.gov">Department of Education</option>
+           <option value="http://www.energy.gov">Department of Energy</option>
+           <option value="http://www.os.dhhs.gov">Department of Health and Human Services</option>
+           <option value="http://www.whitehouse.gov/homeland">Department of Homeland Security</option>
+           <option value="http://www.hud.gov">Department of Housing and Urban Development</option>
+           <option value="http://www.doi.gov">Department of the Interior</option>
+           <option value="http://www.usdoj.gov">Department of Justice</option>
+           <option value="http://www.dol.gov">Department of Labor</option>
+           <option value="http://www.state.gov">Department of State</option>
+           <option value="http://www.ustreas.gov">Department of the Treasury</option>
+           </select>
+       </td>
+   </tr>
+   <tr><td>Legislative Branch</td>
+       <td><select name="legislative" id="legislative" class="optionLinks">
+           <option value="#">Select a Web site</option>
+           <option value="http://www.house.gov">House Web Site</option>
+           <option value="http://www.house.gov/house/MemberWWW.shtml">Representatives' Web Sites</option>
+           <option value="http://clerk.house.gov/">Clerk of the House</option>
+           <option value="http://www.gpoaccess.gov/cdirectory/index.html">Congressional Directory</option>
+           <option value="http://www.senate.gov">Senate Web Site</option>
+           <option value="http://www.senate.gov/general/contact_information/senators_cfm.cfm">Senators' Web Sites</option>
+           <option value="http://www.senate.gov/artandhistory/history/common/generic/Senate_Historical_Office.htm">Senate Historic Office</option>
+           <option value="http://www.cq.com">Congressional Quarterly</option>
+           <option value="http://www.loc.gov/">Library of Congress</option>
+           <option value="http://www.gao.gov/">Government Accountability Office</option>
+           <option value="http://www.cbo.gov/">Congressional Budget Office</option>
+           <option value="http://www.gpoaccess.gov/">Government Printing Office</option>
+           <option value="http://thomas.loc.gov/home/legbranch/otherleg.html#govpub">Government Records and Publications</option>
+           </select>
+       </td>
+   </tr>
+   <tr><td>Judicial Branch</td>
+       <td><select name="judicial" id="judicial" class="optionLinks">
+           <option value="#">Select a Web site</option>
+           <option value="http://www.uscourts.gov">U.S. Courts</option>
+           <option value="http://www.uscourts.gov/supremecourt.html">U.S. Supreme Court</option>
+           <option value="http://www.uscourts.gov/courtsofappeals.html">U.S. Courts of Appeals</option>
+           <option value="http://www.uscourts.gov/districtcourts.html">U.S. District Courts</option>
+           </select>
+       </td>
+   </tr>
+   <tr><td>State Governments</td>
+       <td><select name="state" id="state" class="optionLinks">
+           <option value="#">Select a Web site</option>
+           <option value="http://www.statelocalgov.net/index.cfm">State and Local Government on the Net</option>
+           <option value="http://www.loc.gov/global/state/al-gov.html">Alabama</option>
+           <option value="http://www.loc.gov/global/state/ak-gov.html">Alaska</option>
+           <option value="http://www.loc.gov/global/state/az-gov.html">Arizona</option>
+           <option value="http://www.loc.gov/global/state/ar-gov.html">Arkansas</option>
+           <option value="http://www.loc.gov/global/state/ca-gov.html">California</option>
+           <option value="http://www.loc.gov/global/state/co-gov.html">Colorado</option>
+           <option value="http://www.loc.gov/global/state/ct-gov.html">Connecticut</option>
+           <option value="http://www.loc.gov/global/state/de-gov.html">Delaware</option>
+           <option value="http://www.loc.gov/global/state/dc-gov.html">District of Columbia</option>
+           <option value="http://www.loc.gov/global/state/fl-gov.html">Florida</option>
+           <option value="http://www.loc.gov/global/state/ga-gov.html">Georgia</option>
+           <option value="http://www.loc.gov/global/state/hi-gov.html">Hawaii</option>
+           <option value="http://www.loc.gov/global/state/id-gov.html">Idaho</option>
+           <option value="http://www.loc.gov/global/state/il-gov.html">Illinois</option>
+           <option value="http://www.loc.gov/global/state/in-gov.html">Indiana</option>
+           <option value="http://www.loc.gov/global/state/ia-gov.html">Iowa</option>
+           <option value="http://www.loc.gov/global/state/ks-gov.html">Kansas</option>
+           <option value="http://www.loc.gov/global/state/ky-gov.html">Kentucky</option>
+           <option value="http://www.loc.gov/global/state/la-gov.html">Louisana</option>
+           <option value="http://www.loc.gov/global/state/me-gov.html">Maine</option>
+           <option value="http://www.loc.gov/global/state/md-gov.html">Maryland</option>
+           <option value="http://www.loc.gov/global/state/ma-gov.html">Massachusetts</option>
+           <option value="http://www.loc.gov/global/state/mi-gov.html">Michigan</option>
+           <option value="http://www.loc.gov/global/state/mn-gov.html">Minnesota</option>
+           <option value="http://www.loc.gov/global/state/ms-gov.html">Mississippi</option>
+           <option value="http://www.loc.gov/global/state/mo-gov.html">Missouri</option>
+           <option value="http://www.loc.gov/global/state/mn-gov.html">Montana</option>
+           <option value="http://www.loc.gov/global/state/ne-gov.html">Nebraska</option>
+           <option value="http://www.loc.gov/global/state/nv-gov.html">Nevada</option>
+           <option value="http://www.loc.gov/global/state/nh-gov.html">New Hampshire</option>
+           <option value="http://www.loc.gov/global/state/nj-gov.html">New Jersey</option>
+           <option value="http://www.loc.gov/global/state/nm-gov.html">New Mexico</option>
+           <option value="http://www.loc.gov/global/state/ny-gov.html">New York</option>
+           <option value="http://www.loc.gov/global/state/nc-gov.html">North Carolina</option>
+           <option value="http://www.loc.gov/global/state/nd-gov.html">North Dakota</option>
+           <option value="http://www.loc.gov/global/state/oh-gov.html">Ohio</option>
+           <option value="http://www.loc.gov/global/state/ok-gov.html">Oklahoma</option>
+           <option value="http://www.loc.gov/global/state/or-gov.html">Oregon</option>
+           <option value="http://www.loc.gov/global/state/pa-gov.html">Pennsylvania</option>
+           <option value="http://www.loc.gov/global/state/ri-gov.html">Rhode Island</option>
+           <option value="http://www.loc.gov/global/state/sc-gov.html">South Carolina</option>
+           <option value="http://www.loc.gov/global/state/sd-gov.html">South Dakota</option>
+           <option value="http://www.loc.gov/global/state/tn-gov.html">Tennessee</option>
+           <option value="http://www.loc.gov/global/state/tx-gov.html">Texas</option>
+           <option value="http://www.loc.gov/global/state/ut-gov.html">Utah</option>
+           <option value="http://www.loc.gov/global/state/vt-gov.html">Vermont</option>
+           <option value="http://www.loc.gov/global/state/va-gov.html">Virginia</option>
+           <option value="http://www.loc.gov/global/state/wa-gov.html">Washington</option>
+           <option value="http://www.loc.gov/global/state/wv-gov.html">West Virginia</option>
+           <option value="http://www.loc.gov/global/state/wi-gov.html">Wisconsin</option>
+           <option value="http://www.loc.gov/global/state/wy-gov.html">Wyoming</option>
+           </select>
+       </td>
+   </tr>
+</table>
+<address>
+   <b>Monroe Public Library</b>
+   580 Main Street, Monroe, OH &nbsp;&nbsp;45050
+   <b>Phone</b> (513) 555-0211  
+   <b>Fax</b> (513) 555-0241
+</address>
+</div>       
+
+</body>
+</html>

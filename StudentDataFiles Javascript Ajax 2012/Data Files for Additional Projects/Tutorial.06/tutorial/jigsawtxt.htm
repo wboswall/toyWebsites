@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 6
+   Tutorial Case
+
+   Kiddergarden Jigsaw Puzzle
+   Author: 
+   Date:   
+
+   Filename:         jigsaw.htm
+   Supporting files: headmenu.jpg, links.jpg, jpuzzle.js, kg.css, kgfunctions.css, 
+                     kglogo.jpg, piece0.jpg - piece24.jpg, title.jpg
+
+-->
+
+   <title>Today's Jigsaw Puzzle</title>
+   <link href="kg.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+   <form id="jigsaw" action="">
+
+   <div id="head">
+      <img src="kglogo.jpg" alt="Kiddergarden" />
+   </div>
+   <div id="menu">
+      <img src="headmenu.jpg" alt="" />
+   </div>
+   <div id="links">
+      <img src="links.jpg" alt="" />
+   </div>
+   <div id="title">
+      <img src="title.jpg" alt="Jigsaw Puzzle" />
+   </div>
+
+   <div id="puzzleGrid">
+      <div id="grid0" class="grid"></div><div id="grid1" class="grid"></div>
+      <div id="grid2" class="grid"></div><div id="grid3" class="grid"></div>
+      <div id="grid4" class="grid"></div>
+      <div id="grid5" class="grid"></div><div id="grid6" class="grid"></div>
+      <div id="grid7" class="grid"></div><div id="grid8" class="grid"></div>
+      <div id="grid9" class="grid"></div>
+      <div id="grid10" class="grid"></div><div id="grid11" class="grid"></div>
+      <div id="grid12" class="grid"></div><div id="grid13" class="grid"></div>
+      <div id="grid14" class="grid"></div>
+      <div id="grid15" class="grid"></div><div id="grid16" class="grid"></div>
+      <div id="grid17" class="grid"></div><div id="grid18" class="grid"></div>
+      <div id="grid19" class="grid"></div>
+      <div id="grid20" class="grid"></div><div id="grid21" class="grid"></div>
+      <div id="grid22" class="grid"></div><div id="grid23" class="grid"></div>
+      <div id="grid24" class="grid"></div>
+   </div>
+   <div id="puzzlePieces">
+      <div id="piece0" class="pieces"></div><div id="piece1" class="pieces"></div>
+      <div id="piece2" class="pieces"></div><div id="piece3" class="pieces"></div>
+      <div id="piece4" class="pieces"></div>
+      <div id="piece5" class="pieces"></div><div id="piece6" class="pieces"></div>
+      <div id="piece7" class="pieces"></div><div id="piece8" class="pieces"></div>
+      <div id="piece9" class="pieces"></div>
+      <div id="piece10" class="pieces"></div><div id="piece11" class="pieces"></div>
+      <div id="piece12" class="pieces"></div><div id="piece13" class="pieces"></div>
+      <div id="piece14" class="pieces"></div>
+      <div id="piece15" class="pieces"></div><div id="piece16" class="pieces"></div>
+      <div id="piece17" class="pieces"></div><div id="piece18" class="pieces"></div>
+      <div id="piece19" class="pieces"></div>
+      <div id="piece20" class="pieces"></div><div id="piece21" class="pieces"></div>
+      <div id="piece22" class="pieces"></div><div id="piece23" class="pieces"></div>
+      <div id="piece24" class="pieces"></div>
+   </div>
+
+   <div id="controls">
+      <p>Solve the puzzle by using your mouse to drag and drop puzzle pieces onto the
+         grid on the left. If you want to use a keyboard, press the <b>spacebar</b>
+         to alternate between SELECT PIECE mode and MOVE PIECE mode. While in MOVE PIECE
+         mode, use your arrow keys to move the selected piece up, down, left, or
+         right. Drop the piece by pressing the <b>spacebar</b> again. You
+         cannot drop one piece on top of another. To select a different piece, go to
+         SELECT PIECE mode and press the left or right arrow keys.
+         Puzzled? Click the <b>Solve It</b>
+         button to show the solution. Want to play again? Click the <b>Jumble It</b>
+         button.</p>
+      <p>
+         <label for="keyMode">Key Mode</label>
+         <input id = "keyMode" type="text" readonly="readonly" value = "SELECT PIECE" />
+         <input id = "solve" type="button" value="Solve It" />
+         <input id = "jumble" type="button" value="Jumble It" />
+      </p>
+      <address>
+         Kiddergarden &#183;
+         A safe site on the Web for kids and families
+      </address>
+   </div>
+
+   </form>
+</body>
+</html>

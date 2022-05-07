@@ -1,0 +1,72 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 8
+   Tutorial Case
+
+   Filename: hipstyles.css
+
+   This file contains styles used in the hipparchus.htm Web page
+
+*/
+
+*                      {margin: 0px; padding: 0px; border-width: 0px; line-height: 1.2em;
+                        background-color: white; color: black;
+                        font-family: 'Trebuchet MS', Arial, Verdana, sans-serif}
+
+#page                  {margin-left: 20px; margin-top: 10px}
+
+#headlinks             {display: block; margin-left: 43px; margin-top: 5px; list-style-type: none}
+#headlinks li          {display: block; width: 100px; float:left; margin-right: 2px;
+                        text-align: center}
+#headlinks li a        {display: block; width: 100%; font-size: 10px; text-decoration: none;
+                        letter-spacing: 3px; background-color: rgb(250, 220, 177)}
+#headlinks li a:hover  {background-image: url(stars.png); color: yellow}
+
+
+h1, h2, h3, h4         {font-weight: normal}
+
+#main                  {width: 702px; border-right: 1px solid rgb(152, 152, 152); float: left;
+                        margin-right: 10px}
+
+#main h1               {font-size: 21px; letter-spacing: 4px; margin-bottom: 15px}
+
+#main p                {font-size: 12px; margin: 10px}
+#main p strong         {color: rgb(160, 130, 87)}
+#main p a              {color: rgb(160, 130, 87)}
+
+#slidebox              {width: 300px; float: left; margin-right: 10px;
+                        border-right: 4px solid rgb(200, 170, 127);
+                        border-bottom: 4px solid rgb(230, 200, 167)}
+
+#slidebox p            {clear: left; text-align: center; font-size: 10px; margin: 10px}
+#slidebox p a          {text-decoration: none}
+#slidebox p a:hover    {text-decoration: underline}
+
+#slides                {list-style-type: none; display: block; margin: 0px 10px 10px 0px}
+#slides li             {display: block; float: left; text-align: center}
+#slides li a           {display: block; width: 100%; text-decoration: none}
+#slides li a img       {border: 1px solid white}
+
+#sidebar               {width: 220px; float: left; font-size: 12px}
+#sidebar label         {float: left; margin-right: 10px}
+#sidebar input         {float: left; width: 150px; border: 1px inset rgb(152, 152,152);
+                        font-size: 10px; background-color: rgb(255, 240, 197)}
+#sidebar img           {float: left; margin-left: 5px}
+
+#sidebar h1            {clear: left; font-size: 14px; letter-spacing: 3px; 
+                        padding: 15px 0px}
+#sidebar p             {font-size: 10px; padding: 10px 0px; margin-bottom: 15px;
+                        text-align: justify;
+                        border-top: 10px solid rgb(230, 200, 167);
+                        border-bottom: 10px solid rgb(230, 200, 167)}
+#sidebar ul            {margin-left: 15px; list-style-type: square}
+#sidebar ul li         {line-height: 2em}
+#sidebar ul li a       {text-decoration: none}
+#sidebar ul li a:hover {color: blue; text-decoration: underline}
+
+#sub                   {margin-top: 50px}
+#sub a                 {text-decoration: none; letter-spacing: 3px}
+#sub a:hover           {background-color: rgb(192, 192, 192)}
+#sub img               {border-width: 0px; margin-right: 10px}
+
+

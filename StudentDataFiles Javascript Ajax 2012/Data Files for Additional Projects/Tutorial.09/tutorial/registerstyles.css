@@ -1,0 +1,36 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 9
+   Tutorial Case
+   Filename: registerstyles.css
+
+   This file contains registration styles used in the cyclocrossings Web site
+
+*/
+
+#intro             {font-size: 11px; margin: 0px 0px 20px 0px}
+
+#regH1             {font-size: 18px; font-weight: normal;
+                    letter-spacing: 5px;
+                    margin-top: 15px}
+
+table              {width: 100%;
+                    font-size: 11px; padding: 10px; 
+                    border-bottom: 1px solid rgb(83,183,51);
+                    margin-bottom: 20px}
+table col#firstCol {width: 120px}
+table input        {font-size: 11px}
+td                 {vertical-align: top}
+
+#lastName, #firstName, #email, #street1, #street2, #city, #country
+                   {width: 180px}
+#firstName         {margin-right: 10px}
+#lastName          {margin-left: 10px}
+#zip               {width: 100px}
+#phone             {width: 150px}
+textarea           {width: 100%; height: 90px}
+select             {font-size: 11px}
+#member1           {margin-left: 5px}
+#member2           {margin-left: 5px}
+#sbutton           {width: 150px; letter-spacing: 3px; 
+                    background-color: rgb(193,245,181)}

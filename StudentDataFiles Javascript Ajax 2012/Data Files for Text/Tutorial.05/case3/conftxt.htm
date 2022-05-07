@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 5
+   Case Problem 3
+
+   Conference Registration Form
+   Author: 
+   Date:   
+
+   Filename:         conf.htm
+   Supporting files: back.jpg, conf.css, edge.jpg, forms.js, links.jpg, logo.jpg
+-->
+
+   <title>Conference Registration Form</title>
+   <link href="conf.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+   <form id="reg" method="get" action="summary.htm">
+
+   <div id="links"><img src="links.jpg" alt="" /></div>
+   <div id="head"><img src="logo.jpg" alt="CGIP Annual Conference" /></div>
+   <div id="edge"><img src="edge.jpg" alt="" /></div>
+
+   <div id="main">
+      <p id="intro">
+         <b>10th Annual Conference of Computer Graphics and Image Processing</b><br />
+            University of Colorado, Boulder<br />
+            March 3 - March 7<br />
+            Conference Fee: $145
+      </p>
+      <h1>Conference Registration Form</h1>
+      <input type="hidden" id="total" name="total" />
+
+      <table>
+         <tr>
+            <td><span>*</span>First Name</td>
+            <td><input name="fname" id="fname" /></td>
+            <td style="text-align: right"><span>*</span>Last</td>
+            <td><input name="lname" id="lname" /></td>
+         </tr>
+         <tr>
+            <td id="add"><span>*</span>Address</td>
+            <td colspan="3"><textarea id="address" name="address" rows="" cols=""></textarea></td>
+         </tr>
+         <tr>
+            <td><span>*</span>E-mail</td>
+            <td colspan="3"><input name="email" id="email" /></td>
+         </tr>
+         <tr>
+            <td><span>*</span>Phone Number</td>
+            <td colspan="3">
+               <input id="phone1" name="phone1" size="3" />
+               <input id="phone2" name="phone2" size="3" /> - 
+               <input id="phone3" name="phone3" size="4" />
+            </td>
+         </tr>
+         <tr>
+            <td colspan="3">Number attending banquet (add $30 per person)</td>
+            <td>
+               <select id="guests" name="guests">
+                  <option>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+               </select>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="3"><span>*</span>Member of ACGIP (save $25 on registration fee)</td>
+            <td>
+               <input type="radio" name="member" value="yes" /> Yes
+               <input type="radio" name="member" value="no" /> No
+            </td>
+         </tr>
+      </table>
+
+      <p><span>* Required Information</span></p>
+      <p style="text-align: center"><input id="sbutton" type="submit" value="continue" /></p>
+
+
+   </div>
+   </form>
+
+</body>
+</html>

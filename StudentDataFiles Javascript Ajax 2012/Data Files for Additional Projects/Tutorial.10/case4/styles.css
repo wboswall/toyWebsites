@@ -1,0 +1,24 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 10
+   Case Problem 4
+   Filename: styles.css
+
+   This file contains styles used in the Tombstone Web site
+
+*/
+
+      h1 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 14px;
+        color: #996600;
+        font-style: italic;
+        font-weight: bold;
+      }
+      p {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 14px;
+      }
+      body {
+        background-color:FFFFCC;
+      }

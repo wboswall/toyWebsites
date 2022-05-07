@@ -1,0 +1,48 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 7
+   Review Assignment
+   Filename: fedpaper.css
+
+   This file contains styles used in the fed10.htm file
+
+*/
+
+*                      {margin: 0px; padding: 0px}
+body                   {margin: 0px; background-color: white}
+#page                  {position: absolute; top: 0px; left: 0px; width: 850px}
+h1, h2, h3, h4, h5, h6 {font-family: 'Trebuchet MS', Arial, Verdana, sans-serif}
+
+#logo                  {background-color: rgb(28,0,127); height: 96px}
+
+#logosub               {color: white; position: absolute; top: 10px; 
+                        text-align: right; z-index: 2;  
+                        letter-spacing: 5px; font-size: 10px;
+                        font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+                        width: 800px; height: 96px}
+
+#doc                   {margin: 40px}
+#doc h1                {font-size: 22px}
+#doc h2                {font-size: 14px}
+#doc h3                {font-size: 10px; margin-bottom: 0px}
+
+#doc p                 {font-size: 16px; margin: 10px 0px}
+#doc h3+p              {margin-top: 0px}
+
+#docsubtitle           {font-weight: bold; 
+                        font-family: 'Trebuchet MS', Arial, Verdana, sans-serif}
+#intro                 {text-transform: uppercase}
+
+#firstp:first-line     {font-variant: small-caps}
+
+dfn                    {color: blue; font-style: normal}
+#keywords              {float: right; clear: right; font-size: 12px; 
+                        font-family: 'Trebuchet MS', Arial, Verdana, sans-serif; 
+                        margin: 0px 0px 20px 20px; width: 220px; 
+                        border: 2px solid rgb(28,0,127); 
+                        background-color: ivory}
+#keywords h1           {font-size: 14px; letter-spacing: 5px; text-align: center; 
+                        margin: 0px; color: white; background-color: rgb(28,0,127)}
+#keywords ul           {margin-left: 10px; padding-left: 0px; margin-top: 0px; 
+                        margin-bottom: 5px}
+#keywords li           {list-style-type: none}

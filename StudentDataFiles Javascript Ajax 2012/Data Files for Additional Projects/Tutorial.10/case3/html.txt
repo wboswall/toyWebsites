@@ -1,0 +1,8 @@
+<h1>Web Designer</h1>
+<p>Test this demo page by entering 
+the HTML code into the left frame 
+of the demo window. Enter CSS styles 
+into the right frame. Click the 
+<b>Submit Code</b> button when 
+finished. The bottom frame presents 
+a preview of the rendered page.</p>

@@ -1,0 +1,46 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 8
+   Case 3
+
+   Filename: styles.css
+
+   This file contains styles used in the hipparchus.htm Web page
+
+*/
+
+*                      {margin: 0px; padding: 0px; border-width: 0px; line-height: 1.2em;
+                        color: black;
+                        font-family: 'Trebuchet MS', Arial, Verdana, sans-serif}
+body                   {background: white url(bar.png) repeat-y}
+
+#page                  {position: absolute; top: 0px; left: 0px}
+
+#headlinks             {list-style-type: none; position: absolute; top: 115px; left: 173px}
+#headlinks li          {display: block; float: left; width: 100px; text-align: center}
+#headlinks a           {display: block; width: 100%; 
+                        text-decoration: none; font-size: 11px; color: rgb(114, 99, 204);
+                        border: 1px solid rgb(114, 99, 204)}
+#headlinks a:hover     {color: white; background-color: rgb(114, 99, 204)}
+
+div#blogPosts          {width: 180px; font-size: 11px; float: left;
+                        }
+div#blogPosts ul       {list-style-type: none; margin-left: 10px}
+div#blogPosts li       {line-height: 1.5em; margin: 15px 0px}
+div#blogPosts a        {text-decoration: none; color: yellow}
+div#blogPosts a:hover  {text-decoration: underline}
+
+div#blogPosts h2       {font-size: 14px; letter-spacing: 5px; font-weight: normal;
+                        background-color: ivory; color: black; text-align: center;
+                        margin: 5px; padding: 5px 0px}
+
+
+div#main                {float: left; margin-left: 20px; width: 590px}
+div#main h1             {font-size: 22px; font-weight: normal; letter-spacing: 7px;
+                         padding: 5px 0px; border-bottom: 4px solid rgb(173, 164, 255)}
+
+div#main p              {font-size: 12px; margin: 15px 0px}
+div#main p a            {color: rgb(114, 99, 204)}
+
+ul#photoLinks           {font-size: 11px; margin-left: 25px}
+ul#photoLinks li        {line-height: 1.2em; margin: 5px 0px}

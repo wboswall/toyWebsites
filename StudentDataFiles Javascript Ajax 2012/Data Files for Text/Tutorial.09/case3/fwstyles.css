@@ -1,0 +1,107 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 9
+   Case Problem 3
+
+   Filename: fwstyles.css
+
+   This file contains styles used in the FrostiWear Web site
+
+*/
+
+*                      {margin: 0px; padding: 0px; border-width: 0px; line-height: 1.2em;
+                        background-color: white; color: black;
+                        font-family: 'Trebuchet MS', Arial, Verdana, sans-serif}
+
+#heading               {width: 620px; text-align: center; margin-left: 170px}
+
+
+#links1                {list-style-type: none}
+#links1 li             {font-size: 11px; text-align: center;
+                        float: left; width: 120px;
+                        border: 1px solid rgb(109, 106, 127)}
+#links1 li  a          {display: block; width: 100%;
+                        color: rgb(109, 106, 127); background-color: white;
+                        text-decoration: none}
+#links1 li a:hover     {color: yellow; background-color: rgb(109, 106, 127)}
+
+#leftcol               {position: absolute; top: 0px; left: 0px;
+                        width: 150px; height: 100%;
+                        background-color: rgb(109, 106, 127)}
+
+#links2                {list-style-type: none; margin-left: 15px;
+                        padding: 20px 0px;
+                        background-color: rgb(109, 106, 127);
+                        width: 130px}
+#links2 li             {font-size: 11px; line-height: 1.6em;
+                        background-color: rgb(109, 106, 127)}
+#links2 li.newgroup    {margin-top: 15px}
+#links2 li a           {text-decoration: none; 
+                        color: white;
+                        background-color: rgb(109, 106, 127)}
+#links2 li a:hover     {color: yellow}
+
+#main                  {position: absolute; top: 80px; left: 170px;
+                        width: 620px}
+
+#main h2               {font-size: 22px; font-weight: normal; 
+                        letter-spacing: 5px; color: rgb(109, 106, 127)}
+#main p                {margin: 20px 20px 20px 0px; font-size: 14px}
+#main p img            {float: right; margin: 0px 0px 20px 20px}
+
+
+table#ordertable       {border: 1px solid rgb(109, 106, 127);
+                        border-collapse: collapse;
+                        width: 350px}
+
+table#ordertable td    {font-size: 12px;
+                        border: 1px solid rgb(109, 106, 127);
+                        vertical-align: top;
+                        padding: 5px}
+table#ordertable th    {font-size: 12px;
+                        border-bottom: 1px solid rgb(255, 255, 102);
+                        vertical-align: top; text-align: left;
+                        padding: 5px;
+                        font-weight: normal;
+                        background-color: rgb(109, 106, 127);
+                        color: rgb(255, 255, 102)}
+
+#ordertable select     {width: 200px; border: 1px ridge rgb(109, 106, 127); 
+                        background-color: rgb(255, 255, 191)}
+#submitButton          {background-color: rgb(109, 106, 127);
+                        color: white;
+                        border: 4px outset rgb(109, 106, 127);
+                        padding: 5px}
+
+#ordertable #quantity  {width: 50px}
+
+#main h4               {font-size: 18px; font-weight: normal;
+                        letter-spacing: 4px; color: rgb(109, 106, 127);
+                        margin: 30px 0px 10px}
+
+#similarLinks          {list-style-type: none}
+#similarLinks  li      {font-size: 11px; text-align: center;
+                        float: left; width: 120px;
+                        }
+#similarLinks  li  a   {display: block; width: 100%;
+                        color: black; background-color: white;
+                        text-decoration: none}
+#similarLinks li a:hover {color: black; text-decoration: underline}
+
+#cartTable             {border-collapse: collapse; 
+                        border: 1px solid rgb(109, 106, 127)}
+
+#cartTable th          {border: 1px solid rgb(109, 106, 127);
+                        background-color: rgb(109, 106, 127); color: white;
+                        padding: 6px; font-weight: normal;
+                        letter-spacing: 3px}
+
+#cartTable td          {font-size: 12px;
+                        border: 1px solid rgb(189, 186, 207);
+                        padding: 5px}
+
+.deleteItem            {font-size: 11px;
+                        background-color: rgb(255, 106, 109);
+                        color: white;
+                        border: 2px outset rgb(255, 106, 109);
+                        padding: 2px}

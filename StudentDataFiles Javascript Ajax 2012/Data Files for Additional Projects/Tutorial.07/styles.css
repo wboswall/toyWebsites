@@ -1,0 +1,26 @@
+/*
+   New Perspectives on HTML, XHTML, and DHTML 4th Edition
+   Tutorial 16
+   Case Problem 1
+   Filename: styles.css
+
+   This file contains styles used in the french5.htm file
+
+*/
+#header  { height: 200; width: 700px; color: yellow; font-size: 14px;
+         font-family: Arial, Helvetica, sans-serif;
+         background-color: lightgrey;
+}
+body { background-color: yellow; 
+}
+#links             {clear: both; width: 80px; float: left; 
+                    border-right: 1px solid rgb(155, 102, 102);
+                    list-style-type: none; margin-left: 15px;
+                    font-size: 12px; padding-bottom: 10px;
+}
+#links a           {display: block; text-decoration: none; width: 100%;
+                    color: black;
+}
+#links a:hover     {background-color: rgb(155, 102, 102); color: white}
+#mainContent   { float: left; margin: 10px;
+}

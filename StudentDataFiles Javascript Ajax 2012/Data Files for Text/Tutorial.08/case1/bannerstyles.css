@@ -1,0 +1,19 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 8
+   Case Problem 1
+   Filename: bannerstyles.css
+
+   This file contains styles used for the rotating ad banners
+*/
+
+#bannerBox             {position: absolute;
+                        top: 15px; left: 470px; z-index: 10;
+                        width: 300px; height: 60px;
+                        overflow: hidden}
+
+
+.bannerAd              {position: absolute;
+                        top: 0px; left: 0px}
+
+.bannerAd img          {border-width: 0px}

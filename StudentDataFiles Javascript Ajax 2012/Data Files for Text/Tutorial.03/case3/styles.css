@@ -1,0 +1,49 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 3
+   Case Problem 3
+   Filename: styles.css
+
+   This file contains styles used in the auction.htm file
+
+*/
+
+body                   {margin: 0px; font-family: Arial, Helvetica, sans-serif}
+td, th                 {vertical-align: top}
+
+#head                  {position: absolute; top: 0px; left: 0px; width: 680px; 
+                        height: 75px; background-color: rgb(255,255,0); 
+                        border-bottom: 2px solid black}
+#head p                {text-align: right; float: right; padding-right: 15px; 
+                        margin: 2px 0px; padding-left: 0px}
+#head p a              {text-decoration: none; color: yellow; background-color: black; 
+                        font-size: 10pt; padding: 0px 10px}
+
+#intro                 {position: absolute; top: 80px; left: 0px; height: 50px; 
+                        padding-left: 10px; width: 350px}
+#intro table           {width: 100%}
+#intro h1              {font-size: 16pt; margin: 0px}
+#intro h2              {font-size: 12pt; margin: 0px}
+
+#summarytable          {font-size: 9pt}
+#summarytable th       {text-align: left; color: yellow; background-color: black; 
+                        padding: 2px 15px 2px 2px}
+#summarytable input    {width: 100%; background-color: yellow; color: black}
+
+#newbidtable           {margin-top: 10px; font-size: 9pt}
+#newbidtable td, th    {padding: 3px}
+#newbidtable #newtitle {font-size: 12pt; color: yellow; background-color: black; 
+                        text-align: center; letter-spacing: 4}
+#bidId, #bidAmount     {width: 220px}
+#newbidtable th        {text-align: left}
+#newbidtable #buttons  {text-align: center}
+
+#bidHistory            {position: absolute; top: 80px; left: 380px}
+#bidHistory h1         {font-size: 16pt; margin: 0px}
+#bidHistory p          {margin-top: 20px}
+#bidList               {width: 300px; height: 225px}
+
+address                {position: absolute; top: 380px; text-align: center; 
+                        color: black; font-size: 8pt; font-style: normal; 
+                        border-top: 2px solid black; border-bottom: 2px solid black;
+                        background-color: yellow; width: 680px}

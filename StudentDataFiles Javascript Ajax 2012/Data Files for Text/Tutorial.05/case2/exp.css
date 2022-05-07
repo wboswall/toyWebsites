@@ -1,0 +1,41 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 5
+   Case Problem 2
+   Filename: exp.css
+
+   This file contains styles used in the exp.htm file.
+
+*/
+body {background: white url(back.jpg) repeat-y scroll 0px 0px}
+#links {position: absolute; top: 10px; left: 0px}
+
+#main {border: 1px solid black; width: 640px; padding: 5px;
+       background-color: white; margin-left: 100px; margin-top: 0px}
+span {color: red; font-family: Arial, Helvetica, sans-serif; font-size: 9pt}
+table {font-size: 8pt; width: 630px; margin-top: 5px; margin-bottom: 0px}
+th {background-color: rgb(153,204,255); text-align: left; font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif}
+#reporttitle {background-color: white; text-align: center; font-family: Arial, Helvetica, sans-serif;
+              font-size: 18pt; color: rgb(153,204,255); font-weight: bold}
+
+input {width: 100%; font-size: 8pt}
+select {width: 100%; font-size: 8pt}
+#lname, #fname {width: 150px}
+#account, #department, #project {width: 150px}
+
+#traveltable th {text-align: center}
+#subhead {width: 100px}
+#travelexphead, #lodgeexphead, #mealexphead {width: 80px}
+#date1, #date2, #date3, #date4 {text-align: center}
+#travel1, #travel2, #travel3, #travel4 {text-align: right}
+#lodge1, #lodge2, #lodge3, #lodge4 {text-align: right}
+#meal1, #meal2, #meal3, #meal4 {text-align: right}
+#sub1, #sub2, #sub3, #sub4,#total {text-align: right}
+#traveltable #totalhead {text-align: right}
+
+textarea {height: 100px; width: 100%}
+
+#main #psub {text-align: center}
+#main p input {width: 190px; background-color: rgb(153,204,255); color: black;
+               letter-spacing: 5}

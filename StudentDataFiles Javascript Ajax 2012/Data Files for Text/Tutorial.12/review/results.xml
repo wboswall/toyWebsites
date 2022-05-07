@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 12
+   Review Assignment
+
+   RSS Sports Results Feed
+
+
+   Filename: results.xml
+-->
+
+<rss version="2.0">
+
+   <channel>
+
+      <title>NFL Games</title>
+      <link>http://www.sbloggersports.com</link>
+      <description>Sports News Feed</description>
+
+      <item>
+         <title>Cowboys Upend Bills</title>
+         <link>http://www.sbloggernewslinks.com/games/nfl/nfl0111.html</link>
+         <description>QB Kevin Giles led the Cowboys to a 21 - 10
+                      victory over the visiting Buffalo Bills. Giles
+                      threw for two touchdown passes and ran for a
+                      third as Dallas improved its record to 3 - 1,
+                      while Buffalo fell to 2 - 2.
+         </description>
+      </item>
+
+      <item>
+         <title>Inkweller Injured</title>
+         <link>http://www.sbloggernewslinks.com/nfl/nfl1955.html</link>
+         <description>All Pro cornerback Ryan Inkweller of the Detroit
+                      Lions left during the second quarter of the
+                      Lions/Vikings game with what team officials called
+                      a sprained knee. His return is questionable.
+         </description>
+      </item>
+
+      <item>
+         <title>Chargers Route Raiders</title>
+         <link>http://www.sbloggernewslinks.com/games/nfl/nfl0112.html</link>
+         <description>San Diego continued its winning ways with a
+                      38 - 3 victory over the Oakland Raiders. The
+                      Chargers ran their division-leading record to 4 - 0,
+                      as the Raiders fell to 1 - 3.
+         </description>
+      </item>
+
+      <item>
+         <title>Bears Beat Texans</title>
+         <link>http://www.sbloggernewslinks.com/games/nfl/nfl0113.html</link>
+         <description>Visiting Chicago triumphed over host Houston, 13 - 10
+                      in a game marred by a controversial interference
+                      penalty in the last minute. Holding a 10 - 6 lead,
+                      Texans' cornerback was flagged for interference in the
+                      endzone on a pass play to Bear wide receiver Troy Milton.
+                      Bears' running back Gary Vinter scored from the two yard line 
+                      on the next play to seal the win. With the victory, the
+                      Bears and the Texans both move to 2 - 2 for the season.
+         </description>
+      </item>
+
+  </channel>
+
+</rss>

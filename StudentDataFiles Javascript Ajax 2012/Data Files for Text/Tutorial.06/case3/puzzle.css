@@ -1,0 +1,64 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 6
+   Case Problem 1
+
+   Subscription Form Style Sheet
+   Author: Kevin Webber
+   Date:   3/1/2011
+
+   Filename:         sform.css
+   Supporting Files: 
+
+*/
+
+#puzzle    {position: relative; float: left; width: 280px;
+            border: 1px solid transparent}
+
+#direction {position:absolute; top:0px; left:0px}
+
+#grid00    {position: absolute; top: 0px; left: 70px}
+#grid10    {position: absolute; top: 0px; left: 105px}
+#grid20    {position: absolute; top: 0px; left: 140px}
+#grid30    {position: absolute; top: 0px; left: 175px}
+#grid40    {position: absolute; top: 0px; left: 210px}
+
+#grid01    {position: absolute; top: 35px; left: 70px}
+#grid11    {position: absolute; top: 35px; left: 105px}
+#grid21    {position: absolute; top: 35px; left: 140px}
+#grid31    {position: absolute; top: 35px; left: 175px}
+#grid41    {position: absolute; top: 35px; left: 210px}
+
+#grid02    {position: absolute; top: 70px; left: 70px}
+#grid12    {position: absolute; top: 70px; left: 105px}
+#grid22    {position: absolute; top: 70px; left: 140px}
+#grid32    {position: absolute; top: 70px; left: 175px}
+#grid42    {position: absolute; top: 70px; left: 210px}
+
+#grid03    {position: absolute; top: 105px; left: 70px}
+#grid13    {position: absolute; top: 105px; left: 105px}
+#grid23    {position: absolute; top: 105px; left: 140px}
+#grid33    {position: absolute; top: 105px; left: 175px}
+#grid43    {position: absolute; top: 105px; left: 210px}
+
+#grid04    {position: absolute; top: 140px; left: 70px}
+#grid14    {position: absolute; top: 140px; left: 105px}
+#grid24    {position: absolute; top: 140px; left: 140px}
+#grid34    {position: absolute; top: 140px; left: 175px}
+#grid44    {position: absolute; top: 140px; left: 210px}
+
+.grid      {font-weight:bold; color:red; border: 1px solid red; 
+            width: 30px; background-color:white; height:30px; 
+            text-align:center}
+
+#reveal    {position:absolute; width:160px; top: 175px; left: 70px; 
+            text-align: center; background-color: rgb(239,230,215); 
+            color: rgb(82,69,54); letter-spacing: 5px;
+            border-style: outset; border-width: 5px; font-size: 10px; 
+            padding: 2px}
+
+#rowClues, #columnClues       {width: 150px; float: left}
+#rowClues h3, #columnClues h3 {font-size: 16px; font-weight: normal; margin: 0px;
+                               letter-spacing: 3px}
+
+#rowClues ol, #columnClues ol {padding-left: 25px; margin-left: 0px; font-size: 12px}

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 11
+   Case Problem 1
+
+   The Spice Bowl
+   Author:           
+   Date:             
+
+   Filename:         spice.htm
+   Supporting files: cart.js, h1salt.png, sb.css, sbback.png,
+                     sblibrary.js, sblogo.png, shop.js
+
+-->
+
+   <title>The Spice Bowl</title>
+
+   <link type="text/css" href="sb.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+   <div id="heading">
+      <img src="sblogo.png" alt="The Spice Bowl" usemap="#checkout" />
+      <map id="checkout" name="checkout">
+         <area shape="rect" coords="800,0,900,60" href="checkout.htm" alt="Checkout" />
+      </map>
+   </div>
+
+   <ul id="sideLinks">
+      <li class="newgroup"><a href="#">Home</a></li>
+      <li><a href="#">Keyword Search</a></li>
+
+      <li class="newgroup"><a href="#">Spices</a></li>
+      <li><a href="#">Seasonings</a></li>
+      <li><a href="#">Blends</a></li>
+      <li><a href="#">Salts &amp; Peppers</a></li>
+      <li><a href="#">Popcorn Seasonings</a></li>
+      <li><a href="#">Dip Mixes</a></li>
+      <li><a href="#">Bulk Spices</a></li>
+      <li><a href="#">Extracts</a></li>
+      <li><a href="#">Flavorings</a></li>
+
+      <li class="newgroup"><a href="#">Spice Jars</a></li>
+      <li><a href="#">Spice Jar Labels</a></li>
+      <li><a href="#">Spice Sets</a></li>
+      <li><a href="#">Mortar &amp; Pestles</a></li>
+
+      <li class="newgroup"><a href="#">Cookbooks</a></li>
+      <li><a href="#">Online Recipes</a></li>
+      <li><a href="#">Forums</a></li>
+
+      <li class="newgroup"><a href="#">My Account</a></li>
+      <li><a href="#">Checkout</a></li>
+      <li><a href="#">Order History</a></li>
+      <li><a href="#">Shipping Info</a></li>
+
+      <li class="newgroup"><a href="#">Tech Support</a></li>
+      <li><a href="#">Hours</a></li>
+      <li><a href="#">Contact Us</a></li>
+   </ul>
+
+   <img src="h1salt.png" alt="Quality Salts" id="h1img" />
+   <div id="main">
+      <p>Why buy salt online when it's so readily available at your local store? 
+         The answer is price and quality.  All salts are not created equal; there 
+         are many different quality levels.  At the Spice Bowl you can buy 
+         <em>chef's quality</em> salts and spices at prices competitive with your
+         local grocery store. Enjoy the difference!
+      </p> 
+
+      <table id="saltItems">
+         <caption>Click the Select check box to select an item</caption>
+         <thead>
+            <tr>
+               <th>PID</th>
+               <th>Product</th>
+               <th>Description</th>
+               <th>Price</th>
+               <th>Qty</th>
+               <th>Select</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>FSSGJ6</td>
+               <td>Fine Sea Salt</td>
+               <td>Glass Spice Jar (6 oz.)</td>
+               <td class="price">$3.49</td>
+               <td><select id="FSSGJ6Qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="FSSGJ6" /></td>
+            </tr>
+            <tr>
+               <td>FSSPJ11</td>
+               <td>Fine Sea Salt</td>
+               <td>Plastic Shaker Jar (11 oz.)</td>
+               <td class="price">$4.15</td>
+               <td><select id="FSSPJ11Qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="FSSPJ11" /></td>
+            </tr>
+            <tr>
+               <td>FSSPC20</td>
+               <td>Fine Sea Salt</td>
+               <td>Pint Container (20 oz.)</td>
+               <td class="price">$5.11</td>
+               <td><select id="FSSPC20Qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="FSSPC20" /></td>
+            </tr>
+            <tr>
+               <td>GSS1LB</td>
+               <td>Grey Sea Salt</td>
+               <td>1 Pound Pouch</td>
+               <td class="price">$7.59</td>
+               <td><select id="GSS1LBQty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="GSS1LB" /></td>
+            </tr>
+            <tr>
+               <td>PHS1LB</td>
+               <td>Pink Himalayan Salt</td>
+               <td>1 Pound Bulk</td>
+               <td class="price">$6.29</td>
+               <td><select id="PHS1LBQty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="PHS1LB" /></td>
+            </tr>
+            <tr>
+               <td>MS1LB</td>
+               <td>Mesquite Salt</td>
+               <td>1 Pound Bulk</td>
+               <td class="price">$5.09</td>
+               <td><select id="MS1LBQty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="MS1LB" /></td>
+            </tr>
+            <tr>
+               <td>PSGJ6</td>
+               <td>Pretzel Salt</td>
+               <td>Glass Spice Jar (6 oz.)</td>
+               <td class="price">$3.09</td>
+               <td><select id="PSGJ6Qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="PSGJ6" /></td>
+            </tr>
+            <tr>
+               <td>PSPJ11</td>
+               <td>Pretzel Salt</td>
+               <td>Plastic Shaker Jar (11 oz.)</td>
+               <td class="price">$3.04</td>
+               <td><select id="PSPJ11Qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="PSPJ11" /></td>
+            </tr>
+            <tr>
+               <td>PSPC20</td>
+               <td>Pretzel Salt</td>
+               <td>Pint Container (20 oz.)</td>
+               <td class="price">$4.34</td>
+               <td><select id="PSPC20Qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="PSPC20" /></td>
+            </tr>
+            <tr>
+               <td>HSSGJ6</td>
+               <td>Hickory Smoked Salt</td>
+               <td>Glass Spice Jar (6 oz.)</td>
+               <td class="price">$3.89</td>
+               <td><select id="HSSGJ6Qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="HSSGJ6" /></td>
+            </tr>
+            <tr>
+               <td>HSSPJ11</td>
+               <td>Hickory Smoked Salt</td>
+               <td>Plastic Shaker Jar (11 oz.)</td>
+               <td class="price">$4.45</td>
+               <td><select id="HSSPJ11Qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="HSSPJ11" /></td>
+            </tr>
+            <tr>
+               <td>HSSPC20</td>
+               <td>Hickory Smoked Salt</td>
+               <td>Pint Container (20 oz.)</td>
+               <td class="price">$5.71</td>
+               <td><select id="HSSPC20Qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="HSSPC20" /></td>
+            </tr>
+            <tr>
+               <td>CSS1LB</td>
+               <td>Citric Acid/Sour Salt</td>
+               <td>1 Pound Pouch</td>
+               <td class="price">$4.24</td>
+               <td><select id="CSS1LBQty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                  </select>
+               </td>
+               <td class="cartAdd"><input type="checkbox" id="CSS1LB" /></td>
+            </tr>
+         </tbody>
+      </table>
+
+      <div id="viewDIV">
+         <input type="button" id="viewCart" value="Add Checked Items to Your Shopping Cart" />
+      </div>
+
+      <address>The Spice Bowl &#183; 8711 Business Park &#183; 
+               East Point, GA 30344
+               &#183; (404) 555- 8711
+      </address>
+
+   </div>
+
+   <div id="sidebar">
+      <h1>The Spice Bowl Recommends</h1>
+      <h2>Salt-Roasted Pecans</h2>
+      <ul>
+         <li>2 cups pecans</li>
+         <li>3 Tbs. butter, melted</li>
+         <li>1 1/4 tsp. fine sea salt</li>
+      </ul>
+      <p>Preheat oven to 325&deg;. Toss pecans and butter together; 
+         add salt and toss again.  Spread in a single layer on a baking 
+         sheet.  Bake about 15 minutes.  Cook on baking sheet.
+      </p>
+
+      <h2>Dried Beef Sticks</h2>
+      <ul>
+         <li>5 lbs. ground chuck</li>
+         <li>5 Tbs. quick salt</li>
+         <li>3 tsp. mustard seed</li>
+         <li>2 tsp. granulated garlic</li>
+         <li>2 tsp. cracked pepper</li>
+         <li>1 Tbs. hickory smoked salt</li>
+         <li>1 Tbs. liquid smoke</li>
+      </ul>
+      <p>Mix beef and season.  Place in a large covered container 
+         for three days; make sure beef is thoroughly mixed each day.  
+         On third day, shape beef into sticks, and bake at 150&deg; for 
+         8 hours (turn half-way through.)
+      </p>
+
+   </div>
+
+   </div>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 7
+   Case Problem 1
+   Filename: styles.css
+
+   This file contains styles used in the french5.htm file
+
+*/
+
+*                  {margin: 0px; padding: 0px}
+#page              {width: 700px; border: 1px solid rgb(155, 102, 102)}
+
+#head              {width: 700px; color: white; font-size: 14px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    background-color: rgb(155, 102, 102);
+                    padding: 10px 0px}
+#rightHead         {float: right; margin-right: 10px}
+#leftHead          {margin-left: 10px}
+
+#links             {clear: both; width: 120px; float: left; 
+                    border-right: 1px solid rgb(155, 102, 102);
+                    list-style-type: none; margin-left: 15px;
+                    font-size: 12px; padding-bottom: 10px}
+#links a           {display: block; text-decoration: none; width: 100%;
+                    color: black}
+#links a:hover     {background-color: rgb(155, 102, 102); color: white}
+
+#links .newgroup   {margin-top: 5px; margin-left: -10px}
+
+#doc               {float: left}
+#doc ol            {margin-left: 45px; margin-top: 15px}
+
+h1, h2             {font-family: Arial, Helvetica, sans-serif; 
+                    padding: 0px 10px}
+p                  {padding: 0px 10px; margin: 2px}
+.pnum              {margin-right: 5px; text-align: right; width: 30px; 
+                    border: 1px solid rgb(155,102,102); padding-right: 2px;
+                    color: white; background-color: rgb(155,102,102)}
+.phrase            {font-style: italic; cursor: pointer}
+h1                 {font-size: 18px; margin: 20px 0px 5px 0px}
+h2                 {font-size: 12px; font-weight: normal; margin: 5px}
+address            {clear: left; text-align: center; font-style: normal;
+                    background-color: rgb(155, 102, 102); color: white;
+                    font-family: Arial, Helvetica, sans-serif}

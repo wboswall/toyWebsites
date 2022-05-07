@@ -1,0 +1,56 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 8
+   Case Problem 3
+
+   Author:   
+   Date:     
+   Filename: fs.css
+
+   This file contains styles used in formatting the filmstrip slideshow
+
+*/
+
+
+div#slideGallery         {position: relative; top: 0px; left: 0px;
+                          width: auto; padding: 10px;
+                          text-align: center; 
+                          font-size: 10px; font-style: italic;
+                          border: 7px rgb(114, 99, 204) outset}
+
+img#slidePhoto           {margin: 5px}
+
+div#thumbStrip           {position: relative; top: 0px; left: 0px; 
+                          width: 100%; height: 95px; 
+                          vertical-align: middle; 
+                          margin-bottom: 10px}
+
+div.thumbBox             {position: absolute;
+                          width: 120px; height: 68px; 
+                          text-align: center;
+                          border: 1px solid blue; 
+                          margin: 2px;
+                          background-color: rgb(211, 211, 211)}
+
+div#resizeControls       {width: 100%;
+                          text-align: center; 
+                          margin: 5px}
+
+div#resizeControls input {margin: 0px 20px}
+
+div#photoBox             {position: relative; top: 0px; left: 0px;
+                          width: 100%; height: auto; 
+                          margin: 10px}
+
+/* Add new styles below */
+
+
+
+
+
+
+
+
+
+
+

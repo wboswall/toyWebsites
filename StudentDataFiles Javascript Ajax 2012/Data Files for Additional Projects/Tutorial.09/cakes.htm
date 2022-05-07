@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DW6 -->
+<head>
+<!-- 
+ 
+
+
+-->
+<title>Cakes by Emily</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+   <script type="text/javascript" src="cakeForm.js"></script>
+
+</head>
+<body >
+<div class="head" id="header">
+  <p><img src="cake.jpg" alt="cake picture" /><img src="logo.gif" alt="Cakes by Emily" width="400" height="125" /></p>
+  <div class="links" id="navigation">
+    <a href="#">Home</a>
+    <a href="#">Cakes</a>
+    <a href="#">Pastries</a>
+    <a href="#">Pies</a>
+    <a href="#">Mailing List</a>
+  </div>
+</div>
+<div class="mainContent">
+<p>Enter your info to be added to our email list with reminders about getting that birthday 
+cake you want! Remember at Cakes by Emily, we aim to make every birthday the best!</p>
+<form name="mailingForm" >
+ <table>
+  <tr>
+   <td>
+  First:
+
+   </td>
+   <td> <input type="text" name="firstName"  id="firstName"><BR>
+  </td>
+ </tr>
+  <tr>
+   <td>
+  Last: 
+   </td>
+   <td><input type="text" name="lastName" id="lastName" ><BR>
+  </td>
+ </tr>
+  <tr>
+   <td>
+  E-Mail: 
+
+   </td>
+   <td><input type="text" name="email" id="email" ><BR>
+  </td>
+ </tr>
+  <tr>
+   <td>
+  Birthday (mm/dd/yyyy): 
+
+   </td>
+   <td><input type="text" name="birthday" id="birthday" ><BR>
+  </td>
+ </tr>
+  <tr>
+   <td>
+  Favorite Cake: 
+
+   </td>
+   <td>
+    <select id="favoriteCake">
+     <option value="ButterCream">Butter Cream</option>
+     <option value="Chocolate">Chocolate</option>
+     <option value="Vanilla">Vanilla</option>
+     <option value="RedVelvet">Red Velvet</option>
+   </select><BR>
+  </td>
+ </tr>
+  <tr>
+   <td>
+  Frequency of Emails: 
+
+   </td>
+   <td><input type="radio" name="frequency" id="frequency1" >Email me monthly<BR>
+       <input type="radio" name="frequency" id="frequency2" >Email me quarterly<BR>
+       <input type="radio" name="frequency" id="frequency3" >Email me near my birthday<BR>
+  </td>
+ </tr>
+</table>
+<input type="submit" id="sbutton" name="sbutton"  value="Join our mailing List" />
+<input type="reset" value="Reset the form" />
+</form>
+</div>
+<div class="footer">
+</div>
+</body>
+</html>

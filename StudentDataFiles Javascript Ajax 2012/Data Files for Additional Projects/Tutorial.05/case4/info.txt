@@ -1,0 +1,64 @@
+Company
+=======
+Wizard Works Fireworks
+4311 Tower Street 
+Ashland, KY  41105 
+(606) 555-3188 
+
+
+Link Names
+==========
+Home
+Assortments
+Firecrackers
+Fountains
+Cones
+Rockets
+Sparklers
+Online Store
+Shopping Cart
+Your Account
+Safety
+Tech Support
+Customer Service
+About Us
+Contact Us
+
+
+Fountain Products
+=================
+Green/Purple Fountain: $3.50 ea.
+Silver Cone: $4.95 ea.
+Glitter Cone: $6.95 ea.
+Glittering Stars: $9.95 ea.
+Fountain Kit: $19.95 ea.
+Fountain Kit Deluxe: $29.95
+Giant Fountain: $39.95
+
+
+Regular Expressions
+===================
+
+Integers 0 or greater
+/^\d+$/
+
+General Phone Numbers
+/^\(?\d{3}[\)-]?\s?\d{3}[\s-]?\d{4}$/
+
+All occurences of white Space
+/\s/g
+
+American Express
+/^3[47]\d{13}$/
+
+Diners Club
+/^30[0-5]\d{11}$|^3[68]\d{12}$/
+
+Discover Card
+/^6011\d{12}$/
+
+MasterCard
+/^5[1-5]\d{14}$/
+
+Visa
+/^4(\d{12}|\d{15})$/

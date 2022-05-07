@@ -1,0 +1,53 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 10
+   Tutorial Case
+
+   Frame Blocking Demo Title Frame
+   Author: Patrick Carey
+   Date:   1/1/2012
+
+   Filename:         demo_frame1.htm
+   Supporting files: demo.gif
+-->
+<title>Frame Blocking Demo Title Frame1</title>
+
+<style type="text/css">
+body {background-color:white; font-family: Arial, Helvetica, sans-serif; margin-top: 5px}
+h2 {color:yellow; background-image: url(demo.gif); letter-spacing: 1em;
+    font-size: 1.5em; padding: 10px; margin-bottom: 0px; text-align: right}
+p {font-size: 0.8em; padding: 10 30 10 30; border: solid 1px black; margin-top:0; 
+   background-color: ivory}
+#first {margin-bottom: 0px; border-bottom: solid 1px ivory}
+pre {padding: 10px 30px 10px 30px; border-right: solid 1px black; 
+     border-left: solid 1px black;
+     margin-top: 0px; margin-bottom: 0px; background-color: ivory}
+#second {border-top: solid 1px ivory}
+</style>
+
+<script type="text/javascript">
+if (top.location.href == self.location.href) {
+   top.location.href = "demo_frameblocker.htm";
+}
+</script>
+
+</head>
+
+<body><h2>Frame Blocking</h2>
+<p id="first">This demo explores how to employ frame-blocking to prevent 
+a Web page from appearing within a frame. Click the link in the left frame to 
+view the file imusic.htm. The page will appear within the right frame. However, if 
+you add the following JavaScript commands to imusic.htm</p>
+<pre>
+if (top.location.href != self.location.href) { <br />
+   top.location.href = self.location.href;<br />}
+</pre>
+<p id="second"> and run them when the 
+page is loaded the browser will compare the URL of the topmost window to 
+the URL of imusic.htm. If different, JavaScript will change the location 
+of the topmost window to the location of the current window. As a result, 
+imusic.htm will jump to the top of the frame hierachy, replacing the entire frameset.</p>
+</body>
+</html>

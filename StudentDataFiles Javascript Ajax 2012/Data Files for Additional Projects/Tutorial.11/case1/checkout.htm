@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 11
+   Case Problem 1
+
+   The Spice Bowl Checkout Page
+
+   Filename:         checkout.htm
+   Supporting files: back.png, barimage.png, barimage2.png, barimage3.png,
+                     demo.js, lineimage.png, sliders.css, sliders.js, wm.css, 
+                     wmlibrary.js, wmlogo.png
+
+-->
+
+   <title>The Spice Bowl Checkout</title>
+
+   <link type="text/css" href="sb.css" rel="stylesheet" />
+
+   <script type="text/javascript" src="sblibrary.js"></script>
+   <script type="text/javascript" src="checkout.js"></script>
+</head>
+
+<body>
+   <div id="heading">
+      <img src="sblogo.png" alt="The Spice Bowl" usemap="#checkout" />
+      <map id="checkout" name="checkout">
+         <area shape="rect" coords="800,0,900,60" href="checkout.htm" alt="Checkout" />
+      </map>
+   </div>
+
+   <ul id="sideLinks">
+      <li class="newgroup"><a href="#">Home</a></li>
+      <li><a href="#">Keyword Search</a></li>
+
+      <li class="newgroup"><a href="#">Spices</a></li>
+      <li><a href="#">Seasonings</a></li>
+      <li><a href="#">Blends</a></li>
+      <li><a href="#">Salts &amp; Peppers</a></li>
+      <li><a href="#">Popcorn Seasonings</a></li>
+      <li><a href="#">Dip Mixes</a></li>
+      <li><a href="#">Bulk Spices</a></li>
+      <li><a href="#">Extracts</a></li>
+      <li><a href="#">Flavorings</a></li>
+
+      <li class="newgroup"><a href="#">Spice Jars</a></li>
+      <li><a href="#">Spice Jar Labels</a></li>
+      <li><a href="#">Spice Sets</a></li>
+      <li><a href="#">Mortar &amp; Pestles</a></li>
+
+      <li class="newgroup"><a href="#">Cookbooks</a></li>
+      <li><a href="#">Online Recipes</a></li>
+      <li><a href="#">Forums</a></li>
+
+      <li class="newgroup"><a href="#">My Account</a></li>
+      <li><a href="checkout.htm">Checkout</a></li>
+      <li><a href="#">Order History</a></li>
+      <li><a href="#">Shipping Info</a></li>
+
+      <li class="newgroup"><a href="#">Tech Support</a></li>
+      <li><a href="#">Hours</a></li>
+      <li><a href="#">Contact Us</a></li>
+   </ul>
+
+   <img src="h1checkout.png" alt="Checkout" id="h1img2" />
+   <div id="main">
+      <div id="cartStatus"><p>Your shopping cart is currently empty.</p></div>
+
+
+      <address>The Spice Bowl &#183; 8711 Business Park &#183; 
+               East Point, GA 30344
+               &#183; (404) 555- 8711
+      </address>
+
+   </div>
+
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 5
+   Review Assignment
+
+   GPS-ware Order Form
+   Author:  
+   Date:    
+
+   Filename:         order.htm
+   Supporting files: gps.css, gpsware.jpg, form.js
+
+-->
+   <title>GPS-ware Order Form</title>
+   <link href="gps.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<form id="orders" method="post" action="done.htm">
+
+   <div id="links">
+      <a href="#" class="newgroup">Home Page</a>
+      <a href="#">Product Catalog</a>
+      <a href="#">Order Form</a>
+      <a href="#">Maps Online</a>
+      <a href="#">Contact Us</a>
+      <a href="#" class="newgroup">Countries</a>
+      <a href="#">States</a>
+      <a href="#">National Parks</a>
+      <a href="#">Hiking Trails</a>
+      <a href="#">Cities</a>
+      <a href="#">Astronomical</a>
+      <a href="#">Natural</a>
+      <a href="#" class="newgroup">GoMap 1.0</a>
+      <a href="#">Drive Planner 2.0</a>
+      <a href="#">Hiker 1.0</a>
+      <a href="#">G-Receiver I</a>
+      <a href="#">G-Receiver II</a>
+      <a href="#">G-Receiver III</a>
+      <a href="#" class="newgroup">Downloads</a>
+      <a href="#">Tech Support</a>
+      <a href="#">FAQs</a>
+   </div>
+
+   <div id="main">
+      <p id="logo"><img src="gpsware.jpg" alt="GPS-ware" /></p>
+      <h1>Order Form</h1>
+      <p id="datep">
+         <input class="text" id="date" name="date" size="11" value="mm-dd-yyyy" 
+          tabindex="-1" readonly="readonly" />
+      </p>
+
+   <fieldset>
+      <legend>Enter the quantity of each item and press the Tab key</legend>
+      <table cellspacing="2">
+         <tr><th class="label">Product</th><th>Price</th>
+             <th>Quantity</th><th>Cost</th></tr>
+         <tr>
+             <td class="label">GoMap 1.0</td>
+             <td><input name="price1" id="price1" size="8" value="19.95" 
+                 tabindex="-1" readonly="readonly" />
+             </td>
+             <td><input name="qty1" id="qty1" size="8" value="0" />
+             </td>
+             <td><input name="cost1" id="cost1" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+             </td>
+         </tr>
+         <tr>
+             <td class="label">Drive Planner 2.0</td>
+             <td><input name="price2" id="price2" size="8" value="29.95" 
+              tabindex="-1" readonly="readonly" />
+             </td>
+             <td><input name="qty2" id="qty2" size="8" value="0" />
+             </td>
+             <td><input name="cost2" id="cost2" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+             </td>
+         </tr>
+         <tr>
+             <td class="label">Hiker 1.0</td>
+             <td><input name="price3" id="price3" size="8" value="29.95" 
+              tabindex="-1" readonly="readonly" /></td>
+             <td><input name="qty3" id="qty3" size="8" value="0" />
+             </td>
+             <td><input name="cost3" id="cost3" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+             </td>
+         </tr>
+         <tr>
+             <td class="label">G-Receiver I</td>
+             <td><input name="price4" id="price4" size="8" value="149.50" 
+              tabindex="-1" readonly="readonly" /></td>
+             <td><input name="qty4" id="qty4" size="8" value="0" />
+             </td>
+             <td><input name="cost4" id="cost4" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+             </td>
+         </tr>
+         <tr>
+            <td class="label">G-Receiver II</td>
+            <td><input name="price5" id="price5" size="8" value="199.50" 
+              tabindex="-1" readonly="readonly" /></td>
+            <td><input name="qty5" id="qty5" size="8" value="0" />
+            </td>
+            <td><input name="cost5" id="cost5" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+            </td>
+         </tr>
+         <tr>
+            <td class="label">G-Receiver III</td>
+            <td><input name="price6" id="price6" size="8" value="249.50" 
+              tabindex="-1" readonly="readonly" /></td>
+            <td><input name="qty6" id="qty6" size="8" value="0" />
+            </td>
+            <td><input name="cost6" id="cost6" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+            </td>
+         </tr>
+         <tr><td class="col4" colspan="4">&nbsp;</td></tr>
+         <tr>
+            <td class="col3" colspan="3">Sales Tax (5%)</td>
+            <td><input name="tax" id="tax" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+            </td>
+         </tr>
+         <tr>
+            <td class="col3" colspan="3">
+                <select id="shipping" name="shipping">
+                <option value="0">Choose a shipping option</option>
+                <option value="4.95">Standard (4-6 business days) $4.95</option>
+                <option value="8.95">Express (2 days) $8.95</option>
+                <option value="12.95">Next Day (1 day) $12.95</option>
+                </select>
+            </td>
+            <td><input name="shipcost" id="shipcost" value="0.00" size="12" 
+              tabindex="-1" readonly="readonly" />
+            </td>
+         </tr>
+         <tr>
+            <td class="col3" colspan="3">TOTAL</td>
+            <td><input name="total" id="total" size="12" value="0.00" 
+              tabindex="-1" readonly="readonly" />
+            </td>
+         </tr>
+      </table>
+      </fieldset>
+  
+      <p id="pbuttons">
+         <input type="reset" value="Reset" />
+         <input type="submit" value="Submit Order" />
+      </p>
+
+   </div>
+
+   </form>
+
+</body>
+</html>

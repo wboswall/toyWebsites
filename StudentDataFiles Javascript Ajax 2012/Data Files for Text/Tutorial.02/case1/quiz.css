@@ -1,0 +1,38 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 2
+   Case Problem 1
+   Filename: quiz.css
+
+   This file contains styles used in the Quiz Web site
+
+*/
+body {margin: 0px; background-color: ivory}
+#header {position: absolute; top: 0px; left: 0px; width: 660px; height: 75px;
+         background-color: blue; color: white; text-align: right;
+         font-size: 9pt; font-family: Arial, Helvetica, sans-serif}
+#header p {padding-right: 10px; margin: 0px}
+#header img {float: left; margin: 0px; border: 0px}
+#header span {font-weight: bold; font-size: 10pt}
+
+#intro {position: absolute; top: 80px; left: 5px; width: 200px;
+        font-family: Arial, Helvetica, sans-serif}
+#intro p {font-size: 8pt; text-align: justify; padding: 5px; margin: 0px}
+#clock {position: absolute; top: 0px; left: 5px; width: 200px; text-align: center}
+#intro #buttons {text-align: center}
+
+#quizclock {width: 120px; text-align: right;
+            background-color: blue; color: white; font-size: 42pt;
+            border: 7px ridge white}
+
+#questions {position: absolute; top: 80px; left: 210px; width: 450px;
+            border: 2px solid black; background-color: white}
+
+#questions h1 {width: 100%; font-family: Arial, Helvetica, sans-serif; text-align: center;
+               color: white; background-color: blue; letter-spacing: 6; font-size: 14pt;
+               margin: 0px; padding: 5px 0px}
+table {font-family: Arial, Helvetica, sans-serif; font-size: 9pt; margin: 10px;
+       visibility: hidden}
+th {width: 50px; text-align: left}
+td, th {vertical-align: top}
+td img {vertical-align: bottom}

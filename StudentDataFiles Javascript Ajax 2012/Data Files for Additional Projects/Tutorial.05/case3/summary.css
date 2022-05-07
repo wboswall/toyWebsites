@@ -1,0 +1,29 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 5
+   Case Problem 3
+   Filename: summary.css
+
+   This file contains styles used in the summary.htm file.
+
+*/
+
+body {margin: 0px; background: white url(back.jpg) repeat-y scroll 0px 0px}
+#head {position: absolute; top: 0px; left: 130px; background-color: black; padding: 0px; width: 100%;
+       padding: 0px}
+#links {position: absolute; top: 105px; left: 0px}
+#edge {position: absolute; top: 105px; left: 130px}
+
+#main {position: absolute; top: 120px; left: 160px; width: 510px;
+       font-family: Arial, Helvetica, sans-serif}
+
+
+#main p {font-size: 9pt}
+#main #intro {text-align: right}
+
+table#summary {width: 510px; font-size: 9pt; padding: 5px;
+               border-top: 1px solid black;
+               border-bottom: 1px solid black}
+table#summary h3 {margin: 0px}
+
+td {vertical-align: top}

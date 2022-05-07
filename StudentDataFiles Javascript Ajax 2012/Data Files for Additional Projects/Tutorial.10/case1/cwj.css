@@ -1,0 +1,42 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 10
+   Case Problem 1
+   Filename: cwj.css
+
+   This file contains styles used in the Civil War Journal Web site
+
+*/
+
+body               {background-image:url("parch.jpg"); color:brown}
+
+#head              {width: 600px; padding-bottom: 10px;
+                    border-bottom: 5px double brown}
+#head img          {display: block; margin: 0px auto}
+
+#head ul           {list-style-type: none; margin: 0px 0px 15px 0px; padding: 0px}
+#head ul li        {float: left; width: 118px}
+#head ul li a      {color: brown; text-decoration: none;
+                    font-size: 14px; 
+                    font-family: Arial, Helvetica, sans-serif}
+#head ul li a:hover {text-decoration: underline}
+
+#main              {width: 600px;  
+                    border-bottom: 5px double brown}
+
+#photo             {float: right; margin: 5px 0px 5px 5px}
+
+h2                 {color:brown; 
+                    font-family:Arial, Helvetica, sans-serif;
+                    font-weight: normal; letter-spacing: 5px;
+                    font-size: 20px}
+p                  {color:brown}
+a                  {color:brown}
+#secondp           {text-align: right; margin-bottom: 10px}
+address            {width: 600px; margin-top:10px; 
+                    color:brown; text-align:center; 
+                    font-size: 12px; 
+                    font-style:normal}
+
+td                 {font-family: Arial, Helvetica, sans-serif;
+                    font-size: 13px}

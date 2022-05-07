@@ -1,0 +1,117 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 11
+   Tutorial Case
+
+   Filename: board.css
+
+   This file contains styles used in the poker.htm Web page
+
+*/
+
+*                      {margin: 0px; padding: 0px; border-width: 0px; line-height: 1.2em;
+                        color: black;
+                        font-family: 'Trebuchet MS', Arial, Verdana, sans-serif}
+
+body                   {background: green url(back2.png) repeat-y top left}
+
+#page                  {background: transparent url(back1.png) no-repeat top left;
+                        position: absolute; top: 0px; left: 0px;
+                        width: 900px; height: 400px}
+
+#head                  {position: absolute; top: 5px; left: 256px}
+#head ul               {list-style-type: none}
+#head ul li            {width: 118px; float: left; text-align: center;
+                        border: 1px solid rgb(64, 96, 64)}
+#head ul li a          {display: block; text-decoration: none;
+                        background-color: white; padding: 2px 0px}
+#head ul li a:hover    {color: yellow; background-color: rgb(0, 52, 0)}
+
+#sideLinks             {position: absolute; top: 280px; left: 10px}
+#sideLinks h1          {font-size: 16px; color: yellow; font-weight: normal;
+                        letter-spacing: 3px; margin-bottom: 10px}
+#sideLinks ul          {list-style-type: none; margin-left: 10px}
+#sideLinks a           {font-size: 14px; color: yellow; text-decoration: none}
+#sideLinks a:hover     {color: white}
+li.newgroup            {margin-top: 20px}
+
+#pokerTable            {background: transparent url(pokertable.png) no-repeat center center;
+                        width: 722px; height: 337px; 
+                        position: absolute; top: 112px; left: 235px;
+                        color: white}
+
+#hand                  {display: block;
+                        width: 722px; height: 337px;
+                        position: absolute; top: 0px; left: 0px}
+
+
+img#cardstack          {position: absolute; left: 55px; top: 95px}
+
+#handValue             {position: absolute; top: 70px; left: 165px;
+                        width: 375px; text-align: center;
+                        color: yellow; font-size: 18px; letter-spacing: 3px}
+
+#potInfo               {position: absolute; top: 98px; left: 565px;
+                        font-size: 18px; color: white}
+#potInfo #pot          {background-color: white; color: black;
+                        font-size: 16px;
+                        width: 80px; padding-left: 5px}
+
+#betInfo               {position: absolute; top: 153px; left: 565px;
+                        font-size: 18px; color: white}
+#betInfo select        {width: 100px; padding-left: 5px; font-size: 16px}
+
+
+img.pokerCard          {display: block; width: 71px; height: 96px; 
+                        cursor: pointer}
+
+img#card0                 {position: absolute; left: 164px; top: 100px}
+img#card1                 {position: absolute; left: 240px; top: 100px}
+img#card2                 {position: absolute; left: 318px; top: 100px}
+img#card3                 {position: absolute; left: 394px; top: 100px}
+img#card4                 {position: absolute; left: 470px; top: 100px}
+
+
+#instructions          {position: absolute; top: 210px; left: 80px;
+                        text-align: center; line-height: 1.2;
+                        width: 540px; font-size: 12px; color: white}
+#instructions strong   {color: yellow; font-weight: bold}
+
+input.pokerButton      {position: absolute; top: 265px;
+                        text-align: center;
+                        display: block; width: 100px;
+                        font-size: 20px; color: white;
+                        letter-spacing: 3px;
+                        background-color: rgb(64, 76, 64);
+                        border: 3px double white;
+                        cursor: pointer}
+
+input#dealB            {left: 150px}
+input#drawB            {left: 260px; filter: alpha(opacity = 25); opacity: 0.25}
+input#standB           {left: 370px; filter: alpha(opacity = 25); opacity: 0.25}
+input#resetB           {left: 480px}
+
+#oddsTable             {position: absolute; top: 460px; left: 400px;
+                        background-color: white; 
+                        border: 2px solid rgb(64, 76, 64);
+                        border-collapse: collapse}
+
+#oddsTable th          {background-color: rgb(64, 76, 64);
+                        text-align: center;
+                        font-weight: normal;
+                        color: yellow;
+                        padding: 2px 5px;
+                        border-right: 1px solid yellow}
+#oddsTable td          {border: 1px solid rgb(64, 76, 64);
+                        text-align: right;
+                        padding: 0px 7px}
+#oddsTable .firstCol   {width: 140px}
+#oddsTable .secondCol  {background-color: rgb(255, 255, 192); width: 50px}
+
+address                {position: absolute; top: 630px; left: 170px;
+                        padding: 8px 0px 20px;
+                        width: 800px; text-align: center;
+                        color: rgb(255, 255, 192);
+                        font-size: 12px; font-style: normal;
+                        font-variant: small-caps;
+                        border-top: 1px solid rgb(255, 255, 192)}
