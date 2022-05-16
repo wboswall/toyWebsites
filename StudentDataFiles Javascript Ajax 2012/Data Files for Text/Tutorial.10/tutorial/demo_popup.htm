@@ -1,0 +1,215 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 10
+   Tutorial Case
+
+   Pop-up Windows Demo
+   Author: Patrick Carey
+   Date:   3/1/2012
+
+   Filename:         demo_popup.htm
+   Supporting files: demo.gif, demo2.gif, demo_pop.htm
+-->
+<title>Pop-up Window Demo</title>
+<style type="text/css">
+
+/* use for all demo pages */
+   html       {height: 100%}
+   body       {background-color: white; background-image: url(demo2.gif); margin: 0px; 
+               width: 100%; height: 100%}
+   #demo_page {background-color: white; 
+               border-right: 5px solid rgb(0,0,128); position: absolute; top: 0px; left: 0px;
+               width: 900px; padding-bottom: 15px; min-height: 100%}
+   * html #demo_page {height: 100%}
+
+   #demo_intro {width: 100%; position: relative; margin: 0px 10px}
+   #demo_intro table {margin: 0px; padding: 0px; border: 0px; width: 97%}
+   #demo_intro table td {vertical-align: bottom; padding-bottom: 5px}
+   #h2heading {color:yellow; background-image: url(demo.gif); letter-spacing: 0.75em; 
+               font-family: Arial, Helvetica, sans-serif; width: 97%; 
+               font-size: 1.5em; margin: 0px; text-align: right; 
+               border: 1px solid black}
+
+   #para      {font-size: 1em; border: 1px solid black; width: 97%;
+               background-color: ivory}
+   #para p    {margin: 8px}
+
+   #demo_container {position: relative; top: 10px; left: 0px; width: 100%;
+                    margin: 0px 10px}
+   #demo_footer {text-align: center; font-size: 8pt; border-top: 1px solid black; 
+                 margin: 25px 10px; width: 97%}
+   span.btitle {font-style: italic}
+
+/* styles specific to this demo */
+
+
+
+</style>
+
+<script type="text/javascript">
+Features="";
+function setFeatures() {
+   Features = "";
+   if (document.cform.Left.value != "") 
+     {Features += "left="+document.cform.Left.value+",screenX="+document.cform.Left.value+",";}
+   if (document.cform.Top.value != "") 
+     {Features+="top="+document.cform.Top.value+",screenY="+document.cform.Top.value+",";}
+   if (document.cform.Width.value != "") 
+     {Features+="width="+document.cform.Width.value+",";}
+   if (document.cform.Height.value != "") 
+     {Features+="height="+document.cform.Height.value+",";}
+
+   if (document.cform.Resize.checked) {
+      Features+="resizable=yes,";
+   } else {
+      Features+="resizable=no,";
+   }
+
+   if (document.cform.Dir.checked) {
+      Features+="directories=yes,";
+   } else {
+      Features+="directories=no,";
+   }
+
+   if (document.cform.Loc.checked) {
+      Features+="location=yes,";
+   } else {
+      Features+="location=no,";
+   }
+
+   if (document.cform.Menu.checked) {
+      Features+="menubar=yes,";
+   } else {
+      Features+="menubar=no,";
+   }
+
+   if (document.cform.Scroll.checked) {
+      Features+="scrollbars=yes,";
+   } else {
+      Features+="scrollbars=no,";
+   }
+
+   if (document.cform.Status.checked) {
+      Features+="status=yes,";
+   } else {
+      Features+="status=no,";
+   }
+
+   if (document.cform.Tool.checked) {
+      Features+="toolbar=yes,";
+   } else {
+      Features+="toolbar=no";
+   }
+   document.cform.f_string.value='window.open("demo_pop.htm","Demo","'+Features+'")';
+}
+
+function showWin() {
+   PopWin=window.open("demo_pop.htm","Demo",Features);
+}
+</script>
+
+</head>
+
+<body>
+<form id="cform" name="cform" action="">
+<div id="demo_page">
+
+<div id="demo_intro">
+   <table>
+   <tr><td style="width: 50%"><img src="cengage.jpg" alt="Course Technology Cengage Learning" /></td>
+       <td style="width: 50%; text-align:right; font-family: Arial, Helvetica, sans-serif; font-size: 14pt">
+          New Perspectives on JavaScript, 2nd Edition<br />Tutorial 10
+   </td></tr>
+   </table>
+
+   <h2 id="h2heading">Pop-up Windows Features </h2>
+   <div id="para">
+   <p>This demo displays how to control the appearance of a pop-up window
+      with JavaScript. Enter the window's dimensions and select the features 
+      that you want to include in the window, and then click the <b>Show
+      pop-up window</b> button. The JavaScript code to create the pop-up window
+      is shown in the box at the bottom of the document.
+   </p>
+   </div>
+</div>
+
+<div id="demo_container">
+   <table width="98%" cellpadding="5">
+
+   <tr>
+   <td width="33%">
+      Left edge: <input name="Left" size="5" value="" onChange="setFeatures()" />
+   </td>
+   <td width="33%">
+      Top edge: <input name="Top" size="5" value="" onChange="setFeatures()" />
+   </td>
+   <td width="33%">
+      &nbsp;
+   </td>
+   </tr>
+
+   <tr>
+   <td width="33%">
+      Width: &nbsp;&nbsp;&nbsp;&nbsp;
+      <input name="Width" size="5" value="" onChange="setFeatures()" />
+   </td>
+   <td width="33%">
+      Height: &nbsp;&nbsp;&nbsp;&nbsp;
+      <input name="Height" size="5" value="" onChange="setFeatures()" />
+   </td>
+   <td width="33%">
+      <input name="Resize" type="checkbox" onClick="setFeatures()" /> Window can be resized
+   </td>
+   </tr>
+
+   <tr>
+   <td width="33%">
+      <input name="Dir" type="checkbox" onClick="setFeatures()" /> Display directory buttons 
+   </td>
+   <td width="33%">
+      <input name="Loc" type="checkbox" onClick="setFeatures()" /> Display location box 
+   </td>
+   <td width="33%">
+      <input name="Menu" type="checkbox" onClick="setFeatures()" /> Display menu bar  
+   </td>
+   </tr>
+
+   <tr>
+   <td width="33%">
+      <input name="Scroll" type="checkbox" onClick="setFeatures()" /> Display scroll bars 
+   </td>
+   <td width="33%">
+      <input name="Status" type="checkbox" onClick="setFeatures()" /> Display status bar
+   </td>
+   <td width="33%">
+      <input name="Tool" type="checkbox" onClick="setFeatures()" /> Display toolbar
+   </td>
+   </tr>  
+
+   <tr><td colspan="3" align="center">
+      <textarea name="f_string" wrap="soft"
+       style="font-family: courier; font-size:10pt;
+              text-align:left;
+              color:black; padding:5px; width:98%; height: 75px">window.open()</textarea>
+   </td></tr>
+   <tr><td colspan="3" align="center">
+       <input type="button" style="text-align: center" onclick="showWin()" value="Show pop-up window" />
+   </td></tr>
+   </table>
+
+</div>
+
+<div id="demo_footer">
+   Carey, P.
+   <span class="btitle">New Perspectives on JavaScript, 2nd Edition</span>,
+   Course Technology: Boston, 2009.
+</div>
+
+</div>
+</form>
+</body>
+</html>
+
+

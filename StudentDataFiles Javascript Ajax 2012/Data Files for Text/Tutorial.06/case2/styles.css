@@ -1,0 +1,37 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 6
+   Case Problem 2
+   Filename: styles.css
+
+   This file contains styles used in the badger.htm file.
+
+*/
+
+body         {margin: 0px; background: white url(back.jpg) repeat-y}
+
+#logo        {position: absolute; top: 0px; left: 0px; 
+              background-color: rgb(255,0,105);width: 100%}
+
+#corner      {position: absolute; top: 129px; left:141px}
+
+#links       {position: absolute; top: 150px; left: 0px}
+
+#title       {position: absolute; top: 140px; left: 180px; width: 366px; 
+              text-align: center}
+
+h1           {font-family: Arial, Helvetica, sans-serif; font-size: 20pt; 
+              letter-spacing: 5px; color: rgb(160,0,64); margin:0px}
+#photos      {position: absolute; top: 170px; left: 180px}
+
+#bar         {background-image: url(bar.jpg);
+              position:absolute; top: 450px; left:180px; width: 368px; 
+              height: 41px}
+
+#button      {border: 4px outset rgb(231,165,198); background-color: white;
+              position: absolute; top: 6px; left: 20px; width: 50px; 
+              height:22px}
+
+#message     {color: rgb(160,0,64); font-family: Arial, Helvetica, sans-serif; 
+              width: 366px; position: absolute; top: 500px; left: 180px; 
+              font-size: 9pt; text-align: justify; padding-bottom: 10px}

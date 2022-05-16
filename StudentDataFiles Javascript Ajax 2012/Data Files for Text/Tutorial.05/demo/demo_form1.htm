@@ -1,0 +1,101 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on HTML, XHTML, and DHTML 4th Edition
+   Tutorial 14
+   Tutorial Case
+
+   Form 1 Demo
+   Author: Patrick Carey
+   Date:   3/1/2012
+
+   Filename:         demo_form1.htm
+   Supporting files: demo.gif
+-->
+<title>Form 1 Demo</title>
+<style type="text/css">
+
+/* use for all demo pages */
+   html       {height: 100%}
+   body       {background-color: white; background-image: url(demo2.gif); margin: 0px; 
+               width: 100%; height: 100%}
+   #demo_page {background-color: white; 
+               border-right: 5px solid rgb(0,0,128); position: absolute; top: 0px; left: 0px;
+               width: 900px; padding-bottom: 15px; min-height: 100%}
+   * html #demo_page {height: 100%}
+
+   #demo_intro {width: 100%; position: relative; margin: 0px 10px}
+   #demo_intro table {margin: 0px; padding: 0px; border: 0px; width: 97%}
+   #demo_intro table td {vertical-align: bottom; padding-bottom: 5px}
+   #h2heading {color:yellow; background-image: url(demo.gif); letter-spacing: 0.75em; 
+               font-family: Arial, Helvetica, sans-serif; width: 97%; 
+               font-size: 1.5em; margin: 0px; text-align: right; 
+               border: 1px solid black}
+
+   #para      {font-size: 1em; border: 1px solid black; width: 97%;
+               background-color: ivory}
+   #para p    {margin: 8px}
+
+   #demo_container {position: relative; top: 10px; left: 0px; width: 100%;
+                    margin: 0px 10px}
+   #demo_footer {text-align: center; font-size: 8pt; border-top: 1px solid black; 
+                 margin: 25px 10px; width: 97%}
+   span.btitle {font-style: italic}
+
+/* styles specific to this demo */
+
+</style>
+
+
+</head>
+
+<body>
+<form id="dform1" name="dform1" action="demo_form2.htm" method="get">
+<div id="demo_page">
+
+<div id="demo_intro">
+   <table>
+   <tr><td style="width: 50%"><img src="cengage.jpg" alt="Course Technology Cengage Learning" /></td>
+       <td style="width: 50%; text-align:right; font-family: Arial, Helvetica, sans-serif; font-size: 14pt">
+          New Perspectives on HTML, XHTML and Dynamic HTML<br />Tutorial 14
+   </td></tr>
+   </table>
+
+   <h2 id="h2heading">Passing Form Data </h2>
+   <div id="para">
+<p id="firstp">This demo page displays how to pass data from one form to another by appending the
+data to a URL. Fill out the form below and click the <b>Submit</b> button to open the
+second form in the demo. The values you enter in the form will be appended to the URL of the 
+second form. A script running in the second form will extract the field names and values and
+display them in the page.
+   </p>
+   </div>
+</div>
+
+<div id="demo_container">
+<table>
+<tr> <td>1) Enter your name</td>
+     <td><input id="name" name="name" size="35" /></td>
+</tr>
+<tr> <td>2) Enter your age</td>
+     <td><input id="age" name="age" size="4" /></td>
+</tr>
+<tr> <td>3) Enter your city of residence</td>
+     <td><input id="city" name="city" size="35" /></td>
+</tr>
+<tr><td colspan="2"><input type="submit" value="Submit" /></td></tr>
+</table>
+</div>
+
+<div id="demo_footer">
+   Carey, P.
+   <span class="btitle">New Perspectives on HTML, XHTML, and Dynamic HTML</span>,
+   Course Technology: Boston, 2009.
+</div>
+
+</div>
+</form>
+</body>
+</html>
+
+

@@ -1,0 +1,18 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 10
+   Case Problem 2
+   Filename: brain.css
+
+   This file contains styles used parts of the brain.htm file
+
+*/
+
+#main {width: 600px; border: 10px outset rgb(138,208,242); padding: 5px 15px 5px 15px; background-color: yellow}
+h1 {font-family: Arial, Helvetica, sans-serif; color: white; width: 100%; text-align: center;
+    background-color: blue; letter-spacing: 6; padding: 5px; margin-top:0px}
+p {font-family: Arial, Helvetica, sans-serif}
+iframe {float: left; width: 200px; height: 200px; margin-right: 15px; background-color: white}
+img {border-width: 0px}
+address {font-style: normal; font-size: 8pt; border-top: 2px solid blue;
+         text-align: center; clear: left; margin-top: 30px}

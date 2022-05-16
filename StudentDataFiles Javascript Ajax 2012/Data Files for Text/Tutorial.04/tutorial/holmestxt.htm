@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 4
+   Tutorial Case
+
+   The 221B Blog
+   Author:           
+   Date:             
+
+   Filename:         holmes.htm
+   Supporting files: menus.js, logo.jpg, sh.jpg, shblog.css
+
+-->
+   <title>The 221B Blog</title>
+   <link href="shblog.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+   <div id="page">
+   <form id="searchForm" action="">
+
+      <div id="logo">
+         <img src="logo.jpg" alt="The 221B Blog" />
+         <input id="searchTxt" type="text" size="20" />
+         <label for="searchTxt">Search</label>
+      </div>
+
+      <div id="menu1" class="menu">
+         <a href="#">The Adventures of Sherlock Holmes</a>
+      </div>
+      <div id="menu1List" class="menuList">
+         <ul>
+            <li><a href="#">A Scandal in Bohemia</a></li>
+            <li><a href="#">The Red-headed League</a></li>
+            <li><a href="#">A Case of Identity</a></li>
+            <li><a href="#">The Boscombe Valley Mystery</a></li> 
+            <li><a href="#">The Five Orange Pips</a></li>
+            <li><a href="#">The Man with the Twisted Lip</a></li>
+            <li><a href="#">The Blue Carbuncle</a></li>
+            <li><a href="#">The Speckled Band</a></li>
+            <li><a href="#">The Engineer's Thumb</a></li>
+            <li><a href="#">The Noble Bachelor</a></li>
+            <li><a href="#">The Beryl Coronet</a></li>
+            <li><a href="#">The Copper Beeches</a></li>
+         </ul>
+      </div>
+
+      <div id="menu2" class="menu">
+         <a href="#">The Memoirs of Sherlock Holmes</a>
+      </div>
+      <div id="menu2List" class="menuList">
+         <ul>
+            <li><a href="#">Silver Blaze</a></li> 
+            <li><a href="#">The Yellow Face</a></li> 
+            <li><a href="#">The Stock-broker's Clerk</a></li> 
+            <li><a href="#">The "Gloria Scott"</a></li> 
+            <li><a href="#">The Musgrave Ritual</a></li> 
+            <li><a href="#">The Reigate Puzzle</a></li> 
+            <li><a href="#">The Crooked Man</a></li> 
+            <li><a href="#">The Resident Patient</a></li> 
+            <li><a href="#">The Greek Interpreter</a></li> 
+            <li><a href="#">The Naval Treaty</a></li> 
+            <li><a href="#">The Final Problem</a></li>
+         </ul>
+      </div>
+
+      <div id="menu3" class="menu">
+         <a href="#">The Return of Sherlock Holmes</a>
+      </div>
+      <div id="menu3List" class="menuList">
+         <ul>
+            <li><a href="#">The Empty House</a></li> 
+            <li><a href="#">The Norwood Builder</a></li> 
+            <li><a href="#">The Dancing Men</a></li> 
+            <li><a href="#">The Solitary Cyclist</a></li> 
+            <li><a href="#">The Priory School</a></li> 
+            <li><a href="#">Black Peter</a></li> 
+            <li><a href="#">Charles Augustus Milverton</a></li> 
+            <li><a href="#">The Six Napoleons</a></li> 
+            <li><a href="#">The Three Students</a></li> 
+            <li><a href="#">The Golden Pince-Nez</a></li> 
+            <li><a href="#">The Missing Three-Quarter</a></li> 
+            <li><a href="#">The Abbey Grange</a></li> 
+            <li><a href="#">The Second Stain</a></li>
+         </ul>
+      </div>
+
+      <div id="menu4" class="menu">
+         <a href="#">The Case Book of Sherlock Holmes</a>
+      </div>
+      <div id="menu4List" class="menuList">
+         <ul>
+            <li><a href="#">The Illustrious Client</a></li> 
+            <li><a href="#">The Blanched Soldier</a></li> 
+            <li><a href="#">The Mazarin Stone</a></li> 
+            <li><a href="#">The Three Gables</a></li> 
+            <li><a href="#">The Sussex Vampire</a></li> 
+            <li><a href="#">The Three Garridebs</a></li> 
+            <li><a href="#">Thor Bridge</a></li> 
+            <li><a href="#">The Creeping Man</a></li> 
+            <li><a href="#">The Lion's Mane</a></li> 
+            <li><a href="#">The Veiled Lodger</a></li> 
+            <li><a href="#">Shoscombe Old Place</a></li> 
+            <li><a href="#">The Retired Colourman</a></li>
+         </ul> 
+      </div>
+
+      <div id="menu5" class="menu">
+         <a href="#">His Last Bow</a>
+      </div>
+      <div id="menu5List" class="menuList">
+         <ul>
+            <li><a href="#">Wisteria Lodge</a></li> 
+            <li><a href="#">The Cardboard Box</a></li> 
+            <li><a href="#">The Red Circle</a></li> 
+            <li><a href="#">The Bruce-Partington Plans</a></li> 
+            <li><a href="#">The Dying Detective</a></li> 
+            <li><a href="#">The Disappearance of Lady Frances Carfax</a></li> 
+            <li><a href="#">The Devil's Foot</a></li> 
+            <li><a href="#">His Last Bow</a></li>
+         </ul>
+      </div>
+
+      <div id="menu6" class="menu">
+         <a href="#">The Novels</a>
+      </div>
+      <div id="menu6List" class="menuList">
+         <ul>
+            <li><a href="#">A Study in Scarlet</a></li>  
+            <li><a href="#">The Sign of the Four</a></li>  
+            <li><a href="#">The Hound of the Baskervilles</a></li>  
+            <li><a href="#">The Valley of Fear</a></li> 
+         </ul> 
+      </div>
+
+      <ul id="linkList">
+         <li><a href="#">Home</a></li>
+         <li class="newGroup"><a href="#">Essays</a></li>
+         <li><a href="#">Fan Fiction</a></li>
+         <li><a href="#">Art</a></li>
+         <li class="newGroup"><a href="#">Discussion Forum</a></li>
+         <li class="newGroup"><a href="#">Holmes on the Web</a></li>
+         <li><a href="#">The 221B Museum</a></li>
+         <li><a href="#">Jeremy Brett Page</a></li>
+         <li><a href="#">Basil Rathbone Page</a></li>
+         <li><a href="#">The Baker Street Irregulars</a></li>
+         <li class="newGroup"><a href="#">Holmes Radio Podcast</a></li>
+         <li><a href="#">Holmes Audiobooks</a></li>
+         <li class="newGroup"><a href="#">About Arthur Conan Doyle</a></li>
+         <li><a href="#">Victorian England</a></li>
+         <li><a href="#">Strand Magazine</a></li>
+         <li><a href="#">The Holmes Atlas</a></li>
+         <li class="newGroup"><a href="#">Other Fictional Detectives</a></li>
+         <li class="newGroup"><a href="#">About the WebMaster</a></li>
+         <li><a href="#">Issues Archive</a></li>
+      </ul>
+
+
+      <div id="main">
+         <img src="sh.jpg" alt="" style="float: right; margin: 0px 0px 5px 5px" />
+         <p id="firstp">
+            The most famous of fictional detectives, Sherlock Holmes
+            first appeared in print in 1887, in stories written by the Scottish author
+            and physician, Sir Arthur Conan Doyle. Holmes is famous for his use
+            of deductive reasoning to solve difficult and complex cases. Almost
+            all Holmes stories are told in the first-person narration of
+            Dr. John Watson, Holmes' closest friend and confidant.</p>
+   
+         <p>Doyle wrote four novels and 56 short stories in the Sherlock Holmes
+            canon. The first Holmes tale was the novel, <i>A Study in Scarlet</i>, 
+            which chronicled the meeting of Holmes and Watson and covered their 
+            first case together. As Doyle wrote additional tales, the Sherlock Holmes 
+            stories grew in popularity, becoming a regular feature of <i>The 
+            Strand Magazine</i>. Desiring to explore other literary pursuits, Doyle 
+            grew tired of the detective and killed off Holmes in the short story
+            <i>The Final Problem</i>. However, public acclaim and a desire for more
+            Holmes stories eventually persuaded Doyle to resurrect the popular 
+            detective, bringing him back in <i>The Adventure of the Empty House</i>.</p>
+
+         <p>Doyle's final Holmes story, <i>His Last Bow</i>, appeared in 1914, but 
+            that did not end the public's fascination with Holmes and Watson. Basil 
+            Rathbone brought the character to the silver screen in 14 movies
+            loosely based on Doyle's original stories. In more recent years,
+            Jeremy Brett played Holmes to great critical acclaim over four seasons of 
+            the BBC series, <i>The Adventures of Sherlock Holmes</i>. In all, Holmes 
+            has been played by over 70 actors appearing in over 200 films.</p>
+
+         <p>To enjoy online versions of the Sherlock Holmes short stories and novels,
+            select entries from the menu at the top of this page.</p>
+      </div>
+
+   </form>
+   </div>
+
+</body>
+</html>

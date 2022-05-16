@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 10
+   Case Problem 2
+
+   Anatomy 101
+   Author:                  
+   Date:             
+
+   Filename:         brain.htm
+   Supporting files: brain.css, brain.jpg, frame.css
+
+-->
+   <title>Parts of the Brain</title>
+   <link href="brain.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+   <div id="main">
+      <h1>Anatomy 101</h1>
+      <p>Move your mouse pointer over the parts of the brain 
+         shown below. A description of the brain lobe will appear 
+         in a pop-up window to the left.</p>
+
+      <p id="brainp">
+         <iframe id="parts" name="parts" src="blank.htm"></iframe>
+         <img src="brain.jpg" usemap="#Brain" alt="" />
+      </p>
+
+      <address>Anatomy 101 &#149; 
+               Prof. Jacob Terrell &#149; 
+               Rm. 231 Groudle Hall &#149;
+               Office Hours: MT 3-5 p.m.
+      </address>
+   </div>
+
+   <map id="Brain" name="Brain">
+      <area shape="poly" alt="Frontal Lobe"href="#"
+coords="101,25,101,34,107,42,116,54,128,63,132,72,133,85,134,97,134,105,140,109,147,115,154,118,160,125,163,130,165,136,165,146,179,146,189,143,198,137,206,129,213,120,218,105,216,88,211,72,202,59,189,49,178,40,166,35,150,30,138,28,129,26,119,26,113,24,106,24,101,24,101,24" />
+
+      <area shape="poly" alt="Parietal Lobe" href="#"
+coords="36,60,41,73,48,87,66,90,84,94,95,94,110,98,128,102,133,106,133,90,131,70,124,61,117,55,112,48,106,41,101,34,99,31,100,25,94,25,86,25,81,28,75,32,71,32,65,33,60,38,52,44,44,49,40,54,36,58" />
+
+      <area shape="poly" alt="Occipital Lobe" href="#"
+coords="34,61,26,70,21,78,17,90,14,99,13,110,15,118,19,123,23,128,31,132,40,135,48,136,58,137,65,136,62,129,58,119,55,109,54,103,52,97,48,90,46,84,43,78,40,72,37,64" />
+
+      <area shape="poly" alt="Temporal Lobe" href="#"   coords="49,88,53,100,57,110,61,124,64,135,68,139,80,142,90,145,102,150,111,156,121,160,130,164,144,164,154,159,158,154,162,146,163,139,163,131,157,121,147,114,137,108,127,104,108,99,94,95,83,95,75,93,65,91,57,89,50,89" />
+
+   </map>
+
+</body>
+</html>

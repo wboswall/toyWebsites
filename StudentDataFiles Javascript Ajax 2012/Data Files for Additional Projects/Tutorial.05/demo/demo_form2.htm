@@ -1,0 +1,130 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on HTML, XHTML, and DHTML 4th Edition
+   Tutorial 14
+   Tutorial Case
+
+   Form 2 Demo
+   Author: Patrick Carey
+   Date:   3/1/2012
+
+   Filename:         demo_form2.htm
+   Supporting files: demo.gif
+-->
+<title>Form Demo</title>
+<style type="text/css">
+
+/* use for all demo pages */
+   html       {height: 100%}
+   body       {background-color: white; background-image: url(demo2.gif); margin: 0px; 
+               width: 100%; height: 100%}
+   #demo_page {background-color: white; 
+               border-right: 5px solid rgb(0,0,128); position: absolute; top: 0px; left: 0px;
+               width: 900px; padding-bottom: 15px; min-height: 100%}
+   * html #demo_page {height: 100%}
+
+   #demo_intro {width: 100%; position: relative; margin: 0px 10px}
+   #demo_intro table {margin: 0px; padding: 0px; border: 0px; width: 97%}
+   #demo_intro table td {vertical-align: bottom; padding-bottom: 5px}
+   #h2heading {color:yellow; background-image: url(demo.gif); letter-spacing: 0.75em; 
+               font-family: Arial, Helvetica, sans-serif; width: 97%; 
+               font-size: 1.5em; margin: 0px; text-align: right; 
+               border: 1px solid black}
+
+   #para      {font-size: 1em; border: 1px solid black; width: 97%;
+               background-color: ivory}
+   #para p    {margin: 8px}
+
+   #demo_container {position: relative; top: 10px; left: 0px; width: 100%;
+                    margin: 0px 10px}
+   #demo_footer {text-align: center; font-size: 8pt; border-top: 1px solid black; 
+                 margin: 25px 10px; width: 97%}
+   span.btitle {font-style: italic}
+
+/* styles specific to this demo */
+
+   input {margin-left: 15px; background-color: rgb(154,154,154); color: yellow}
+   pre   {margin-left: 25px}
+
+</style>
+
+<script type="text/javascript">
+window.onload=retrieveData;
+function retrieveData() {
+   formString = location.search.slice(1);
+   formData = formString.replace(/\+/g, " ");
+   formData = unescape(formData);
+   formArray = formData.split(/[&=]/g);
+
+   document.forms[0].name.value=formArray[1];
+   document.forms[0].age.value=formArray[3];
+   document.forms[0].city.value=formArray[5];
+}
+
+</script>
+
+
+</head>
+
+<body>
+<form id="dform2" name="dform2">
+<div id="demo_page">
+
+<div id="demo_intro">
+   <table>
+   <tr><td style="width: 50%"><img src="cengage.jpg" alt="Course Technology Cengage Learning" /></td>
+       <td style="width: 50%; text-align:right; font-family: Arial, Helvetica, sans-serif; font-size: 14pt">
+          New Perspectives on HTML, XHTML and Dynamic HTML<br />Tutorial 14
+   </td></tr>
+   </table>
+
+   <h2 id="h2heading">Receiving Form Data </h2>
+   <div id="para">
+<p id="firstp">This demo page retrieves the data that you entered in the demo_form1.htm file. Form names and
+values are extracting from the URL for this page using the location.search property and the slice() method. The
++ symbol in the field values (used to represent a blank space) is replaced with a blank space. Finally, the 
+text string is split into individual field names and values using the split() method. The following
+function is run when the page is loaded by the browser:
+   </p>
+<pre>
+function retrieveData() {
+   formString = location.search.slice(1);
+   formData = formString.replace(/\+/g, " ");
+   formData = unescape(formData);
+   formArray = formData.split(/[&=]/g);
+<br />
+   document.forms[0].name.value=formArray[1];
+   document.forms[0].age.value=formArray[3];
+   document.forms[0].city.value=formArray[5];
+}
+</pre>
+   </div>
+</div>
+
+<div id="demo_container">
+<table>
+<tr> <td>1) Your name is</td>
+     <td><input id="name" name="name" size="35" readonly="readonly" /></td>
+</tr>
+<tr> <td>2) Your age is</td>
+     <td><input id="age" name="age" size="4" readonly="readonly" /></td>
+</tr>
+<tr> <td>3) Your city of residence is</td>
+     <td><input id="city" name="city" size="35" readonly="readonly" /></td>
+</tr>
+</table>
+</div>
+
+<div id="demo_footer">
+   Carey, P.
+   <span class="btitle">New Perspectives on HTML, XHTML, and Dynamic HTML</span>,
+   Course Technology: Boston, 2009.
+</div>
+
+</div>
+</form>
+</body>
+</html>
+
+

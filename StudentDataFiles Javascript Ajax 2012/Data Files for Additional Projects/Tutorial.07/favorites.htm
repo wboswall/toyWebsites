@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on HTML, XHTML and DHTML 4th Edition
+   Tutorial 16
+
+
+   Favorite CDs
+   Author:           Ray Enger
+   Date:             3/1/2011
+
+   Filename:         tutorial16solution.htm
+   Supporting files: dynaForm.js, styles.css
+
+-->
+   <title>Top CDs</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+
+   <script type="text/javascript" src="dynaForm.js"></script>
+
+</head>
+
+<body>
+      
+      <div id="header">
+         <img src = "MarkCD.jpg" alt="Mark's Favorite CDs"  />
+      </div>
+      <div id="links">
+          <a href="#">Home</a><br/>
+          <a href="#">Blog</a><br/>
+          <a href="#">Musings</a><br/>
+          <a href="#">Classwork</a><br/>
+          <a href="#">College</a><br/>
+      </div> 
+      <div id = "mainContent">
+        <div id = "FavCD">
+           <h2>My Favorite CDs</h2>
+           <div id = "myFav">
+           </div>
+        </div>
+        <div id = "myCDForm">
+         <form id="cdForm">
+             <table>
+                <tr>
+                  <td>
+                     Select the number of CDs you want to add to your list:
+                       <input type="text" id="numCD" value="0" />
+                       <input type="button" id="btnCD" onClick="addCDs" value="Create entry form" />
+                   </td>
+                 </tr>
+                <tr>
+                  <td>
+                     <div id="divCD">
+                     </div>
+                  </td>
+                 </tr>
+             </table>
+         </form>
+        </div>
+      </div>
+</body>
+
+</html>

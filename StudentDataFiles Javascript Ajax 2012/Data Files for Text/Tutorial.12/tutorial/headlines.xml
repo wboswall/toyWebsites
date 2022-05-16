@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 12
+   Tutorial Case
+
+   Sample RSS Sports Headlines Feed
+
+
+   Filename: headlines.xml
+-->
+
+<rss version="2.0">
+
+   <channel>
+
+      <title>Current Headlines</title>
+      <link>http://www.sbloggersports.com</link>
+      <description>Sports News Feed</description>
+
+      <item>
+         <title>Carson leads at PGA</title>
+         <link>http://www.sbloggernewslinks.com/pga/pga238.html</link>
+         <description>Brett Carson took a three stroke lead into 
+                      the final round of the PGA Championship at Whistling 
+                      Straits with a birdie on the final hole.
+         </description>
+      </item>
+
+      <item>
+         <title>Groveney Signs Deal</title>
+         <link>http://www.sbloggernewslinks.com/nhl/nhl38891.html</link>
+         <description>New York signed leading defenseman Steve Groveney 
+                      to a 2-year contract on Thursday.
+         </description>
+      </item>
+
+      <item>
+         <title>Olson Out for 2 Weeks</title>
+         <link>http://www.sbloggernewslinks.com/nfl/nfl8771.html</link>
+         <description>Kansas City QB Drew Olson will miss two weeks
+                      of practice due to a sprained knee, team 
+                      officials announced this morning.
+         </description>
+      </item>
+
+      <item>
+         <title>Koke Triumphs in Malaysia</title>
+         <link>http://www.sbloggernewslinks.com/surf/surf8717.html</link>
+         <description>Beach local Koke won his first Men's Open 
+                      Division victory after a brilliant display of surfing 
+                      under extreme conditions in the closely contested 
+                      final of the Malaysian Pro Am. With the win,
+                      Koke moved into 7th place in the season
+                      standings.
+         </description>
+      </item>
+
+      <item>
+         <title>Gregg Called Up</title>
+         <link>http://www.sbloggernewslinks.com/mlb/mlb81808.html</link>
+         <description>Steve Gregg was recalled to the majors
+                      after allowing two hits in six innings in 
+                      his third start for Triple-A Akron.
+         </description>
+      </item>
+
+  </channel>
+
+</rss>

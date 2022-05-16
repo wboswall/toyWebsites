@@ -1,0 +1,12 @@
+body {font-family: sans-serif; 
+      margin: 0px; 
+      background-color: ivory}
+h1   {text-align: center; 
+      color: yellow; 
+      background-color: red; 
+      letter-spacing: 15}
+p    {line-height: 2; margin: 15px}
+p b  {border: 4px outset white; 
+      font-family: monospace; 
+      padding: 2px;
+      background-color: rgb(212,212,212)}

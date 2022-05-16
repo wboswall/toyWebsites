@@ -1,0 +1,60 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 9
+   Case Problem 1
+
+   Cliffhangers Style Sheet
+
+   Filename:         chstyles.css
+   Supporting Files: 
+
+*/
+
+*            {padding: 0px; margin: 0px}
+body         {background-image: url(wall.jpg); 
+              font-family: Verdana, Geneva, sans-serif; 
+              font-size: 14px}
+#head        {width: 720px; background-color: white}
+#pageContent {width: 720px; position: absolute; top: 45px; left: 5px;
+              background-image: url(wall.jpg)}
+h2           {font-size: 24px; letter-spacing: 5px; 
+              font-weight: normal; color: rgb(157, 87, 89);
+              margin: 0px 0px 15px 0px}
+h4           {font-size: 18px; letter-spacing: 3px; 
+              font-weight: normal; color: rgb(157, 87, 89);
+              margin: 10px 0px 10px 0px; 
+              border-top: 1px solid black}
+
+p                    {margin-bottom: 10px}
+
+#firstp:first-line   {font-variant: small-caps}
+#firstp:first-letter {float: left; font-size: 400%; line-height: 0.8; 
+                      margin: 0px 5px 0px 0px;
+                      font-family: 'Times New Roman', serif; 
+                      color: rgb(157, 87, 89)}
+
+#leftCol        {position: absolute; top: 45px; left: 0px; 
+                 width: 140px; height: 550px;
+                 background: url(wall2.jpg) repeat-y}
+#leftCol p      {font-size: 10px; text-align: center}
+#rightCol       {position: absolute; top: 45px; left: 150px}
+
+ul              {font-size: 12px; line-height: 2; margin-left: 10px; 
+                 list-style-type: none;
+                 color: white; margin-top: 15px}
+
+ul ul           {margin-left: 20px; margin-top: 0px}
+
+ul li a         {text-decoration: none; color: white}
+ul li a:visited {color: white}
+ul li a:active  {color:white}
+ul li a:hover   {text-decoration: overline underline; color: yellow}
+
+#pageFooter     {font-size: 10px; margin: 20px 0px}
+
+#pageFooter span {text-align: center; display: block;
+                  background-color: white;
+                  float: left; width: 32.7%;
+                  border: 1px solid rgb(157, 87, 89)}
+
+

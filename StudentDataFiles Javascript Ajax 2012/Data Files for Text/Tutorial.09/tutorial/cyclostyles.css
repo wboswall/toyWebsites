@@ -1,0 +1,62 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 9
+   Tutorial Case
+   Filename: cyclostyles.css
+
+   This file contains styles used in the cyclocrossings Web site
+
+*/
+
+*                   {padding: 0px; margin: 0px; line-height: 1.2}
+body                {background-color: white; 
+                     font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;}
+
+#head                {position: absolute; top: 20px; left: 180px}
+
+#links               {position: absolute; top: 100px; left: 20px; width: 145px;
+                      border-right: 1px solid rgb(211, 211, 211);
+                      padding-right: 8px}
+#links ul            {list-style-type: none; padding-left: 10px}
+#links ul li         {text-align: right; font-size: 14px}
+#links li.newgroup   {margin-top: 10px; border-top: 2px rgb(0, 136, 196) dotted}
+#links a             {color: rgb(74, 100, 55); text-decoration: none}
+#links a:hover       {color: black}
+
+#links2              {position: absolute; top: 100px; left: 750px; width: 175px;
+                      border-left: 1px solid rgb(211, 211, 211);
+                      padding-left: 8px}
+#links2 h2           {font-size: 14px; font-weight: normal; letter-spacing: 2px}
+#links2 ul           {list-style-type: none	}
+#links2 ul li        {text-align: left; font-size: 14px}
+#links2 li.newgroup  {margin-top: 10px; border-top: 2px rgb(0, 136, 196) dotted}
+#links2 a            {color: rgb(74, 100, 55); text-decoration: none}
+#links2 a:hover      {color: black}
+
+#main                {position: absolute; top: 110px; left: 185px;
+                      width: 550px}
+#main img            {float: right; margin: 0px 0px 10px 10px}
+#main h2             {font-size: 16px; font-weight: normal; 
+                      text-align: center;
+                      letter-spacing: 4px;
+                      margin: 25px 0px 10px 0px;
+                      border-top: 1px solid rgb(211, 211, 211)}
+#main p              {margin: 0px 0px 10px; font-size: 12px}
+#main p a            {color: rgb(74, 100, 55)}
+#main ul             {margin-left: 220px}
+#main ul li          {font-size: 12px; 
+                      vertical-align: top;
+                      margin: 2px 0px;
+                      list-style-image: url(bullet.jpg)}
+
+#main ul li a        {color: rgb(74, 100, 55); text-decoration: none}
+#main ul li a:hover  {text-decoration: underline}
+
+#welcome             {position: absolute; top: 20px; left: 10px;
+                      background-color: rgb(244, 252, 238);
+                      width: 150px;
+                      padding: 5px;
+                      border: 1px solid rgb(74, 100, 55);
+                      font-size: 11px}
+#welcome span        {color: rgb(0, 136, 196); 
+                      margin-left: 6px}

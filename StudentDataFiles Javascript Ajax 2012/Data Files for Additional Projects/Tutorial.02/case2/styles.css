@@ -1,0 +1,36 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 2
+   Case Problem 2
+   Filename: styles.css
+
+   This file contains styles used in the home.htm file.
+
+*/
+
+   body {margin: 10px 0px 0px 0px; background-image: url(work.jpg)}
+   #links {font-size:8pt;
+           font-family: Arial, Helvetica, sans-serif;
+           width:155px}
+   #links ul {margin-top: 5px}
+   #links li {list-style-type: square; font-size: 8pt; font-family: Arial, Helvetica, sans-serif}
+   #links li.new {margin-top: 10px}
+   #links a {color:brown; text-decoration:none}
+   #links a:hover {text-decoration:underline; color: brown}
+
+   #searchbox {position: absolute; top: 5px; left: 165px; width: 530px; text-align: right;
+               font-size: 10pt; font-family: Arial, Helvetica, sans-serif}
+   #searchbox input {font-size: 9pt}
+   #main {position: absolute; top: 35px; left: 165px; width: 530px; padding: 10px 5px 5px 5px;
+          border-top: 10px solid rgb(184, 136, 134); border-right: 1px solid black;
+          border-bottom: 1px solid black; border-left: 1px solid black; background-color: white}
+   #main b {color: rgb(184, 136, 134)}
+   #firstp:first-line {font-variant: small-caps}
+   #tip {float: right; width: 200px; border-width: 1px 3px 3px 1px;
+         border-color: black; border-style: solid; margin: 3px;
+          background-color: rgb(255, 255, 192); font-size: 8pt; padding: 5px}
+   #tip h1 {font-size: 10pt; text-align: center; font-family: Arial, Helvetica, sans-serif;
+            color: white; margin: 0px; background-color: rgb(184, 136, 134); padding: 2px;
+            letter-spacing: 2}
+   #tip h1:first-line {color: yellow}
+   #tip p {margin: 3px; font-family: Arial, Helvetica, sans-serif}

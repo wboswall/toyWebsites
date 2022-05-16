@@ -1,0 +1,69 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 12
+   Review Assignment
+
+
+   Filename: gamestyles.css
+
+   This file contains styles used in the games.htm file
+
+*/
+
+*                    {font-family: 'Trebuchet MS', Arial, Verdana, sans-serif}
+
+body                 {margin: 0px}
+#heading             {width: 100%; background-color: white; 
+                      border-bottom: 1px solid rgb(81,105,165) }
+
+#links               {float: left; width: 100px;
+                      background-color: rgb(81, 105, 167)}
+#links ul            {list-style-type: none; padding-left: 0px;
+                      margin-left: 7px}
+#links ul li         {font-size: 11px}
+#links li.linktitle  {color: rgb(229, 247, 165); font-size: 12px;
+                      margin: 20px 0px 2px}
+#links ul li a       {text-decoration: none; color: white}
+#links ul li a:hover {color: black}
+
+
+#main                {float: left; width: 580px; padding: 7px;
+                      min-height: 500px;
+                      border-right: 1px solid rgb(81, 105, 165)}
+#main h1             {font-size: 22px;
+                      font-weight: normal;
+                      text-align: center;
+                      color: rgb(0, 78, 156);
+                      letter-spacing: 5px;
+                      margin: 5px 0px 0px 5px}
+#main h2             {font-size: 16px;
+                      color: rgb(80, 158, 235);
+                      font-weight: normal;
+                      margin: 0px 20px 10px 5px}
+#main p              {font-size: 14px;
+                      font-family: Times New Roman, serif;
+                      margin: 10px}
+#main p.link         {text-align: right}
+
+
+#scoresDIV           {float: left; width: 230px;
+                      background-color: rgb(255,255,192);
+                      padding: 0px 15px 0px 10px;
+                      min-height: 450px}
+
+#scoresDIV h2        {font-size: 18px;
+                      text-align: center;
+                      font-weight: normal;
+                      color: rgb(0, 78, 156);
+                      letter-spacing: 5px;
+                      margin: 5px 0px 10px 5px}
+
+#scoresDIV table     {border-collapse: collapse;
+                      margin-bottom: 10px}
+
+#scoresDIV td        {width: 75px;
+                      font-size: 11px;
+                      vertical-align: top}
+#scoresDIV td.num    {width: 20px;
+                      text-align: right;
+                      padding-right: 5px}

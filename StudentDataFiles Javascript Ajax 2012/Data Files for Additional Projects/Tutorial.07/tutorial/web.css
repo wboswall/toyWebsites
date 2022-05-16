@@ -1,0 +1,67 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 7
+   Tutorial Case
+
+   Author:   Norene Somerville
+   Date:     3/1/2011
+   Filename: web.css
+
+   This file contains styles used in the usconst.htm file to lay out 
+   the Web page and format the contents of the historic document
+
+*/
+
+body                   {margin: 0px; background-color: white}
+h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif}
+
+#logo                  {width: 900px; background-color: rgb(28,0,127)}
+
+#logosub               {color: white; position: absolute; top: 10px; text-align: right; width: 850px; 
+                        z-index: 2; padding-right: 20px; letter-spacing: 5px; font-size:10px;
+                        font-family: Arial, Helvetica, sans-serif}
+
+#toc                   {width: 215px; font-size: 9px; font-family: Arial, Helvetica, sans-serif;
+                        border: 2px solid rgb(28,0,127); background-color: rgb(212,219,255); 
+                        position: absolute;
+                        top: 110px; left: 5px; padding: 5px}
+
+
+#doctitle              {position: absolute; top: 110px; left: 245px; width: 650px}
+#doctitle h1           {font-size: 24px; letter-spacing: 2px}
+
+#doc                   {position: absolute; top: 170px; left: 245px; width: 650px}
+#doc h1                {font-size: 18px}
+#doc h2                {font-size: 14px}
+#doc h3                {font-size: 12px; margin-bottom: 0px; margin-left: 20px}
+
+#doc p                 {font-size: 12px; margin-left: 20px; text-align: justify; margin-right: 20px}
+#doc h3+p              {margin-top: 0px}
+
+#firstp:first-line     {font-variant: small-caps}
+#firstp span           {float: left; font-size: 300%; line-height: 0.8; margin-right: 2px}
+                           
+                            
+/* Styles for the dynamic table of contents */
+                          
+#toc h1                {font-size: 14px; text-align: center; background-color: white; 
+                        border: 2px solid rgb(102,102,155); 
+                        letter-spacing: 2px; margin: 0px; font-weight: normal}
+
+#toc span              {margin-right: 4px; padding: 0px; border: 1px solid black; 
+                        text-align: center; font-size: 10px; cursor: pointer;
+                        background-color: white}
+                            
+#toc a                 {color: black}
+
+#toc li                {list-style-type: none; text-transform: uppercase; 
+                        margin-top: 0px}
+                          
+                          
+#toc ol                {margin-left: 0px; padding-left: 0px}
+#toc ol li             {margin-top: 2px}
+
+#toc ol ol             {margin-left: 20px}
+#toc ol ol li          {text-transform: none; margin-top: 3px}
+
+#toc ol ol ol li       {margin-top: 0px}

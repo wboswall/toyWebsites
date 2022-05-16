@@ -1,0 +1,108 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 11
+   Case Problem 1
+
+   Filename: sb.css
+
+   This file contains styles used in the Spice Bowl Web site
+
+*/
+
+*                        {margin: 0px; padding: 0px;
+                          line-height: 1.2em;
+                          color: black;
+                          font-family: 'Trebuchet MS', Arial, Verdana, sans-serif}
+
+body                     {background: white url(sbback.png) repeat-y}
+
+#heading                 {position: absolute; top: 0px; left: 0px}
+#heading img             {border-width: 0px}
+
+#sideLinks               {position: absolute; top: 80px; left: 10px;
+                          list-style-type: none}
+
+#sideLinks li            {line-height: 0.9em}
+
+#sideLinks a             {font-size: 12px; color: rgb(245, 170, 34); 
+                          text-decoration: none}
+#sideLinks a:hover       {color: white}
+
+li.newgroup              {margin-top: 10px}
+
+#h1img                   {position: absolute; top: 68px; left: 220px;}
+#h1img2                  {position: absolute; top: 51px; left: 274px;}
+#main                    {position: absolute; top: 168px; left: 190px;
+                          width: 580px; 
+                          padding: 10px 10px 0px 0px;
+                          border-top: 1px solid rgb(205, 61, 0);
+                          border-right: 3px solid rgb(205, 61, 0)}
+#main p                  {font-size: 14px; margin-bottom: 10px}
+
+#saltItems               {width: 560px; border-collapse: collapse;
+                          border: 8px outset rgb(205, 61, 0)}
+
+#saltItems caption       {font-size: 12px; text-align: right;
+                          color: rgb(205, 61, 0);
+                          caption-side: top;
+                          margin-bottom: 10px}
+#saltItems thead         {border: 2px solid black}
+
+#saltItems th            {font-weight: normal; color: rgb(245, 170, 34); 
+                          font-size: 14px; text-align: center;
+                          padding: 3px;
+                          border: 1px solid rgb(245, 170, 34);
+                          background-color: rgb(205, 61, 0)}
+
+#saltItems td            {font-size: 12px; border: 1px solid black;
+                          padding: 3px}
+#saltItems td.price      {text-align: right}
+#saltItems td.cartAdd    {text-align: center}
+
+#viewDIV                 {float: right; margin: 10px 15px}
+#viewCart                {padding: 0px 8px}
+
+address                  {font-style: normal; text-decoration: small-caps;
+                          color: rgb(205, 61, 0); font-size: 10px;
+                          text-align: center; letter-spacing: 3px;
+                          border-top: 1px solid rgb(205, 61, 0);
+                          clear: right;
+                          padding: 5px 0px 20px; margin-top: 20px}
+
+#sidebar                 {position: absolute; top: 96px; left: 800px;
+                          width: 180px}
+#sidebar h1              {font-size: 18px; font-weight: normal;
+                          color: rgb(205, 61, 0);
+                          margin-bottom: 20px}
+#sidebar h2              {font-size: 16px; font-weight: normal;
+                          color: rgb(255, 111, 50);
+                          margin-bottom: 10px}
+#sidebar ul              {list-style-type: none;
+                          margin: 0px 0px 5px 10px;
+                          border-top: 1px solid rgb(255, 141, 70);
+                          border-bottom: 1px solid rgb(255, 141, 70)}
+#sidebar ul li           {font-size: 12px; color: rgb(255, 141, 70)}
+#sidebar p               {font-size: 11px; margin: 5px 0px 30px; color: rgb(255, 141, 70)}
+
+
+
+
+/* Styles for the cart table */
+
+#cartTable               {width: 560px; border-collapse: collapse;
+                          border: 1px solid black}
+
+#cartTable caption       {font-size: 14px; text-align: right;
+                          color: rgb(102, 102, 102);
+                          caption-side: top;
+                          margin-bottom: 10px}
+#cartTable thead         {border: 1px solid black}
+
+#cartTable th            {font-weight: normal; black 
+                          font-size: 14px; text-align: center;
+                          padding: 3px;
+                          border: 1px solid black;
+                          background-color: rgb(221, 221, 221)}
+
+#cartTable td            {font-size: 14px; border: 1px solid black;
+                          padding: 3px}

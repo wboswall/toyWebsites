@@ -1,0 +1,28 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 1
+   Case Problem 1
+   Filename: skyweb.css
+
+   This file contains styles used in the SkyWeb Web site
+
+*/
+
+#logo              {text-align: center; border-bottom: 2px solid black; margin-bottom: 20px}
+#pageContent       {position: absolute; top: 0px; left: 15px; width: 800px}
+
+#maps              {position: relative; float: right; width: 385px; height: 385px}
+#sky               {position: absolute; top: 0px; left: 0px; z-index: 1}
+#mask              {position: absolute; top: 1px; left: 1px; z-index: 2}
+#datetime          {position: absolute; top: 45px; left: 85px; color: white; 
+                    font-family: Arial; font-size: 16px; z-index: 3; text-align: center; 
+                    width: 230px; font-weight: bold}
+
+h1                 {font-family: Courier New, monospace}
+.button            {background-color: rgb(211, 211, 211); border: 1px solid black; 
+                    padding: 1px; font-family: Courier New, monospace; font-size: 0.9em}
+
+#links             {font-family: Courier New, monospace; font-size: 10pt; text-align: center;
+                    font-weight: bold; border-top: 2px solid black; clear: right;
+                    margin-top: 20px}
+#links a           {color: black; text-decoration: none}

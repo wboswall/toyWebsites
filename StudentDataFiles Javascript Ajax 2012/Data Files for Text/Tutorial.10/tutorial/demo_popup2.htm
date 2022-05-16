@@ -1,0 +1,161 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 10
+   Tutorial Case
+
+   Pop-up Windows Demo 2
+   Author: Patrick Carey
+   Date:   3/1/2012
+
+   Filename:         demo_popup2.htm
+   Supporting files: demo.gif, demo2.gif, demo_pop.htm
+-->
+<title>Pop-up Window Demo 2</title>
+<style type="text/css">
+
+/* use for all demo pages */
+   html       {height: 100%}
+   body       {background-color: white; background-image: url(demo2.gif); margin: 0px; 
+               width: 100%; height: 100%}
+   #demo_page {background-color: white; 
+               border-right: 5px solid rgb(0,0,128); position: absolute; top: 0px; left: 0px;
+               width: 900px; padding-bottom: 15px; min-height: 100%}
+   * html #demo_page {height: 100%}
+
+   #demo_intro {width: 100%; position: relative; margin: 0px 10px}
+   #demo_intro table {margin: 0px; padding: 0px; border: 0px; width: 97%}
+   #demo_intro table td {vertical-align: bottom; padding-bottom: 5px}
+   #h2heading {color:yellow; background-image: url(demo.gif); letter-spacing: 0.75em; 
+               font-family: Arial, Helvetica, sans-serif; width: 97%; 
+               font-size: 1.5em; margin: 0px; text-align: right; 
+               border: 1px solid black}
+
+   #para      {font-size: 1em; border: 1px solid black; width: 97%;
+               background-color: ivory}
+   #para p    {margin: 8px}
+
+   #demo_container {position: relative; top: 10px; left: 0px; width: 100%;
+                    margin: 0px 10px}
+   #demo_footer {text-align: center; font-size: 8pt; border-top: 1px solid black; 
+                 margin: 25px 10px; width: 97%}
+   span.btitle {font-style: italic}
+
+/* styles specific to this demo */
+   #demo_container       {text-align: center}
+   #demo_container table {margin-left: auto; margin-right: auto}
+   #demo_container td {text-align: center; font-size: 12px;
+                       font-family: Arial, Helvetica, sans-serif}
+   .td1               {background-color: ivory; border: 7px outset rgb(211, 211, 211)}
+
+</style>
+
+
+<script type="text/javascript">
+   function showPop() {
+   //This function displays a pop-up window
+document.cform.f_string.value="window.open('demo_pop.htm','Demo',width=200,height=150,resizable=yes)";
+   PopWin=window.open("demo_pop.htm","Demo","width=200,height=150,resizable=yes");
+   }
+
+   function hidePop() {
+   //This function closes the pop-up window
+      document.cform.f_string.value="window.close()";
+      PopWin.close();
+   }
+
+   function movePop(dx,dy) {
+      //This function moves the pop-up window dx pixels to the right
+      //and dy pixels down
+      document.cform.f_string.value="PopWin.moveBy("+dx+","+dy+")";
+      PopWin.moveBy(dx,dy);
+   }
+
+   function resizePop(dx,dy) {
+      //This function resizes the pop-up window by dx pixels to the right
+      //and dy pixels down
+      document.cform.f_string.value="PopWin.resizeBy("+dx+","+dy+")";
+      PopWin.resizeBy(dx,dy);
+   }
+
+   function popFocus() {
+      //This function gives the pop-up window the focus
+      PopWin.focus();
+   }
+</script>
+
+</head>
+
+<body>
+<form id="cform" name="cform" action="">
+<div id="demo_page">
+
+<div id="demo_intro">
+   <table>
+   <tr><td style="width: 50%"><img src="cengage.jpg" alt="Course Technology Cengage Learning" /></td>
+       <td style="width: 50%; text-align:right; font-family: Arial, Helvetica, sans-serif; font-size: 14pt">
+          New Perspectives on JavaScript, 2nd Edition<br />Tutorial 10
+   </td></tr>
+   </table>
+
+   <h2 id="h2heading">Pop-up Windows Methods</h2>
+   <div id="para">
+      <p>This demo displays how to use methods of the window object
+         to control the position and size of a pop-up window. To display the pop-up window,
+         click the <b>Show Pop-up Window</b> button. To move the window, click
+         the moving buttons. To resize the window, click the resizing buttons.
+         To close the pop-up window, click the <b>Close Pop-up Window</b>
+         button. Each time you click one of the control buttons, the JavaScript
+         command to manipulate the window appears in the box at the bottom
+         of the page.
+      </p>
+   </div>
+</div>
+
+<div id="demo_container">
+<table cellpadding="5" cellspacing="5">
+<tr>
+<td class="td1">
+   <input type="button" onclick="showPop()" value="Show Pop-up Window" />
+</td>
+<td class="td1">
+   <input type="button" onclick="hidePop()" value="Close Pop-up Window" />
+</td>
+</tr>
+
+<tr>
+<td class="td1">
+   <input type="button" onmousedown="movePop(0,-50)" onmouseup="popFocus()" value="  Up  " /><br /><br />
+   <input type="button" onmousedown="movePop(-50,0)" onmouseup="popFocus()" value=" Left " /> Move Window 
+   <input type="button" onmousedown="movePop(50,0)" onmouseup="popFocus()" value="Right" border="0" /><br /><br />
+   <input type="button" onmousedown="movePop(0,50)" onmouseup="popFocus()" value=" Down" />
+</td>
+<td class="td1">
+   <input type="button" onmousedown="resizePop(0,-50)" onmouseup="popFocus()" value="Contract" /><br /><br />
+   <input type="button" onmousedown="resizePop(-50,0)" onmouseup="popFocus()" value="Contract" /> Resize Window 
+   <input type="button" onmousedown="resizePop(50,0)" onmouseup="popFocus()" value="Expand" border="0" /><br /><br />
+   <input type="button" onmousedown="resizePop(0,50)" onmouseup="popFocus()" value="Expand" />
+</td>
+</tr>
+<tr><td colspan="2" align="center">
+<textarea name="f_string" wrap="soft"
+ style="font-family: courier; font-size:10pt;
+        text-align:left;
+        color:black; padding:5px; width:98%; height: 75px">window.open()</textarea>
+</td></tr>
+</table>
+
+</div>
+
+<div id="demo_footer">
+   Carey, P.
+   <span class="btitle">New Perspectives on JavaScript, 2nd Edition</span>,
+   Course Technology: Boston, 2009.
+</div>
+
+</div>
+</form>
+</body>
+
+</html>

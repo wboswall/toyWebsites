@@ -1,0 +1,71 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 6
+   Review Assignment
+
+
+   Filename: shblocks.css
+
+   This file contains styles used in the blocks.htm file
+
+*/
+
+*          {padding: 0px; margin: 0px; line-height: 1.2}
+body       {background-color: white; font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;}
+
+#head      {position: absolute; top: 0px; left: 0px}
+#menu      {position: absolute; top: 89px; left: 0px}
+#title     {position: absolute; top: 95px; left: 209px}
+
+.block     {position: absolute; width: 60px; height: 60px;
+            border-width: 1px; border-color: black; border-style: solid}
+
+#block0    {border-color: red}
+
+#block0, #block1, #block2, #block3, #block4
+           {top: 250px}
+
+#block5, #block6, #block7, #block8, #block9
+           {top: 312px}
+
+#block10, #block11, #block12, #block13, #block14
+           {top: 374px}
+
+#block15, #block16, #block17, #block18, #block19
+           {top: 436px}
+
+#block20, #block21, #block22, #block23, #blank
+           {top: 498px}
+
+#block0, #block5, #block10, #block15, #block20
+           {left: 230px}
+#block1, #block6, #block11, #block16, #block21
+           {left: 292px}
+#block2, #block7, #block12, #block17, #block22
+           {left: 354px}
+#block3, #block8, #block13, #block18, #block23
+           {left: 416px}
+#block4, #block9, #block14, #block19, #blank
+           {left: 478px}
+
+#main      {position: absolute; left: 580px; top: 270px;
+            width: 270px}
+#main p    {font-size: 14px}
+#main h2   {font-size: 16px; font-weight: normal; letter-spacing: 5px;
+            color: rgb(68, 68, 137); margin: 10px}
+#main kbd  {font-weight: bold; color: rgb(68, 68, 137)}
+
+#controls  {position: absolute; top: 580px; left: 230px;
+            width: 310px; text-align: center}
+#controls input {width: 100px; background-color: rgb(68, 68, 137);
+            font-size: 18px; color: rgb(102, 255, 51);
+            margin: 0px 20px; border: 6px outset rgb(102, 255, 51)}
+
+address    {position: absolute; top: 640px; left: 230px;
+            width: 600px; text-align: center;
+            font-style: normal; font-size: 10px;
+            font-variant: small-caps; padding-top: 5px; 
+            color: rgb(68, 68, 137);
+            border-top: 1px solid rgb(68, 68, 137)}
+
+

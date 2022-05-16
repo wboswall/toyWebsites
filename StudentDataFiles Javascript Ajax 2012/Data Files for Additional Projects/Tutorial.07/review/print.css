@@ -1,0 +1,48 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 7
+   Review Assignment
+   Filename: print.css
+
+   This file contains styles used in the fed10.htm file
+
+*/
+
+body                   {margin: 10px; background-color: white}
+h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif}
+
+#logo                  {display:none}
+
+#logosub               {display:none}
+
+#doc                   {margin: 40px}
+#doc h1                {font-size: 14pt}
+#doc h2                {font-size: 11pt}
+#doc h3                {font-size: 9pt; margin-bottom: 0px}
+
+#doc p                 {font-size: 10pt}
+#doc h3+p              {margin-top: 0px}
+
+#docsubtitle           {font-weight: bold; 
+                        font-family: Arial, Helvetica, sans-serif}
+#intro                 {text-transform: uppercase}
+
+#firstp:first-line     {font-variant: small-caps}
+
+dfn                    {font-style: normal; text-decoration: underline; 
+                        font-weight: bold}
+
+#keywords              {float: right; clear: right; font-size: 10pt; 
+                        font-family: Arial, Helvetica, sans-serif;
+                         margin: 0px 10px 20px 20px; width: 220px; 
+                        border: 2px solid black; background-color: white; 
+                        margin-top: 10px}
+
+#keywords h1           {font-size: 12pt; letter-spacing: 5px; text-align: center; 
+                        margin: 0px; color: white; background-color: black}
+
+#keywords ul           {margin-left: 10px; padding-left: 0px; margin-top: 0px; 
+                        margin-bottom: 5px}
+#keywords li           {list-style-type: none}
+
+#keywords a            {text-decoration: none; color: black}

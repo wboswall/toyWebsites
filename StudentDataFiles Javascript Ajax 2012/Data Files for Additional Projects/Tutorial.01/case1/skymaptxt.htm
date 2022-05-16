@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 1
+   Case Problem 1
+
+   SkyWeb Planisphere
+   Author: 
+   Date:   
+
+   Filename:         skymap.htm
+   Supporting files: datetime.js, mask.gif, sky0.jpg - sky23.jpg, skyweb.css, 
+-->
+
+   <title>SkyWeb: The Planisphere</title>
+   <link href="skyweb.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="pageContent">
+
+   <div id="logo">
+      <img src="skyweb.jpg" alt="SkyWeb" />
+   </div>
+
+   <div id="maps">
+      <img id="sky" src="sky0.jpg" alt="" />
+      <img id="mask" src="mask.gif" alt="" />
+      <div id="datetime">
+         January 1, 2011, 12:00 am
+      </div>
+   </div>
+
+   <div id="content">
+      <h1>The Planisphere</h1>
+      <p>A <b>planisphere</b> is a visual aid to astronomers and stargazers. 
+         It consists of two disks: one displays all of the visible 
+         constellations in the night sky, and the other covers the first 
+         and contains a window that indicates the portion of the sky currently 
+         visible. The second disk is then rotated to match the current date and 
+         time. Planispheres come in a variety of sizes and types. The important 
+         thing to remember is that you must have a planisphere that matches 
+         the longitude of your stargazing location.</p>
+      <p>On the right is an online planisphere. It consists of two images. The 
+         bottom image contains the sky map; the top image contains the viewing
+         window. Rather than turning the viewing window, this planisphere is 
+         automatically rotated for you, displaying the current date and time 
+         and visible constellations for observers at a longitude of 
+         40<sup>&deg;</sup> North. To update the planisphere you can click 
+         the <span class="button">Refresh</span> or 
+         <span class="button">Reload</span> button on your browser. The planisphere 
+         will change, representing the nighttime sky to the nearest hour.</p> 
+   </div>
+
+   <div id="links">
+      | <a href="#">Home Page</a>
+      | <a href="#">The Night Sky</a>
+      | <a href="#">The Moon</a>
+      | <a href="#">The Planets</a>
+      | <a href="#">The Messier Objects</a>
+      | <a href="#">Stars</a> |
+   </div>
+
+</div>
+</body>
+</html>

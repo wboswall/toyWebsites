@@ -1,0 +1,82 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 6
+   Tutorial Case
+
+
+   Filename: kg.css
+
+   This file contains styles used in the jigsaw.htm file
+
+*/
+
+*          {padding: 0px; margin: 0px; line-height: 1.2}
+body       {background-color: white; font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;}
+
+#head      {position: absolute; top: 0px; left: 53px}
+#menu      {position: absolute; top: 100px; left: 209px}
+#links     {position: absolute; top: 94px; left: 0px}
+#title     {position: absolute; top: 148px; left: 338px}
+#controls  {position: absolute; top: 565px; left: 230px;
+            width: 640px}
+input      {width: 100px; background-color: rgb(68, 68, 137);
+            font-size: 18px; color: rgb(102, 255, 51);
+            margin: 0px 20px; border: 6px outset rgb(102, 255, 51)}
+#keyMode   {border: 1px solid black; color: white; background-color: red; 
+            width: 150px; font-size: 16px; text-align: center}
+p          {margin-bottom: 10px; font-size: 12px}
+p b        {color: rgb(68, 68, 137)}
+address    {margin-top: 20px; border-top: 1px solid rgb(68, 68, 137);
+            font-size: 10px; font-variant: small-caps; text-align: center;
+            font-style: normal; padding-top: 5px; color: rgb(68, 68, 137)}
+
+
+div.grid   {position: absolute; width: 60px; height: 60px;
+            border: 1px solid rgb(212,212,212); background-color: white}
+div.pieces {position: absolute; width: 60px; height: 60px;
+            border-width: 1px; border-style: solid; border-color: black}
+
+#grid0, #grid1, #grid2, #grid3, #grid4,
+#piece0, #piece1, #piece2, #piece3, #piece4
+           {top: 240px}
+
+#grid5, #grid6, #grid7, #grid8, #grid9,
+#piece5, #piece6, #piece7, #piece8, #piece9
+           {top: 302px}
+
+#grid10, #grid11, #grid12, #grid13, #grid14,
+#piece10, #piece11, #piece12, #piece13, #piece14
+           {top: 364px}
+
+#grid15, #grid16, #grid17, #grid18, #grid19,
+#piece15, #piece16, #piece17, #piece18, #piece19
+           {top: 426px}
+
+#grid20, #grid21, #grid22, #grid23, #grid24,
+#piece20, #piece21, #piece22, #piece23, #piece24
+           {top: 488px}
+
+#grid0, #grid5, #grid10, #grid15, #grid20 
+           {left: 230px}
+#piece0, #piece5, #piece10, #piece15, #piece20 
+           {left: 580px}
+
+#grid1, #grid6, #grid11, #grid16, #grid21 
+           {left: 292px}
+#piece1, #piece6, #piece11, #piece16, #piece21 
+           {left: 642px}
+
+#grid2, #grid7, #grid12, #grid17, #grid22 
+           {left: 354px}
+#piece2, #piece7, #piece12, #piece17, #piece22 
+           {left: 704px}
+
+#grid3, #grid8, #grid13, #grid18, #grid23 
+           {left: 416px}
+#piece3, #piece8, #piece13, #piece18, #piece23 
+           {left: 766px}
+
+#grid4, #grid9, #grid14, #grid19, #grid24 
+           {left: 478px}
+#piece4, #piece9, #piece14, #piece19, #piece24 
+           {left: 828px}

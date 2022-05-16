@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 6
+   Case Problem 1
+
+   Online Bookworms Public Forum
+   Author:           
+   Date:             
+
+   Filename:         bookforum.htm
+   Supporting files: bw.css, bwlogo.jpg, comments.js
+-->
+   <title>Online Bookworms Public Formum</title>
+   <link href="bw.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+   <form id="forumForm" action="">
+   <div id="page">
+      <h1 id="heading"><img src="bwlogo.jpg" alt="Online Bookworms" /></h1>
+
+      <ul id="menu">
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Reviews</a></li>
+         <li><a href="#">Forums</a></li>
+         <li><a href="#">Book Swaps</a></li>
+         <li><a href="#">OBW Store</a></li>
+         <li><a href="#">Author's Corner</a></li>
+         <li><a href="#">My Account</a></li>
+      </ul>
+
+      <ul id="menu2">
+         <li><a href="#">Comments on this Title</a></li>
+         <li><a href="#">Reviews of this Title</a></li>
+         <li><a href="#">Order this Title from OBW</a></li>
+         <li><a href="#">Find a Book Swap</a></li>
+
+         <li class="newgroup"><a href="#">Other Books by this Author</a></li>
+         <li><a href="#">Other Books in this Series</a></li>
+         <li><a href="#">Recommended Books in this Genre</a></li>
+
+         <li class="newgroup"><a href="#">My Reading List</a></li>
+         <li><a href="#">Review a Book</a></li>
+         <li><a href="#">Join a Discussion</a></li>
+         <li><a href="#">Post to a Forum</a></li>
+         <li><a href="#">My Mail</a></li>
+         <li><a href="#">My Posts</a></li>
+         <li class="newgroup"><a href="#">Reading Recommendations</a></li>
+         <li><a href="#">Books of the Month</a></li>
+         <li class="newgroup"><a href="#">Tech Support</a></li>
+      </ul>
+
+      <div id="forum">
+         <h2>Post Captain</h2>
+         <h3>by <a href="#">Patrick O'Brian</a></h3>
+         <h4>W.W. Norton &amp; Company, Inc.<br />
+             500 Fifth Avenue, New York, N.Y. 10110<br />
+             ISBN: 0-393-30706-9<br />
+             &copy; Patrick O'Brian 1972
+         </h4>
+         <h4><b>Genre: </b><a href="#">Historical Fiction</a></h4>
+         <p>The second novel in Patrick O'Brian's popular series of
+            adventures involving <a href="#">Captain Jack Aubrey</a> and 
+            <a href="#">Doctor Stephen Maturin</a> finds the pair
+            dealing with the onset of war in 1803 after the breaking of
+            the Peace of Amiens. Eager to return to the fight, Aubrey escapes 
+            from France to return to Britain, only to be faced with the
+            prospect of years served in debtors' prison at the hands of his
+            creditors and their agents. Meanwhile, Maturin must negotiate the
+            more daunting rocks and shoals of love and romance without
+            endangering his friendship with Aubrey.
+         </p>
+         <fieldset id="commentField">
+            <label id="commentLabel" for="comment">
+               Comment on this title (comments limited to 500 characters)
+            </label>
+            <textarea id="comment" rows="" cols=""></textarea>
+            <label id="wordcountLabel" for="wordcount">
+               Character Count:
+               <input type="text" id="wordcount" readonly="readonly" value="0/250" />
+            </label>
+            <input type="submit" value=" Submit Comment " id="subbutton" />
+         </fieldset>
+      </div>
+
+   </div>
+   </form>
+</body>
+
+</html>

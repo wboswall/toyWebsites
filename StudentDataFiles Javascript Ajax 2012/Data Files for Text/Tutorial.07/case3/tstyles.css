@@ -1,0 +1,72 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 7
+   Case Problem 3
+   Filename: styles.css
+
+   This file contains styles used in the french5.htm file
+
+*/
+
+*                    {margin: 0px; padding: 0px; line-height: 1.2;
+                      font-family: 'Trebuchet MS', Arial, Verdana, sans-serif}
+#page                {width: 860px}
+#head                {width: 860px}
+#searchbox           {float: right; font-size: 12px; margin: 10px}
+#sbox                {font-size: 10px; margin-left: 5px}
+
+#mainLinks           {list-style-type: none; width: 850px;
+                      height: 20px; background: blue url(gradient.png);
+                      border-top: 2px solid blue}
+#mainLinks li        {text-align: center; width: 100px; float: left;
+                      margin-right: 5px}
+#mainLinks li a      {display: block; width: 100%; font-size: 11px;
+                      color: black; 
+                      text-decoration: none; text-transform: uppercase} 
+#mainLinks a:hover   {color: rgb(151, 204, 151)}
+
+#sideLinks           {float: left; width: 160px; list-style-type: none;
+                      margin-left: 2px}
+#sideLinks li        {margin: 0px 0px 0px 5px; text-indent: 15px}
+#sideLinks a         {display: block; border: 1px solid rgb(192, 192, 192);
+                      text-transform: uppercase; margin: 3px 0px;
+                      color: black; font-size: 11px; text-decoration: none}
+#sideLinks a:hover   {background-color: rgb(151, 204, 151); color: white}
+#sideLinks .newg     {margin-top: 10px; text-indent: 5px}
+
+#content             {float: left; width: 600px; margin-left: 30px;
+                      padding-bottom: 20px}
+#content h1          {font-size: 32px; font-weight: normal; letter-spacing: 10px;
+                      margin: 10px 0px 0px; color: white; background-image: url(gradient2.png);
+                      text-indent: 5px}
+#content h2          {font-size: 20px; font-weight: normal; letter-spacing: 3px;
+                      margin: 0px}
+
+
+/* Styles for the Stats Table */
+
+#qbstats           {border: 10px outset rgb(152, 152, 255);
+                    margin-top: 15px;
+                    border-collapse: collapse}
+#qbstats caption     {text-align: right; font-size: 11px;
+                      margin: 5px 0px 10px 0px}
+#qbstats .asort    {background-color: rgb(232, 232,255)}
+#qbstats .sortHeader{text-align: left; color: black; background-color: rgb(151, 204, 151);
+                     height: 30px; text-indent: 10px; font-size: 12px;
+                     font-weight: normal; padding: 5px 0px;
+                     font-family: Arial, Helvetica, sans-serif; letter-spacing: 0px}
+.sortHeader select {margin-left: 10px; width: 140px}
+#playercol         {width: 130px}
+#teamcol           {width: 60px}
+#qbstats .numsort  {width: 60px}
+#qbstats #ratingcol{width: 80px}
+#qbstats .numtd    {text-align: right}
+#qbstats thead     {background-color: blue; color: white}
+#qbstats thead th  {text-align: center; font-size: 11px; letter-spacing: 1px; 
+                    border: 1px solid white; text-transform: uppercase}
+#qbstats tbody td  {border: 1px solid rgb(151, 151, 151); font-size: 11px; padding: 1px 5px;
+                    line-height: 1.6}
+#qbstats tfoot     {background-color: white; font-size: 11px; border: 1px solid rgb(151, 151, 151)}
+#qbstats tfoot td  {text-align: right; color: rgb(102, 102, 102); 
+                    padding: 0px 10px 0px 0px; letter-spacing: 1px;
+                    background-color: rgb(192, 192, 192)}

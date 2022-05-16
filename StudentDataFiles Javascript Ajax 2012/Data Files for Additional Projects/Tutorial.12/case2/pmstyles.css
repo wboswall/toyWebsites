@@ -1,0 +1,164 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 12
+   Case Problem 2
+
+
+   Filename: pmstyles.css
+
+   This file contains styles used in the bikes.htm file
+
+*/
+
+*                    {font-family: 'Trebuchet MS', Arial, Verdana, sans-serif}
+
+body                 {margin: 0px;
+                      background: white url(back2.png) repeat-y}
+#heading             {position: absolute;
+                      top: 0px; left: 0px }
+
+#links               {position: absolute;
+                      top: 260px;
+                      left: 10px;
+                      width: 110px}
+#links ul            {list-style-type: none; padding-left: 0px;
+                      margin-left: 7px}
+#links ul li         {font-size: 11px; margin-left: 8px}
+#links ul li.newgroup {margin: 10px 0px 5px 0px; font-size: 16px}
+#links ul li a       {text-decoration: none; color: yellow}
+#links ul li a:hover {color: rgb(143, 235, 143)}
+
+
+#links2               {position: absolute;
+                       top: -43px;
+                       left: 440px;}
+#links2 ul            {list-style-type: none; padding-left: 0px}
+#links2 ul li         {font-size: 11px; color: yellow;
+                       text-align: center; line-height: 28px;
+                       width: 118px; height: 28px; float: left; margin-left: 5px;
+                       background: white url(back3.png); no-repeat}
+#links2 ul li a       {text-decoration: none; color: yellow}
+#links2 ul li a:hover {color: white}
+
+
+#main                {position: absolute;
+                      top: 100px;
+                      left: 0px;
+                      background: white url(back1.png) no-repeat top left; 
+                      width: 1000px;
+                      min-height: 328px}
+
+#article             {position: absolute;
+                      top: 120px;
+                      left: 220px;
+                      width: 650px}
+
+#article p.desc img  {float: left; margin-right: 10px}
+#article p.desc      {text-align: right;
+                      margin: 0px}
+#article p.desc em   {color: rgb(43, 135, 43)}
+
+#article h1.desc     {text-align: right;
+                      font-size: 60px;
+                      font-weight: normal;
+                      font-family: 'Times New Roman', 'MS Serif' , serif;
+                      letter-spacing: 10px;
+                      margin: 0px 0px 10px 0px;
+                      color: rgb(43, 135, 43)}
+
+#summary             {position: relative; top: 5px; left: 0px;
+                      margin: 10px 0 10px 50px}
+
+div.divTab           {position: absolute; top: 0px;
+                      width; 100px; min-width: 100px; height: 30px;
+                      text-align: center;
+                      line-height: 30px;
+                      font-size: 12px;
+                      cursor: pointer;
+                      background: rgb(231, 231, 231) url(inactivetab.png) no-repeat}
+
+div#tab1             {left: 0px; background: rgb(215, 255, 215) url(activetab.png) no-repeat}
+div#tab2             {left: 105px}
+div#tab3             {left: 210px}
+
+div#tabContent       {position: absolute; 
+                      top: 30px; left: 0px;
+                      width: 500px;
+                      height: 230px;
+                      border: 10px solid rgb(84, 236, 64);
+                      background-color: rgb(84, 236, 64);
+                      overflow: auto}
+
+table#features       {width: 475px; margin: 0px;
+                      border-collapse: collapse;
+                      border: 1px solid black}
+
+table#features td    {vertical-align: top;
+                      border: 1px solid rgb(195, 195, 195);
+                      padding: 5px;
+                      background-color: white;
+                      font-size: 11px}
+table#features td.level1 {background-color: rgb(149, 154, 165);}
+
+
+
+
+table#geometry       {width: 475px; margin: 0px;
+                      border-collapse: collapse;
+                      border: 1px solid black}
+
+table#geometry td    {vertical-align: top;
+                      border: 1px solid rgb(195, 195, 195);
+                      text-align: right;
+                      padding: 5px;
+                      background-color: white;
+                      font-size: 11px}
+
+table#geometry th    {vertical-align: top;
+                      border: 1px solid rgb(195, 195, 195);
+                      padding: 5px;
+                      background-color: rgb(149, 154, 165);
+                      font-weight: normal;
+                      font-size: 11px}
+
+table#geometry th.row {text-align: left}
+
+
+h1.com               {font-size: 18px; 
+                      font-weight: normal;
+                      font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+                      letter-spacing: 3px;
+                      margin: 15px 5px 5px 5px}
+
+p.com                {font-size: 11px;
+                      text-align: left;
+                      margin: 5px 25px 5px 10px}
+
+cite.com             {font-size: 11px;
+                      font-style: italic;
+                      display: block;
+                      text-align: right;
+                      margin: 5px 25px 25px 10px}
+
+table.rating         {border-collapse: collapse;
+                      font-size: 11px;
+                      border: 1px solid black;
+                      margin: 15px}
+
+table.rating th      {text-align: left;
+                      font-weight: normal;
+                      width: 125px;
+                      vertical-align: top;
+                      padding: 5px;
+                      border: 1px solid rgb(195, 195, 195);
+                      background-color: rgb(149, 154, 165)}
+
+table.rating td      {text-align: left;
+                      font-weight: normal;
+                      vertical-align: top;
+                      padding: 5px;
+                      border: 1px solid rgb(195, 195, 195);
+                      background-color: white}
+ 
+
+

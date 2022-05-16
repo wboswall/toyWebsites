@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 9
+   Review Assignment
+
+   CycloCrossings Rider Profile Page
+   Author:           
+   Date:             
+
+   Filename:         profile.htm
+   Supporting files: cyclologo.jpg, ccstyles.css, library.js,
+                     profile.js, profilestyles.css
+-->
+
+   <title>CycloCrossings Rider Profile</title>
+   <link href="ccstyles.css" rel="stylesheet" type="text/css" />
+   <link href="profilestyles.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+   <form name="profileform" id="profileform" action="">
+   <div id="head">
+      <img src="cyclologo.jpg" alt="CycloCrossings" />
+   </div>
+
+   <div id="links">
+      <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About Us</a></li>
+         <li class="newgroup"><a href="#">Tour Books</a></li>
+         <li><a href="#">Maps</a></li>
+         <li><a href="#">Guided Tours</a></li>
+         <li class="newgroup"><a href="#">Ride Partners</a></li>
+         <li><a href="#">Forums</a></li>
+         <li><a href="#">Outreach</a></li>
+         <li><a href="#">Cycling Clubs</a></li>
+         <li class="newgroup"><a href="#">'Crossings Magazine</a></li>
+         <li><a href="#">Buying Guide</a></li>
+         <li><a href="#">Tips &amp; Tricks</a></li>
+         <li><a href="#">FAQs</a></li>
+         <li class="newgroup"><a href="#">The Cycling Store</a></li>
+         <li><a href="#">Shopping Cart</a></li>
+         <li><a href="#">Purchase History</a></li>
+         <li class="newgroup"><a href="#">Register</a></li>
+         <li><a href="#">View your Info</a></li>
+         <li><a href="profile.htm">Set up a Profile</a></li>
+         <li><a href="rides.htm">View Your Profile</a></li>
+         <li class="newgroup"><a href="#">Site Map</a></li>
+         <li><a href="#">Contact Us</a></li>
+      </ul>
+   </div>
+
+   <div id="main">
+      <p id="intro">
+         CycloCrossings is a great place to find ride partners and create
+         tour groups. If you're a
+         member, fill out the information below to be entered into our
+         riders database. All information entered in CycloCrossings is
+         confidential and will not be shared with other Web sites or
+         commercial enterprises.
+      </p>
+      <h1 id="regH1">Rider Profile Form</h1>
+
+      <table>
+        <colgroup>
+           <col id="firstCol" />
+           <col span="3" id="remainingCols" />
+        </colgroup>
+         <tr>
+            <td>First Name</td>
+            <td>
+               <input name="firstName" id="firstName" type="text" />
+            </td>
+            <td>Last</td>
+            <td>
+               <input name="lastName" id="lastName" type="text" />
+            </td>
+         </tr>
+         <tr>
+            <td>Gender</td>
+            <td colspan="3">
+               <label for="male">Male</label>
+               <input type="radio" id="male" name="gender" value="male" />
+               <label for="female">Female</label>
+               <input type="radio" id="female" name="gender" value="female" />
+            </td>
+         </tr>
+         <tr>
+            <td>Age</td>	
+            <td colspan="3">
+               <select name="age" id="age" size="1">
+                  <option value="">Select an Age Group</option>
+                  <option value="16 - 20">16 - 20</option>
+                  <option value="21 - 30">21 - 30</option>
+                  <option value="31 - 40">31 - 40</option>
+                  <option value="41 - 50">41 - 50</option>
+                  <option value="51 - 60">51 - 60</option>
+                  <option value="61 - 70">61 - 70</option>
+                  <option value="71+">71+</option>
+               </select>
+            </td>
+         </tr>
+         <tr>
+            <td>Bike</td>
+            <td colspan="3">
+               <label for="roadbike">Road Bike</label>
+               <input type="radio" id="roadbike" name="bikeOption" value="Road Bike" />
+               <label for="mtnbike">Mountain Bike</label>
+               <input type="radio" id="mtnbike" name="bikeOption" value="Mountain Bike" />
+               <label for="bothbike">Either</label>
+               <input type="radio" id="bothbike" name="bikeOption" value="Either" />
+            </td>
+         </tr>
+         <tr>
+            <td>Route</td>
+            <td colspan="3">
+               <label for="roadroute">Road</label>
+               <input type="radio" id="roadroute" name="routeOption" value="Road Route" />
+               <label for="trailroute">Trail</label>
+               <input type="radio" id="trailroute" name="routeOption" value="Trail" />
+               <label for="bothroute">Either</label>
+               <input type="radio" id="bothroute" name="routeOption" value="Either" />
+            </td>
+         </tr>
+         <tr>
+            <td>Use Sag Wagon</td>
+            <td colspan="3">
+               <label for="sagyes">Yes</label>
+               <input type="radio" id="sagyes" name="sagOption" value="yes" />
+               <label for="sagno">No</label>
+               <input type="radio" id="sagno" name="sagOption" value="no" />
+            </td>
+         </tr>
+         <tr>
+            <td>accommodation</td>
+            <td colspan="3">
+               <label for="camping">Camping</label>
+               <input type="radio" id="camping" name="accOption" value="camping" />
+               <label for="motel">Motel</label>
+               <input type="radio" id="motel" name="accOption" value="motel" />
+               <label for="accboth">Either</label>
+               <input type="radio" id="accboth" name="accOption" value="both" />
+            </td>
+         </tr>
+         <tr>
+            <td>Region</td>	
+            <td colspan="3">
+               <select name="region" id="region" size="1">
+                  <option value="">Specify your Cycling Region</option>
+                  <option value="ne">Northeast</option>
+                  <option value="ec">East Coast</option>
+                  <option value="se">Southeast</option>
+                  <option value="mw">Midwest</option>
+                  <option value="mn">Mountain</option>
+                  <option value="sw">Southwest</option>
+                  <option value="wc">West Coast</option>
+                  <option value="nw">Northwest</option>
+               </select>
+            </td>
+         </tr>
+         <tr>
+            <td>Miles per Day</td>	
+            <td colspan="3">
+               <select name="miles" id="miles" size="1">
+                  <option value="">Select a Miles per Day Goal</option>
+                  <option value="21 - 40">21 - 40</option>
+                  <option value="41 - 60">41 - 60</option>
+                  <option value="61 - 80">61 - 80</option>
+                  <option value="21 - 40">81 - 100</option>
+                  <option value="100+">100+</option>
+               </select>
+            </td>
+         </tr>
+         <tr>
+            <td>Other Comments</td>
+            <td colspan="3">
+               <textarea name="comments" id="comments"></textarea>
+            </td>
+         </tr>
+      </table>
+
+      <p style="text-align: center">
+         <input id="submitButton" type="button" value="Submit" />
+      </p>
+   </div>
+
+   </form>
+</body>
+</html>

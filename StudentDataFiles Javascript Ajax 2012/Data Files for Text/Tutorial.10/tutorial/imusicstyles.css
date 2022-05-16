@@ -1,0 +1,145 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 10
+   Tutorial Case
+   Filename: imusicstyles.css
+
+   This file contains styles used in the iMusicHistory Web site
+
+*/
+
+*                   {padding: 0px; margin: 0px; line-height: 1.2}
+body                {background-color: white; 
+                     font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;}
+
+p                   {margin: 8px}
+
+#page               {width: 770px; margin: 10px auto 10px auto;
+                     border: 3px solid #336699}
+
+#head               {width: 100%; background-color: #336699;
+                     border-top: 3px solid #99CC99;
+                     border-bottom: 3px solid #99CC99;}
+
+#maintitle          {width: 100%; 
+                     border-top: 3px solid #336699;
+                     border-bottom: 1px solid #336699}
+#maintitle h1       {font-size: 24px; letter-spacing: 3px; line-height: 0.9;
+                     text-align: center;
+                     color: #336699;
+                     margin: 10px 0px}
+
+#intropara          {font-size: 14px; color: #336699;
+                     padding: 5px 10px;
+                     border-top: 1px solid #336699;
+                     border-bottom: 1px solid #336699}
+
+#leftcol            {width: 48%; float: left;
+                     border-right: 1px solid #336699;
+                     margin: 5px}
+#leftcol p          {font-size: 14px;
+                     color: #336699;}
+
+#leftcol a          {color: red; text-decoration: none}
+#leftcol a:hover    {text-decoration: underline}
+
+
+#rightcol           {width: 48%; float: left;
+                     margin: 5px}
+
+#rightcol p          {font-size: 14px;
+                     color: #336699;}
+
+#rightcol h2        {font-size: 16px; color: #336699;
+                     margin-bottom: 10px}
+
+#rightcol ul        {list-style-type: disc; margin-left: 20px}
+#rightcol li        {color: #336699; font-size: 14px;
+                     margin-bottom: 5px}
+#rightcol a         {color: red; text-decoration: none}
+#rightcol a:hover   {text-decoration: underline}
+#rightcol em        {color: red}
+
+
+#footer1            {clear: both; width: 100%;
+                     border: 1px solid #336699}
+
+#footer1 p          {font-size: 14px; color: #336699;
+                     padding: 5px 10px}
+#footer1 p a        {text-decoration: none; color: red}
+#footer1 p a:hover  {text-decoration: underline}
+
+#footer1 #notice    {width: 300px;
+                     margin: 10px auto 10px auto;
+                     border: 2px solid #99CC99}
+
+#footer1 #notice h2 {font-size: 18px; color: red;
+                     text-align: center;
+                     border-bottom: 1px solid #99CC99;
+                     padding: 5px}
+
+#footer1 #notice ul {list-style-type: disc;
+                     margin: 10px 0px 10px 25px}
+#footer1 #notice ul li {color: #336699; font-size: 13px}
+
+#footer2            {width: 100%; 
+                     border: 1px solid #336699;
+                     text-align: center}
+
+#footer2 p          {text-align: center; font-weight: bold;
+                     font-size: 13px; font-style: italic;
+                     margin: 10px 0px 0px 0px}
+#footer2 p a        {text-decoration: none; color: red}
+#footer2 p a:hover  {text-decoration: underline}
+#footer2 h2         {text-align: left; color: #336699;
+                     font-size: 20px;
+                     margin: 0px 0px 5px 10px}
+#footer2 ul         {list-style-type: none;
+                     text-align: center;
+                     padding-left: 250px; 
+                     height: 20px; background-color: #99CC99;
+                     border-top: 1px solid #336699;
+                     border-bottom: 1px solid #336699}
+#footer2 li         {width: 73px; float: left; padding-bottom: 10px}
+#footer2 li a       {display: block; width: 100%;
+                     font-size: 13px;
+                     text-align: center;
+                     color: #336699;
+                     text-decoration: none;
+                     font-weight: bold}
+#footer2 li a:hover {text-decoration: underline; color: red}
+
+#footer2 address    {clear: both; margin: 5px 0px 10px 0px;
+                     width: 100%; text-align: center;
+                     font-style: normal;
+                     font-size: 13px}
+#footer2 address a  {text-decoration: none; color: red; font-size: 13px}
+#footer2 address a:hover {text-decoration: underline}
+
+#footer2 p#lessonlinks  {text-align: right; font-style: normal;
+                         color: #336699; font-size: 16px;
+                         padding: 0px 15px 0px 0px}
+
+#navLinks           {border-bottom: 2px solid #336699}
+#navLeft            {width: 100px; float: left;
+                     text-align: left; font-size: 14px;
+                     margin-left: 20px}
+
+#navRight           {width: 100px; float: right;
+                     text-align: right; font-size: 14px;
+                     margin-right: 20px}
+
+#navCenter          {margin-left: 120px; margin-right: 120px}
+#navCenter h1       {font-size: 24px; letter-spacing: 3px;
+                     text-align: center;
+                     color: #336699;
+                     margin: 10px 0px 0px}
+#navCenter p        {text-align: center; font-size: 16px;
+                     margin: 0px 0px 5px 0px}
+#navCenter p a      {font-weight: bold; text-decoration: none;
+                     color: red; padding: 0px 3px}
+#navCenter p a:hover {text-decoration: underline}
+                     
+
+
+

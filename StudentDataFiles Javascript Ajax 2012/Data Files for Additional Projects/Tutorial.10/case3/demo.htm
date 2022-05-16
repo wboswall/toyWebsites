@@ -1,0 +1,26 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 10
+   Case Problem 3
+
+   Web Design Demo
+
+   Filename:         demo.htm
+   Supporting files: css.htm, html.htm, title.htm
+-->
+
+   <title>HTML Demo</title>
+</head>
+
+<frameset rows="100,210,*" id="demo" name="demo"> 
+   <frame name="title" id="title" src="title.htm" scrolling="no" />
+   <frameset cols="*,*">
+      <frame name="htmlcode" id="htmlcode" src="html.htm" />
+      <frame name="csscode" id="csscode" src="css.htm" />
+   </frameset>
+   <frame name="preview" id="output" />
+</frameset>
+
+</html>

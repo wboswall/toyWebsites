@@ -1,0 +1,15 @@
+<rss version="2.0">
+  <channel>
+      <title>Floral Update</title>
+      <link>http://www.carolsflowers.com</link>
+      <description>Daily Flower News Feed</description>
+     <item>
+               <title>Arrangement of the Month</title>
+               <link>http://www.carolsflowers.com/flowerMonth.html</link>
+              <description>This month we are proud to offer our Arrangement
+                                    of the month. It features a breathtaking medley of
+                                    roses, tulips, and babies breath.
+              </description>
+      </item>
+  </channel>
+</rss>

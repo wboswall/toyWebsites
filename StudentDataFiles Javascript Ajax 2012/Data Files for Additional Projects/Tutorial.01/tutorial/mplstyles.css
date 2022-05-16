@@ -1,0 +1,41 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 1
+   Tutorial Case
+   Filename: mplstyles.css
+
+   This file contains styles used in the mpl.htm file.
+
+*/
+
+body         {margin: 0px; background-color: ivory}
+#pageContent {width: 820px; position: absolute; top: 0px; left: 0px}
+
+#head {background-color: rgb(255,153,51); 
+       margin-bottom: 0px; border-bottom: 1px solid blue}
+
+#links {width: 150px; font-size: 8pt; float: left; 
+        margin: 10px 10px 10px 5px; padding: 5px; 
+        border: 1px solid blue; background-color: white}
+#links a {display: block; font-family: sans-serif; 
+          text-decoration: none; color: black; padding: 2px}
+#links a:hover {text-decoration: underline; color: blue}
+#links span {width: 100%; color: white; background-color: blue; 
+             text-align: center; font-family: sans-serif; 
+             display: block; font-weight: bold;letter-spacing: 3px}
+
+h2 {font-family: sans-serif; margin-bottom: 9px; margin-top: 10px; 
+    color: blue; letter-spacing: 5px; font-size: 24px}
+
+table {font-size: 8pt; margin-top: 0px; font-family: sans-serif; 
+       border: 1px solid blue; width: 400px}
+th {font-family: sans-serif; color: white; font-weight: normal;
+    background-color: rgb(255,153,51); letter-spacing: 2px}
+td {vertical-align: top; background-color: white}
+td a {text-decoration: none; padding: 2px}
+td a:hover {text-decoration: underline; color: blue}
+
+address {clear: left; border-top: 1px solid blue;  text-align: center;
+         font-family: sans-serif; font-size: 8pt; font-style: normal; 
+         margin-top: 5px}
+address b {color: blue; margin-left: 15px; margin-right: 5px}

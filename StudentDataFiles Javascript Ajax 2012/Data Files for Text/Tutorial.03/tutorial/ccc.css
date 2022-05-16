@@ -1,0 +1,30 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 3
+   Tutorial Case
+   Filename: ccc.css
+
+   This file contains styles used in the ccc.htm file
+*/
+
+body {margin: 0px; background: white url(back.jpg) repeat-y scroll 820px 0px}
+#head {width: 750px; height: 150px; padding: 5px}
+
+#links {clear: right; width: 750px; padding: 0px}
+#links table {width: 750px; font-family: Arial, Helvetica, sans-serif;
+              font-size: 8pt; margin: 0px}
+#links table td {text-align: center; background-color: white;
+                 border: 1px solid black; letter-spacing: 5; padding: 2px}
+#links table a {text-decoration: none; color: rgb(223,29,29); width: 100%}
+#links table a:hover {color: white; background-color: rgb(223,29,29)}
+
+#main {width: 750px; font-family: Arial, Helvetica, sans-serif; padding: 10px}
+#main p {text-align: justify; font-size: 9pt}
+#firstp:first-line {font-variant: small-caps}
+#main img {float: right; margin: 0px 0px 10px 10px}
+
+#main p span {color: rgb(223,29,29)}
+
+address {width: 750px; font-size: 8pt; font-style: normal; color: rgb(223,29,29);
+         font-family: Arial, Helvetica, sans-serif; text-align: center;
+         border-top: 1px solid rgb(223,29,29); padding-bottom: 10px}

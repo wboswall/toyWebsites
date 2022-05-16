@@ -1,0 +1,111 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 12
+   Tutorial Case
+
+   Author:   Steve Lavent
+   Date:     3/1/2012
+
+   Filename: sbstyles.css
+
+   This file contains styles used in the sblogger news page
+
+*/
+
+*                    {font-family: 'Trebuchet MS', Arial, Verdana, sans-serif}
+
+body                 {margin: 0px}
+#heading             {width: 100%; background-color: white; 
+                      border-bottom: 1px solid rgb(81,105,165) }
+
+#search              {position: absolute;
+                      top: 50px;
+                      left: 700px}
+#search label        {font-size: 12px}
+#sInput              {width: 200px;
+                      font-size: 12px}
+#sButton             {vertical-align: bottom}
+
+#links               {float: left; width: 100px;
+                      background-color: rgb(81, 105, 167)}
+#links ul            {list-style-type: none; padding-left: 0px;
+                      margin-left: 7px}
+#links ul li         {font-size: 11px}
+#links li.linktitle  {color: rgb(229, 247, 165); font-size: 12px;
+                      margin: 20px 0px 2px}
+#links ul li a       {text-decoration: none; color: white}
+#links ul li a:hover {color: black}
+
+
+#main                {float: left; width: 580px; padding: 7px;
+                      min-height: 500px;
+                      border-right: 1px solid rgb(81, 105, 165)}
+#main h1             {font-size: 22px;
+                      font-weight: normal;
+                      color: rgb(0, 78, 156);
+                      letter-spacing: 5px;
+                      margin: 5px 0px 0px 5px}
+#main h6             {font-size: 11px;
+                      color: rgb(80, 158, 235);
+                      text-align: right;
+                      font-weight: normal;
+                      margin: 0px 20px 10px 5px}
+#main p              {font-size: 14px;
+                      font-family: Times New Roman, serif;
+                      margin: 10px}
+#main cite           {display: block;
+                      font-size: 12px;
+                      text-align: right;
+                      padding-bottom: 7px;
+                      margin: 0px 20px 10px 0px;
+                      border-bottom: 1px solid rgb(0, 78, 156)}
+
+
+#news                {float: left; width: 180px;
+                      background-color: rgb(255,255,192);
+                      padding: 0px 15px 0px 10px;
+                      min-height: 450px}
+
+#news h1             {font-size: 16px;
+                      font-weight: bold;
+                      font-family: Times New Roman, serif;
+                      color: rgb(0, 78, 156);
+                      letter-spacing: 3px;
+                      text-align: center;
+                      font-style: italic;
+                      margin: 5px 0px 15px}
+
+#news h2             {font-size: 11px;
+                      font-weight: bold;
+                      font-family: Times New Roman, serif;
+                      margin: 0px}
+
+#news h2 a           {color: rgb(0, 78, 156);
+                      text-decoration: none}
+
+#news h2 a:hover     {color: red}
+
+#news p              {font-size: 11px;
+                      font-family: Times New Roman, serif;
+                      padding-bottom: 7px;
+                      margin: 0px 0px 10px 0px;
+                      border-bottom: 1px solid rgb(0, 78, 156)}
+
+/* Suggestion Box Styles */
+
+#suggestBox          {position: absolute;
+                      top: 48px;
+                      left: 0px;
+                      width: 203px;
+                      background-color: white;
+                      font-size: 12px;
+                      border: 1px solid rgb(151, 151, 151);
+                      display: none}
+div.suggestion       {background-color: white;
+                      color: black;
+                      margin-left: 5px;
+                      cursor: pointer}
+div.activeSuggestion {background-color: rgb(0, 78, 156);
+                      color: rgb(255, 255, 192);
+                      margin-left: 5px;
+                      cursor: pointer}

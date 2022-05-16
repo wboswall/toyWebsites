@@ -1,0 +1,60 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 11
+   Case Problem 3
+
+   Filename: slider.css
+
+   This file contains styles used in defining the slider's appearance
+
+*/
+
+
+
+div.sliderBox      {width: 260px; height: 20px;
+                    background-color: rgb(255, 255, 255);
+                    border: 2px rgb(211, 211, 211) inset;
+                    margin: 0px 10px; 
+                    position: relative;
+                    vertical-align: middle;
+
+                    /* Cross-browser styles to create an inline block */
+                    display: -moz-inline-stack;
+                    display: inline-block;
+                    zoom: 1;
+                    *display: inline;
+                    }
+
+
+div.sliderLine     {width: 250px; height: 6px;
+                    position: absolute;
+                    top: 7px; left: 5px;
+                    background: transparent url(lineimage.png) repeat-x;
+                    margin-right: 7px;
+                    cursor: pointer;
+                   }
+
+
+/* First sliderBar option */
+div.sliderBar1      {width: 40px; height: 15px;
+                    position: absolute;
+                    top: -5px; left: 0px;
+                    background: transparent url(barimage.png) no-repeat;
+                    cursor: pointer}
+
+
+/* Second sliderBar option */
+div.sliderBar2      {width: 40px; height: 15px;
+                    position: absolute;
+                    top: -5px; left: 0px;
+                    background: transparent url(barimage2.png) no-repeat;
+                    cursor: pointer}
+
+
+/* Third sliderBar option */
+div.sliderBar3      {width: 110px; height: 15px;
+                    position: absolute;
+                    top: -5px; left: 0px;
+                    background: transparent url(barimage3.png) no-repeat;
+                    cursor: pointer}
+

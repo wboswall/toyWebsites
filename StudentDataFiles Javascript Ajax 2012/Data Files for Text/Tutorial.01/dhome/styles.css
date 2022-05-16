@@ -1,0 +1,40 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 1
+   Case Problem 2
+   Filename: styles.css
+
+   This file contains styles used in the Ridgewood Herald Tribune Web site
+
+*/
+
+   body   {padding: 0px; margin: 0px}
+   #links {background-color:rgb(128,0,128); color:white; font-size:8pt;
+           font-family: Arial, Helvetica, sans-serif;
+           width:120px; padding:5px; border: 1px solid teal}
+   #links a {color:white; text-decoration:none}
+   #links a:hover {text-decoration:underline; color:yellow}
+   #links h1 {font-weight:bold; text-align:center; font-size:12pt; margin-bottom:10px;
+              letter-spacing: 3}
+   .section {width: 100%; background-color: yellow; color: purple; padding-left: 5px;
+             margin-bottom: 0px; margin-top: 0px}
+   .linksub {margin-top: 1px; margin-bottom: 5px}
+   .linksub a {margin-left: 15px}
+   #main {position: absolute; top: 10px; left: 155px; width: 500px}
+   #request {position: absolute; top: 0px; left: 400px; height: 58px; width: 100px; 
+             background-color: purple; 
+             font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+             border: 1px solid purple; text-align: center; font-weight: bold}
+   #request a {text-decoration: none; color: white}
+   #logo {margin-bottom: 20px}
+   #main h2 {font-family:Arial, Helvetica, sans-serif; color:rgb(128,0,128);
+             text-align:center; letter-spacing: 4;
+             border-bottom: 1px solid teal; border-top: 1px solid teal}
+   #fp {float: left; margin: 0px 5px 5px 0px}
+   #intro {text-align: justify}
+
+   #footer {color:rgb(128,0,128); font-family:Arial, Helvetica, sans-serif;
+            text-align:center; font-size:8pt; font-style: normal;
+            border-top:1px solid teal; border-bottom:1px solid teal;
+            margin-top:20px}
+   p.cont {font-family:Arial, Helvetica, sans-serif; font-size:8pt; text-align: right}

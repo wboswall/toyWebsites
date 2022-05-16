@@ -1,0 +1,45 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 8
+   Case Problem 1
+   Filename: bw.css
+
+   This file contains styles used in the books.htm file.
+
+*/
+
+*                 {padding: 0px; margin: 0px}
+
+body              {font-size: 12px; font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+                   background: white url(leftbar.jpg) repeat-y} 
+a                 {display: block; text-decoration: none}
+ul                {list-style-type: none}
+label             {display: block}
+fieldset          {border-width: 0px}
+ 
+#page             {position: absolute; top: 0px; left: 0px; width: 750px}
+
+#heading          {width: 100%; text-align: left; border-bottom: 1px solid rgb(102, 51, 0);
+                   margin: 0px; padding: 0px; background-color: white}
+
+#menu             {width: 100%; margin: 0px; padding: 0px}
+#menu li          {width: 14%; text-align: center; height: 20px; float: left}
+#menu li a        {color: rgb(102, 51, 0); background-color: white;
+                   border: 1px solid rgb(102, 51, 0)}
+#menu li a:hover  {color: rgb(255, 255, 153); background-color: rgb(102, 51, 0)}
+
+#menu2            {clear: left; float: left; width: 200px; padding-top: 10px;
+                   margin: 0px 30px 0px 20px}
+#menu2 li         {width: 95%; text-align: left; margin-bottom: 3px}
+#menu2 li a       {width: 100%; color: black}
+#menu2 li a:hover {text-decoration: underline; color: rgb(255, 255, 153)}
+#menu2 .newgroup  {margin-top: 20px}
+
+#main            {float: left; width: 450px}
+#main a          {display: inline; text-decoration: underline; 
+                   color: rgb(116, 95, 88)}
+#main h2         {font-size: 20px; color: rgb(102, 51, 0); margin-top: 10px;
+                   font-weight: normal; letter-spacing: 5px}
+
+#main p          {margin: 10px 0px 10px 20px}
+#signature       {text-align: right; line-height: 0.8}
